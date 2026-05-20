@@ -6,21 +6,21 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Basics & Input/Output
 
-1. Write a Python program to print `"Hello World"`.
+1. Write a Python program to print `"Hello World"`. Done
 
-2. Write a Python program to take user input and display it.
+2. Write a Python program to take user input and display it. Done
 
-3. Write a Python program to perform addition of two numbers.
+3. Write a Python program to perform addition of two numbers. Done
 
-4. Write a Python program to swap two numbers.
+4. Write a Python program to swap two numbers. Done
 
-5. Write a Python program to find the square and cube of a number.
+5. Write a Python program to find the square and cube of a number. Done
 
-6. Write a Python program to calculate the area of a circle.
+6. Write a Python program to calculate the area of a circle. Done
 
-7. Write a Python program to calculate simple interest.
+7. Write a Python program to calculate simple interest. Done
 
-8. Write a Python program to calculate compound interest.
+8. Write a Python program to calculate compound interest. 
 
 9. Write a Python program to convert temperature from Celsius to Fahrenheit.
 
