@@ -20,9 +20,9 @@ These are commonly asked beginner-level Python programming questions for practic
 
 7. Write a Python program to calculate simple interest. Done
 
-8. Write a Python program to calculate compound interest. 
+8. Write a Python program to calculate compound interest. Done
 
-9. Write a Python program to convert temperature from Celsius to Fahrenheit.
+9. Write a Python program to convert temperature from Celsius to Fahrenheit. Done
 
 10. Write a Python program to convert kilometers into meters and centimeters.
 

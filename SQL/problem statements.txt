@@ -1,0 +1,642 @@
+# SQL Basic Practice Problem Statements (50+)
+
+These problems will help you clear SQL fundamentals like:
+
+* `CREATE TABLE`
+* `INSERT`
+* `SELECT`
+* `WHERE`
+* `ORDER BY`
+* `GROUP BY`
+* `HAVING`
+* `JOINS`
+* `NULL`
+* `AGGREGATE FUNCTIONS`
+* `SUBQUERIES`
+* `UPDATE`
+* `DELETE`
+
+---
+
+# 1. Student Information System
+
+Create a table to store student details such as roll number, name, department, age, city, and marks.
+Insert at least 10 records.
+Write queries to:
+
+* Display all students
+* Find students from Pune
+* Find students with marks greater than 80
+* Sort students by marks in descending order
+
+---
+
+# 2. Employee Salary Database
+
+Create an employee table containing employee ID, name, department, salary, joining date, and city.
+Perform queries to:
+
+* Find highest salary
+* Find lowest salary
+* Display employees from HR department
+* Increase salary of all employees by 10%
+
+---
+
+# 3. Library Management System
+
+Create tables for books and borrowers.
+Store book ID, title, author, price, and availability status.
+Write queries to:
+
+* Find unavailable books
+* Display books written by a specific author
+* Find books costing more than ₹500
+
+---
+
+# 4. Online Shopping Orders
+
+Create a table for customer orders.
+Store order ID, customer name, product name, quantity, price, and order date.
+Write queries to:
+
+* Calculate total bill
+* Display latest orders
+* Find customers who ordered more than 5 quantities
+
+---
+
+# 5. Hospital Patient Records
+
+Create a patient table containing patient ID, patient name, disease, doctor assigned, admission date, and bill amount.
+Write queries to:
+
+* Find patients admitted after a certain date
+* Display patients treated by a specific doctor
+* Calculate total hospital revenue
+
+---
+
+# 6. College Course Enrollment
+
+Create tables for students and courses.
+Store which student enrolled in which course.
+Write queries to:
+
+* Display all enrolled students
+* Find students enrolled in Python course
+* Count total students in each course
+
+---
+
+# 7. Banking System
+
+Create an account table with account number, customer name, balance, account type, and branch.
+Write queries to:
+
+* Find customers with balance above ₹50,000
+* Display savings account holders
+* Deduct balance after withdrawal
+
+---
+
+# 8. Movie Database
+
+Create a movie table with movie ID, title, genre, rating, release year, and ticket collection.
+Write queries to:
+
+* Find highest-rated movie
+* Display movies released after 2020
+* Count movies by genre
+
+---
+
+# 9. Restaurant Order System
+
+Create tables for menu items and customer orders.
+Write queries to:
+
+* Find most expensive dish
+* Display vegetarian items
+* Calculate total sales
+
+---
+
+# 10. Product Inventory System
+
+Create a product table containing product ID, product name, stock quantity, supplier, and price.
+Write queries to:
+
+* Find products out of stock
+* Update stock quantity
+* Display products from a specific supplier
+
+---
+
+# 11. Train Reservation System
+
+Create passenger and ticket tables.
+Store passenger details, train number, seat number, and journey date.
+Write queries to:
+
+* Find passengers traveling on a specific date
+* Count booked tickets
+* Cancel reservations
+
+---
+
+# 12. Hotel Booking System
+
+Create tables for rooms and bookings.
+Write queries to:
+
+* Find available rooms
+* Display bookings for deluxe rooms
+* Calculate total booking amount
+
+---
+
+# 13. Mobile Store Database
+
+Create a table for smartphones containing brand, RAM, storage, price, and rating.
+Write queries to:
+
+* Find phones under ₹20,000
+* Display highest-rated phone
+* Sort phones by price
+
+---
+
+# 14. Cricket Tournament Database
+
+Create tables for players and matches.
+Store runs scored, wickets taken, and team name.
+Write queries to:
+
+* Find highest run scorer
+* Count total players in each team
+* Display players with wickets greater than 10
+
+---
+
+# 15. Attendance Management System
+
+Create attendance records for students.
+Write queries to:
+
+* Find students with attendance below 75%
+* Count total present days
+* Display monthly attendance report
+
+---
+
+# 16. E-Commerce Customer Database
+
+Store customer details including name, email, phone number, city, and registration date.
+Write queries to:
+
+* Find customers from Mumbai
+* Display recently registered users
+* Count total customers city-wise
+
+---
+
+# 17. Electricity Bill Management
+
+Create a table containing consumer number, units consumed, bill amount, and payment status.
+Write queries to:
+
+* Find unpaid bills
+* Calculate average bill amount
+* Display highest bill
+
+---
+
+# 18. Car Rental System
+
+Create tables for cars and rentals.
+Write queries to:
+
+* Find available cars
+* Display rented cars
+* Calculate total rental income
+
+---
+
+# 19. Gym Membership Database
+
+Store member details including membership type, fees, joining date, and trainer assigned.
+Write queries to:
+
+* Find expired memberships
+* Count members by membership type
+* Calculate total fees collected
+
+---
+
+# 20. Airline Reservation System
+
+Create tables for flights and passengers.
+Write queries to:
+
+* Find flights to Delhi
+* Display passengers on a specific flight
+* Count total bookings
+
+---
+
+# 21. Music Streaming Database
+
+Create tables for songs, artists, and playlists.
+Write queries to:
+
+* Find most played songs
+* Display songs by a specific artist
+* Count songs in each playlist
+
+---
+
+# 22. Sales Management System
+
+Store monthly sales data for employees.
+Write queries to:
+
+* Find top-performing employee
+* Calculate total sales
+* Display employees with sales below target
+
+---
+
+# 23. University Examination Database
+
+Store exam results of students.
+Write queries to:
+
+* Find toppers
+* Calculate average marks
+* Display failed students
+
+---
+
+# 24. Food Delivery System
+
+Create tables for restaurants, customers, and orders.
+Write queries to:
+
+* Find most ordered food item
+* Calculate delivery charges
+* Display completed orders
+
+---
+
+# 25. Bus Reservation System
+
+Store passenger and bus details.
+Write queries to:
+
+* Find available seats
+* Display passengers traveling to Nagpur
+* Count total bookings
+
+---
+
+# 26. Employee Department Analysis
+
+Create department and employee tables.
+Use JOIN queries to:
+
+* Display employee names with department names
+* Count employees in each department
+* Find department with highest average salary
+
+---
+
+# 27. Student Marks Analysis
+
+Store marks of multiple subjects.
+Write queries to:
+
+* Find class topper
+* Calculate percentage
+* Assign grades using CASE statement
+
+---
+
+# 28. Supplier and Product Database
+
+Create supplier and product tables.
+Write JOIN queries to:
+
+* Display supplier name with product
+* Find products supplied by a specific supplier
+
+---
+
+# 29. Insurance Policy Database
+
+Store customer policy details.
+Write queries to:
+
+* Find expired policies
+* Display premium amounts above ₹25,000
+* Count active policies
+
+---
+
+# 30. Social Media User Database
+
+Create tables for users, posts, and likes.
+Write queries to:
+
+* Count likes on each post
+* Find most active user
+* Display posts with more than 100 likes
+
+---
+
+# 31. School Teacher Database
+
+Store teacher information including subject, salary, and experience.
+Write queries to:
+
+* Find highest-paid teacher
+* Display teachers with experience above 10 years
+* Count teachers department-wise
+
+---
+
+# 32. Pharmacy Management System
+
+Create medicine inventory records.
+Write queries to:
+
+* Find expired medicines
+* Display medicines below stock limit
+* Calculate total medicine cost
+
+---
+
+# 33. Courier Tracking System
+
+Store courier shipment details.
+Write queries to:
+
+* Find delivered parcels
+* Display pending shipments
+* Count shipments city-wise
+
+---
+
+# 34. Payroll System
+
+Create salary records for employees.
+Write queries to:
+
+* Calculate net salary
+* Deduct tax
+* Display salary slips
+
+---
+
+# 35. Bookstore Management System
+
+Create tables for books, customers, and sales.
+Write queries to:
+
+* Find bestselling book
+* Calculate total sales
+* Display books by category
+
+---
+
+# 36. Tourism Management Database
+
+Store tourist package details.
+Write queries to:
+
+* Find cheapest package
+* Display international tours
+* Count bookings
+
+---
+
+# 37. Voting System Database
+
+Store voter information and votes cast.
+Write queries to:
+
+* Count votes candidate-wise
+* Find voters who have not voted
+* Display winning candidate
+
+---
+
+# 38. Real Estate Property Database
+
+Create tables for properties and agents.
+Write queries to:
+
+* Find properties above ₹1 crore
+* Display available flats
+* Count properties city-wise
+
+---
+
+# 39. Water Supply Billing System
+
+Store consumer usage data.
+Write queries to:
+
+* Find unpaid bills
+* Calculate monthly revenue
+* Display highest water usage
+
+---
+
+# 40. Vehicle Service Center Database
+
+Store service records for vehicles.
+Write queries to:
+
+* Find vehicles serviced this month
+* Calculate service charges
+* Display pending services
+
+---
+
+# 41. Event Management System
+
+Create tables for events and participants.
+Write queries to:
+
+* Count participants
+* Display upcoming events
+* Find events with highest registrations
+
+---
+
+# 42. NGO Donation Database
+
+Store donor and donation details.
+Write queries to:
+
+* Find highest donor
+* Calculate total donations
+* Display monthly donation report
+
+---
+
+# 43. Examination Seating Arrangement
+
+Store student seating details.
+Write queries to:
+
+* Display room-wise seating
+* Count students per room
+* Find vacant seats
+
+---
+
+# 44. Cinema Ticket Booking
+
+Store movie and ticket booking details.
+Write queries to:
+
+* Find fully booked shows
+* Display available seats
+* Calculate total ticket revenue
+
+---
+
+# 45. Laptop Store Database
+
+Store laptop specifications and prices.
+Write queries to:
+
+* Find laptops with SSD
+* Display gaming laptops
+* Sort by RAM and price
+
+---
+
+# 46. Warehouse Management System
+
+Store warehouse inventory records.
+Write queries to:
+
+* Find damaged goods
+* Count products by category
+* Update stock after dispatch
+
+---
+
+# 47. Pet Care Clinic Database
+
+Store pet and owner details.
+Write queries to:
+
+* Find pets vaccinated this year
+* Display pets by breed
+* Count pets by owner
+
+---
+
+# 48. Freelancer Project Database
+
+Store project details of freelancers.
+Write queries to:
+
+* Find completed projects
+* Calculate total earnings
+* Display projects with deadlines near
+
+---
+
+# 49. Online Learning Platform
+
+Store course and student progress data.
+Write queries to:
+
+* Find completed courses
+* Count enrolled students
+* Display top-rated courses
+
+---
+
+# 50. Smartphone Repair Shop Database
+
+Store customer repair records.
+Write queries to:
+
+* Find pending repairs
+* Calculate repair revenue
+* Display most common issue
+
+---
+
+# Bonus Advanced Practice Problems
+
+## 51. Use INNER JOIN
+
+Create two related tables and display matching records only.
+
+---
+
+## 52. Use LEFT JOIN
+
+Display all records from left table even if no match exists.
+
+---
+
+## 53. Use RIGHT JOIN
+
+Display all records from right table even if no match exists.
+
+---
+
+## 54. Use SELF JOIN
+
+Create employee-manager relationship in same table.
+
+---
+
+## 55. Use Subqueries
+
+Find employees earning more than average salary.
+
+---
+
+## 56. Use GROUP BY and HAVING
+
+Find departments having more than 5 employees.
+
+---
+
+## 57. Use NULL Functions
+
+Practice `IFNULL()`, `COALESCE()`, and `IS NULL`.
+
+---
+
+## 58. Use Constraints
+
+Create tables using:
+
+* PRIMARY KEY
+* FOREIGN KEY
+* UNIQUE
+* CHECK
+* NOT NULL
+
+---
+
+## 59. Use Views
+
+Create a view for high salary employees.
+
+---
+
+## 60. Use Stored Procedures
+
+Create procedure to display student result report.
