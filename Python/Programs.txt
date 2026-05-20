@@ -1,0 +1,251 @@
+# 🐍 Python Basics (Foundation) – Important Program Statements
+
+These are commonly asked beginner-level Python programming questions for practicals, viva, interviews, and university exams.
+
+---
+
+## 📘 Basics & Input/Output
+
+1. Write a Python program to print `"Hello World"`.
+
+2. Write a Python program to take user input and display it.
+
+3. Write a Python program to perform addition of two numbers.
+
+4. Write a Python program to swap two numbers.
+
+5. Write a Python program to find the square and cube of a number.
+
+6. Write a Python program to calculate the area of a circle.
+
+7. Write a Python program to calculate simple interest.
+
+8. Write a Python program to calculate compound interest.
+
+9. Write a Python program to convert temperature from Celsius to Fahrenheit.
+
+10. Write a Python program to convert kilometers into meters and centimeters.
+
+---
+
+## 📘 Operators & Expressions
+
+11. Write a Python program to check whether a number is even or odd.
+
+12. Write a Python program to check whether a number is positive, negative, or zero.
+
+13. Write a Python program to find the largest of two numbers.
+
+14. Write a Python program to find the largest of three numbers.
+
+15. Write a Python program to check whether a year is a leap year.
+
+16. Write a Python program to calculate the power of a number using operators.
+
+17. Write a Python program to perform all arithmetic operations on two numbers.
+
+18. Write a Python program to demonstrate comparison operators.
+
+19. Write a Python program to demonstrate logical operators.
+
+20. Write a Python program to demonstrate assignment operators.
+
+---
+
+## 📘 Conditional Statements
+
+21. Write a Python program to check whether a number is divisible by 5 and 11.
+
+22. Write a Python program to check whether a character is a vowel or consonant.
+
+23. Write a Python program to find whether a person is eligible to vote.
+
+24. Write a Python program to check whether a number is a multiple of 3 and 7.
+
+25. Write a Python program to display grades based on percentage.
+
+26. Write a Python program to create a simple calculator using if-elif statements.
+
+27. Write a Python program to check whether a number is a palindrome.
+
+28. Write a Python program to check whether a number is an Armstrong number.
+
+29. Write a Python program to check whether a character is uppercase or lowercase.
+
+30. Write a Python program to determine the type of triangle based on sides.
+
+---
+
+## 📘 Loops
+
+31. Write a Python program to print numbers from 1 to 10 using a loop.
+
+32. Write a Python program to print even numbers from 1 to 100.
+
+33. Write a Python program to print odd numbers from 1 to 100.
+
+34. Write a Python program to find the sum of first N natural numbers.
+
+35. Write a Python program to calculate the factorial of a number.
+
+36. Write a Python program to generate the multiplication table of a number.
+
+37. Write a Python program to reverse a number using loops.
+
+38. Write a Python program to count the digits in a number.
+
+39. Write a Python program to find the sum of digits of a number.
+
+40. Write a Python program to print Fibonacci series up to N terms.
+
+---
+
+## 📘 Pattern Programs
+
+41. Write a Python program to print a right-angled triangle star pattern.
+
+42. Write a Python program to print an inverted star pattern.
+
+43. Write a Python program to print a pyramid star pattern.
+
+44. Write a Python program to print Floyd’s triangle.
+
+45. Write a Python program to print number patterns using loops.
+
+---
+
+## 📘 Strings
+
+46. Write a Python program to count vowels in a string.
+
+47. Write a Python program to reverse a string.
+
+48. Write a Python program to check whether a string is a palindrome.
+
+49. Write a Python program to count words in a sentence.
+
+50. Write a Python program to convert lowercase letters to uppercase.
+
+51. Write a Python program to remove spaces from a string.
+
+52. Write a Python program to find the length of a string without using len().
+
+53. Write a Python program to concatenate two strings.
+
+54. Write a Python program to check whether two strings are anagrams.
+
+55. Write a Python program to count the frequency of characters in a string.
+
+---
+
+## 📘 Functions
+
+56. Write a Python program to create a function for addition of two numbers.
+
+57. Write a Python program to create a function to find factorial of a number.
+
+58. Write a Python program to create a function to check prime numbers.
+
+59. Write a Python program to create a function for Fibonacci series.
+
+60. Write a Python program demonstrating function arguments and return values.
+
+---
+
+## 📘 Lists & Arrays Basics
+
+61. Write a Python program to create and display a list.
+
+62. Write a Python program to find the largest element in a list.
+
+63. Write a Python program to find the smallest element in a list.
+
+64. Write a Python program to calculate the sum of list elements.
+
+65. Write a Python program to sort a list in ascending order.
+
+66. Write a Python program to reverse list elements.
+
+67. Write a Python program to search an element in a list.
+
+68. Write a Python program to remove duplicate elements from a list.
+
+69. Write a Python program to count even and odd numbers in a list.
+
+70. Write a Python program to merge two lists.
+
+---
+
+## 📘 Basic Error Handling
+
+71. Write a Python program to handle division by zero exception.
+
+72. Write a Python program to handle invalid user input using try-except.
+
+73. Write a Python program demonstrating finally block.
+
+74. Write a Python program demonstrating multiple exceptions.
+
+75. Write a Python program to handle file not found exception.
+
+---
+
+## 📘 Number & Logic Based Important Programs
+
+76. Write a Python program to check whether a number is prime.
+
+77. Write a Python program to print all prime numbers between 1 to 100.
+
+78. Write a Python program to find GCD of two numbers.
+
+79. Write a Python program to find LCM of two numbers.
+
+80. Write a Python program to convert decimal number to binary.
+
+81. Write a Python program to convert binary number to decimal.
+
+82. Write a Python program to generate random numbers.
+
+83. Write a Python program to simulate a dice roll.
+
+84. Write a Python program to guess a number game.
+
+85. Write a Python program to generate OTP using random module.
+
+---
+
+## 📘 File Handling Basics
+
+86. Write a Python program to create and write into a file.
+
+87. Write a Python program to read data from a file.
+
+88. Write a Python program to append data into a file.
+
+89. Write a Python program to count number of lines in a file.
+
+90. Write a Python program to copy contents from one file to another.
+
+---
+
+## 📘 Mixed Important Questions
+
+91. Write a Python program to check whether a list is empty.
+
+92. Write a Python program to find second largest number in a list.
+
+93. Write a Python program to remove all vowels from a string.
+
+94. Write a Python program to count uppercase and lowercase characters.
+
+95. Write a Python program to print ASCII values of characters.
+
+96. Write a Python program to find common elements between two lists.
+
+97. Write a Python program to calculate student percentage and grade.
+
+98. Write a Python program to create a menu-driven calculator.
+
+99. Write a Python program to display current date and time.
+
+100. Write a Python program to demonstrate use of modules in Python.
