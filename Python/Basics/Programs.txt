@@ -58,7 +58,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 22. Write a Python program to check whether a character is a vowel or consonant.
 
-23. Write a Python program to find whether a person is eligible to vote.
+23. Write a Python program to find whether a person is eligible to vote. Done
 
 24. Write a Python program to check whether a number is a multiple of 3 and 7.
 
