@@ -54,7 +54,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Conditional Statements
 
-21. Write a Python program to check whether a number is divisible by 5 and 11.
+21. Write a Python program to check whether a number is divisible by 5 and 11. Done
 
 22. Write a Python program to check whether a character is a vowel or consonant.
 
