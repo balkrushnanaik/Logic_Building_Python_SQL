@@ -24,27 +24,27 @@ These are commonly asked beginner-level Python programming questions for practic
 
 9. Write a Python program to convert temperature from Celsius to Fahrenheit. Done
 
-10. Write a Python program to convert kilometers into meters and centimeters.
+10. Write a Python program to convert kilometers into meters and centimeters. Done
 
 ---
 
 ## 📘 Operators & Expressions
 
-11. Write a Python program to check whether a number is even or odd.
+11. Write a Python program to check whether a number is even or odd. Done
 
-12. Write a Python program to check whether a number is positive, negative, or zero.
+12. Write a Python program to check whether a number is positive, negative, or zero. Done
 
-13. Write a Python program to find the largest of two numbers.
+13. Write a Python program to find the largest of two numbers. Done
 
-14. Write a Python program to find the largest of three numbers.
+14. Write a Python program to find the largest of three numbers. Done
 
-15. Write a Python program to check whether a year is a leap year.
+15. Write a Python program to check whether a year is a leap year. Remaining
 
 16. Write a Python program to calculate the power of a number using operators.
 
-17. Write a Python program to perform all arithmetic operations on two numbers.
+17. Write a Python program to perform all arithmetic operations on two numbers. Done
 
-18. Write a Python program to demonstrate comparison operators.
+18. Write a Python program to demonstrate comparison operators. Done
 
 19. Write a Python program to demonstrate logical operators.
 

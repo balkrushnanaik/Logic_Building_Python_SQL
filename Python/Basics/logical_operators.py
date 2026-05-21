@@ -1,0 +1,1 @@
+# 19. Write a Python program to demonstrate logical operators.
