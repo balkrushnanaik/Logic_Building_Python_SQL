@@ -62,7 +62,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 24. Write a Python program to check whether a number is a multiple of 3 and 7.
 
-25. Write a Python program to display grades based on percentage.
+25. Write a Python program to display grades based on percentage. Done
 
 26. Write a Python program to create a simple calculator using if-elif statements.
 
