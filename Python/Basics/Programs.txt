@@ -46,9 +46,9 @@ These are commonly asked beginner-level Python programming questions for practic
 
 18. Write a Python program to demonstrate comparison operators. Done
 
-19. Write a Python program to demonstrate logical operators.
+19. Write a Python program to demonstrate logical operators. Done
 
-20. Write a Python program to demonstrate assignment operators.
+20. Write a Python program to demonstrate assignment operators. Done
 
 ---
 
