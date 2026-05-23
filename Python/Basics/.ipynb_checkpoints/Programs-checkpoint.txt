@@ -78,11 +78,11 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Loops
 
-31. Write a Python program to print numbers from 1 to 10 using a loop. Done
+31. Write a Python program to print numbers from 1 to 10 using a loop.
 
-32. Write a Python program to print even numbers from 1 to 100. Done
+32. Write a Python program to print even numbers from 1 to 100.
 
-33. Write a Python program to print odd numbers from 1 to 100. Done
+33. Write a Python program to print odd numbers from 1 to 100.
 
 34. Write a Python program to find the sum of first N natural numbers.
 
