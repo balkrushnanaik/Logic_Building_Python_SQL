@@ -88,7 +88,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 35. Write a Python program to calculate the factorial of a number.
 
-36. Write a Python program to generate the multiplication table of a number.
+36. Write a Python program to generate the multiplication table of a number. Done
 
 37. Write a Python program to reverse a number using loops.
 
