@@ -154,7 +154,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Lists & Arrays Basics
 
-61. Write a Python program to create and display a list.
+61. Write a Python program to create and display a list. Done
 
 62. Write a Python program to find the largest element in a list.
 
