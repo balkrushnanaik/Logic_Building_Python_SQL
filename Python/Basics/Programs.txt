@@ -140,15 +140,15 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Functions
 
-56. Write a Python program to create a function for addition of two numbers.
+56. Write a Python program to create a function for addition of two numbers. Done
 
-57. Write a Python program to create a function to find factorial of a number.
+57. Write a Python program to create a function to find factorial of a number. Done
 
-58. Write a Python program to create a function to check prime numbers.
+58. Write a Python program to create a function to check prime numbers. Done
 
-59. Write a Python program to create a function for Fibonacci series.
+59. Write a Python program to create a function for Fibonacci series. Done
 
-60. Write a Python program demonstrating function arguments and return values.
+60. Write a Python program demonstrating function arguments and return values. Done
 
 ---
 
