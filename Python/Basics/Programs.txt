@@ -156,11 +156,11 @@ These are commonly asked beginner-level Python programming questions for practic
 
 61. Write a Python program to create and display a list. Done
 
-62. Write a Python program to find the largest element in a list. Pending
+62. Write a Python program to find the largest element in a list. Done
 
-63. Write a Python program to find the smallest element in a list.
+63. Write a Python program to find the smallest element in a list. Done
 
-64. Write a Python program to calculate the sum of list elements.
+64. Write a Python program to calculate the sum of list elements. Done
 
 65. Write a Python program to sort a list in ascending order.
 
