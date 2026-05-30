@@ -162,9 +162,9 @@ These are commonly asked beginner-level Python programming questions for practic
 
 64. Write a Python program to calculate the sum of list elements. Done
 
-65. Write a Python program to sort a list in ascending order.
+65. Write a Python program to sort a list in ascending order. Done
 
-66. Write a Python program to reverse list elements.
+66. Write a Python program to reverse list elements. Done
 
 67. Write a Python program to search an element in a list.
 
