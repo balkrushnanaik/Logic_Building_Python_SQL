@@ -170,7 +170,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 68. Write a Python program to remove duplicate elements from a list. Done
 
-69. Write a Python program to count even and odd numbers in a list.
+69. Write a Python program to count even and odd numbers in a list. Done
 
 70. Write a Python program to merge two lists.
 
