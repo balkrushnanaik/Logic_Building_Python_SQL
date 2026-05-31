@@ -2,7 +2,17 @@
 ch = input("Enter any characters: ")
 vowels = 'aeiouAEIOU'
 
-if ch in vowels:
-    print('It is vowels')
+# if ch in vowels:
+#     print('Vowels')
+# else:
+#     print('Consonants')
+
+# isalpha() is a string method that checks whether all characters in a string are alphabets (A-Z or a-z).
+if len(ch) == 1 and ch.isalpha():
+    if ch in vowels:
+        print('Vowels')
+    else:
+        print('Consonants')
 else:
-    print('It is consonants')
+    print('Please enter a single alphabet.')
+

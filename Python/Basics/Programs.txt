@@ -172,7 +172,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 69. Write a Python program to count even and odd numbers in a list. Done
 
-70. Write a Python program to merge two lists.
+70. Write a Python program to merge two lists. Done
 
 ---
 
