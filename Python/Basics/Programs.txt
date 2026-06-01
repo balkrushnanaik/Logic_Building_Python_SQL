@@ -118,7 +118,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 46. Write a Python program to count vowels in a string. Done
 
-47. Write a Python program to reverse a string.
+47. Write a Python program to reverse a string. Done
 
 48. Write a Python program to check whether a string is a palindrome.
 
