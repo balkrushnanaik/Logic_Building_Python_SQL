@@ -120,7 +120,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 47. Write a Python program to reverse a string. Done
 
-48. Write a Python program to check whether a string is a palindrome.
+48. Write a Python program to check whether a string is a palindrome. Done
 
 49. Write a Python program to count words in a sentence.
 
