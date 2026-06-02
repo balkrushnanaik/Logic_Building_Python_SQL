@@ -122,7 +122,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 48. Write a Python program to check whether a string is a palindrome. Done
 
-49. Write a Python program to count words in a sentence.
+49. Write a Python program to count words in a sentence. Done
 
 50. Write a Python program to convert lowercase letters to uppercase.
 
