@@ -130,7 +130,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 52. Write a Python program to find the length of a string without using len(). Done
 
-53. Write a Python program to concatenate two strings.
+53. Write a Python program to concatenate two strings. Done
 
 54. Write a Python program to check whether two strings are anagrams.
 
