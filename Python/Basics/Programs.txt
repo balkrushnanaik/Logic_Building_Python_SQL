@@ -128,7 +128,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 51. Write a Python program to remove spaces from a string. Done
 
-52. Write a Python program to find the length of a string without using len().
+52. Write a Python program to find the length of a string without using len(). Done
 
 53. Write a Python program to concatenate two strings.
 
