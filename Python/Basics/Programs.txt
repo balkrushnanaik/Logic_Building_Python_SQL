@@ -124,9 +124,9 @@ These are commonly asked beginner-level Python programming questions for practic
 
 49. Write a Python program to count words in a sentence. Done
 
-50. Write a Python program to convert lowercase letters to uppercase.
+50. Write a Python program to convert lowercase letters to uppercase. Done
 
-51. Write a Python program to remove spaces from a string.
+51. Write a Python program to remove spaces from a string. Done
 
 52. Write a Python program to find the length of a string without using len().
 
