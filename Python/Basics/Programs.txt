@@ -182,7 +182,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 72. Write a Python program to handle invalid user input using try-except. Done
 
-73. Write a Python program demonstrating finally block.
+73. Write a Python program demonstrating finally block. Done
 
 74. Write a Python program demonstrating multiple exceptions.
 
