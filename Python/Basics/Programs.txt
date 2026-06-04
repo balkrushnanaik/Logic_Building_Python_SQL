@@ -204,11 +204,11 @@ These are commonly asked beginner-level Python programming questions for practic
 
 81. Write a Python program to convert binary number to decimal.
 
-82. Write a Python program to generate random numbers.
+82. Write a Python program to generate random numbers. Done
 
 83. Write a Python program to simulate a dice roll.
 
-84. Write a Python program to guess a number game.
+84. Write a Python program to guess a number game. Done
 
 85. Write a Python program to generate OTP using random module.
 
