@@ -64,23 +64,6 @@ These are commonly asked beginner-level Python programming questions for practic
 
 45. Write a Python program to print number patterns using loops.
 
----
-
-## 📘 Strings
-
-55. Write a Python program to count the frequency of characters in a string.
-
----
-
-## 📘 Functions
-
----
-
-## 📘 Lists & Arrays Basics
-
-
-## 📘 Basic Error Handling
-
 ## 📘 Number & Logic Based Important Programs
 
 76. Write a Python program to check whether a number is prime. Done
