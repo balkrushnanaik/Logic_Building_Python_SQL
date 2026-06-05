@@ -6,64 +6,22 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Basics & Input/Output
 
-1. Write a Python program to print `"Hello World"`. Done
-
-2. Write a Python program to take user input and display it. Done
-
-3. Write a Python program to perform addition of two numbers. Done
-
-4. Write a Python program to swap two numbers. Done
-
-5. Write a Python program to find the square and cube of a number. Done
-
-6. Write a Python program to calculate the area of a circle. Done
-
-7. Write a Python program to calculate simple interest. Done
-
-8. Write a Python program to calculate compound interest. Done
-
-9. Write a Python program to convert temperature from Celsius to Fahrenheit. Done
-
-10. Write a Python program to convert kilometers into meters and centimeters. Done
-
----
 
 ## 📘 Operators & Expressions
-
-11. Write a Python program to check whether a number is even or odd. Done
-
-12. Write a Python program to check whether a number is positive, negative, or zero. Done
-
-13. Write a Python program to find the largest of two numbers. Done
-
-14. Write a Python program to find the largest of three numbers. Done
 
 15. Write a Python program to check whether a year is a leap year. Remaining
 
 16. Write a Python program to calculate the power of a number using operators.
 
-17. Write a Python program to perform all arithmetic operations on two numbers. Done
 
-18. Write a Python program to demonstrate comparison operators. Done
-
-19. Write a Python program to demonstrate logical operators. Done
-
-20. Write a Python program to demonstrate assignment operators. Done
 
 ---
 
 ## 📘 Conditional Statements
 
-21. Write a Python program to check whether a number is divisible by 5 and 11. Done
 
 22. Write a Python program to check whether a character is a vowel or consonant.
-
-23. Write a Python program to find whether a person is eligible to vote. Done
-
 24. Write a Python program to check whether a number is a multiple of 3 and 7.
-
-25. Write a Python program to display grades based on percentage. Done
-
 26. Write a Python program to create a simple calculator using if-elif statements.
 
 27. Write a Python program to check whether a number is a palindrome.
@@ -78,17 +36,11 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Loops
 
-31. Write a Python program to print numbers from 1 to 10 using a loop. Done
-
-32. Write a Python program to print even numbers from 1 to 100. Done
-
-33. Write a Python program to print odd numbers from 1 to 100. Done
 
 34. Write a Python program to find the sum of first N natural numbers.
 
 35. Write a Python program to calculate the factorial of a number.
 
-36. Write a Python program to generate the multiplication table of a number. Done
 
 37. Write a Python program to reverse a number using loops.
 
@@ -116,79 +68,18 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Strings
 
-46. Write a Python program to count vowels in a string. Done
-
-47. Write a Python program to reverse a string. Done
-
-48. Write a Python program to check whether a string is a palindrome. Done
-
-49. Write a Python program to count words in a sentence. Done
-
-50. Write a Python program to convert lowercase letters to uppercase. Done
-
-51. Write a Python program to remove spaces from a string. Done
-
-52. Write a Python program to find the length of a string without using len(). Done
-
-53. Write a Python program to concatenate two strings. Done
-
-54. Write a Python program to check whether two strings are anagrams. Done
-
 55. Write a Python program to count the frequency of characters in a string.
 
 ---
 
 ## 📘 Functions
 
-56. Write a Python program to create a function for addition of two numbers. Done
-
-57. Write a Python program to create a function to find factorial of a number. Done
-
-58. Write a Python program to create a function to check prime numbers. Done
-
-59. Write a Python program to create a function for Fibonacci series. Done
-
-60. Write a Python program demonstrating function arguments and return values. Done
-
 ---
 
 ## 📘 Lists & Arrays Basics
 
-61. Write a Python program to create and display a list. Done
-
-62. Write a Python program to find the largest element in a list. Done
-
-63. Write a Python program to find the smallest element in a list. Done
-
-64. Write a Python program to calculate the sum of list elements. Done
-
-65. Write a Python program to sort a list in ascending order. Done
-
-66. Write a Python program to reverse list elements. Done
-
-67. Write a Python program to search an element in a list. Done
-
-68. Write a Python program to remove duplicate elements from a list. Done
-
-69. Write a Python program to count even and odd numbers in a list. Done
-
-70. Write a Python program to merge two lists. Done
-
----
 
 ## 📘 Basic Error Handling
-
-71. Write a Python program to handle division by zero exception. Done
-
-72. Write a Python program to handle invalid user input using try-except. Done
-
-73. Write a Python program demonstrating finally block. Done
-
-74. Write a Python program demonstrating multiple exceptions. Done
-
-75. Write a Python program to handle file not found exception. Done
-
----
 
 ## 📘 Number & Logic Based Important Programs
 
