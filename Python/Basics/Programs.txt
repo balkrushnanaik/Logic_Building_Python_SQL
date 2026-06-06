@@ -11,22 +11,11 @@ These are commonly asked beginner-level Python programming questions for practic
 
 15. Write a Python program to check whether a year is a leap year. Remaining
 
-16. Write a Python program to calculate the power of a number using operators.
-
-
-
----
-
 ## 📘 Conditional Statements
 
-
-22. Write a Python program to check whether a character is a vowel or consonant.
 24. Write a Python program to check whether a number is a multiple of 3 and 7.
-26. Write a Python program to create a simple calculator using if-elif statements.
 
-27. Write a Python program to check whether a number is a palindrome.
 
-28. Write a Python program to check whether a number is an Armstrong number.
 
 29. Write a Python program to check whether a character is uppercase or lowercase.
 
