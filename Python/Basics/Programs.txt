@@ -36,17 +36,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Loops
 
-
-
-35. Write a Python program to calculate the factorial of a number.
-
-
-37. Write a Python program to reverse a number using loops.
-
-
 39. Write a Python program to find the sum of digits of a number.
-
-40. Write a Python program to print Fibonacci series up to N terms.
 
 ---
 
