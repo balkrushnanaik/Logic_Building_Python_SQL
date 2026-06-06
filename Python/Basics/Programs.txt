@@ -15,10 +15,6 @@ These are commonly asked beginner-level Python programming questions for practic
 
 24. Write a Python program to check whether a number is a multiple of 3 and 7.
 
-
-
-29. Write a Python program to check whether a character is uppercase or lowercase.
-
 30. Write a Python program to determine the type of triangle based on sides.
 
 ---
