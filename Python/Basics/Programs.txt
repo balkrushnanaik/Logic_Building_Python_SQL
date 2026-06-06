@@ -37,7 +37,6 @@ These are commonly asked beginner-level Python programming questions for practic
 ## 📘 Loops
 
 
-34. Write a Python program to find the sum of first N natural numbers.
 
 35. Write a Python program to calculate the factorial of a number.
 
