@@ -15,8 +15,6 @@ These are commonly asked beginner-level Python programming questions for practic
 
 24. Write a Python program to check whether a number is a multiple of 3 and 7.
 
-30. Write a Python program to determine the type of triangle based on sides.
-
 ---
 
 ## 📘 Loops
@@ -39,9 +37,7 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Number & Logic Based Important Programs
 
-76. Write a Python program to check whether a number is prime. Done
 
-77. Write a Python program to print all prime numbers between 1 to 100. Done
 
 78. Write a Python program to find GCD of two numbers.
 
@@ -63,7 +59,6 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 File Handling Basics
 
-86. Write a Python program to create and write into a file.
 
 87. Write a Python program to read data from a file.
 
