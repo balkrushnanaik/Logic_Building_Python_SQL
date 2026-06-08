@@ -40,6 +40,12 @@ SELECT dept_name, COUNT(*) AS emp_in_each_dept
 FROM Emp_Department
 GROUP BY dept_name;
 
+-- 5. Find departments having more than 10 employees.
+
+SELECT dept_name, COUNT(*) AS emp_in_each_dept
+FROM Emp_Department
+GROUP BY dept_name
+HAVING COUNT(*) > 10;
 
 
 
