@@ -1,0 +1,107 @@
+Here are some **intermediate-level SQL problem statements** focused only on **Basics of SQL, Queries, and Operations (SELECT, WHERE, ORDER BY, GROUP BY, HAVING, JOIN, Aggregate Functions, Subqueries, INSERT, UPDATE, DELETE)**.
+
+### 1. Employee Management
+
+Create queries to:
+
+1. Display all employees whose salary is greater than ₹50,000.
+2. Find employees working in the "IT" department.
+3. Display the top 5 highest-paid employees.
+4. Count the number of employees in each department.
+5. Find departments having more than 10 employees.
+
+---
+
+### 2. Student Database
+
+Create queries to:
+6. Display students scoring more than 80 marks.
+7. Find the average marks of all students.
+8. Display the highest and lowest marks.
+9. Count students from each city.
+10. Find students whose names start with 'A'.
+
+---
+
+### 3. Product Inventory
+
+Create queries to:
+11. Display products with stock less than 20.
+12. Find the total value of inventory (Price × Quantity).
+13. Display products sorted by price in descending order.
+14. Find the most expensive product.
+15. Increase the price of all products by 10%.
+
+---
+
+### 4. Orders and Customers
+
+Create queries to:
+16. Display all orders placed in the current month.
+17. Find the total order amount for each customer.
+18. Display customers who have placed more than 5 orders.
+19. Find customers who have never placed an order.
+20. Display the latest order of each customer.
+
+---
+
+### 5. SQL JOIN Operations
+
+Using Employee and Department tables:
+21. Display employee names along with department names.
+22. Find employees without any department assigned.
+23. Display all departments even if no employee works in them.
+24. Count employees in each department using JOIN.
+25. Find the department with the highest number of employees.
+
+---
+
+### 6. Aggregate Functions
+
+26. Find the average salary department-wise.
+27. Display departments where average salary exceeds ₹60,000.
+28. Find the total salary paid by each department.
+29. Display the second highest salary.
+30. Find employees earning above the average salary.
+
+---
+
+### 7. Subqueries
+
+31. Find employees earning more than the average salary.
+32. Display products priced higher than the average product price.
+33. Find students who scored above the class average.
+34. Display the employee with the maximum salary.
+35. Find customers whose total purchase amount is above average.
+
+---
+
+### 8. Data Modification Operations
+
+36. Insert a new employee record.
+37. Update salary of employees in the HR department by 15%.
+38. Delete employees who have resigned.
+39. Update stock quantity after a sale.
+40. Remove products that have zero stock.
+
+---
+
+### 9. Date Functions
+
+41. Find employees hired in the last 6 months.
+42. Display orders placed today.
+43. Find students born after 2005.
+44. Calculate employee experience in years.
+45. Count orders placed in each month.
+
+---
+
+### 10. Mixed Intermediate Problems
+
+46. Find the top 3 customers based on purchase amount.
+47. Display products that were never ordered.
+48. Find employees sharing the same salary.
+49. Display customer names and their total spending.
+50. Find departments where no employee earns more than ₹1,00,000.
+
+These 50 problems are suitable for **SE/TE Computer Engineering SQL lab practice and interview preparation**, covering most intermediate SQL concepts.
