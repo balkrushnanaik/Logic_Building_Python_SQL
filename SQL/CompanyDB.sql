@@ -1,6 +1,6 @@
-CREATE DATABASE CompanyDB;
+CREATE DATABASE Logic_Building;
 
-USE CompanyDB;
+USE Logic_Building;
 
 -- Department Table
 CREATE TABLE Department (

@@ -1,27 +1,8 @@
 Here are some **intermediate-level SQL problem statements** focused only on **Basics of SQL, Queries, and Operations (SELECT, WHERE, ORDER BY, GROUP BY, HAVING, JOIN, Aggregate Functions, Subqueries, INSERT, UPDATE, DELETE)**.
 
-### 1. Employee Management
 
-Create queries to:
 
-1. Display all employees whose salary is greater than ₹50,000.
-2. Find employees working in the "IT" department.
-3. Display the top 5 highest-paid employees.
-4. Count the number of employees in each department.
-5. Find departments having more than 10 employees.
 
----
-
-### 2. Student Database
-
-Create queries to:
-6. Display students scoring more than 80 marks.
-7. Find the average marks of all students.
-8. Display the highest and lowest marks.
-9. Count students from each city.
-10. Find students whose names start with 'A'.
-
----
 
 ### 3. Product Inventory
 
