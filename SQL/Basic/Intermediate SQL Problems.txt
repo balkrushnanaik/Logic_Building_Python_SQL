@@ -1,20 +1,6 @@
 Here are some **intermediate-level SQL problem statements** focused only on **Basics of SQL, Queries, and Operations (SELECT, WHERE, ORDER BY, GROUP BY, HAVING, JOIN, Aggregate Functions, Subqueries, INSERT, UPDATE, DELETE)**.
 
 
-
-
-
-### 3. Product Inventory
-
-Create queries to:
-11. Display products with stock less than 20.
-12. Find the total value of inventory (Price × Quantity).
-13. Display products sorted by price in descending order.
-14. Find the most expensive product.
-15. Increase the price of all products by 10%.
-
----
-
 ### 4. Orders and Customers
 
 Create queries to:
