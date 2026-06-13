@@ -52,3 +52,53 @@ INSERT INTO Orders VALUES
 
 SELECT * FROM Customers;
 SELECT * FROM orders;
+
+#  Inner Join
+SELECT *
+FROM Customers AS c
+INNER Join orders as o
+ON c.Customer_ID = o.Customer_ID;
+
+# Left Join
+SELECT *
+FROM Customers AS c
+LEFT JOIN orders AS o
+ON c.Customer_ID = o.Customer_ID;
+
+#  Right Join
+SELECT *
+FROM Customers AS c
+RIGHT JOIN orders as o
+ON c.Customer_ID = o.Customer_ID;
+
+# Full Join
+# SELECT *
+# FROM Customers AS c
+# FULL JOIN
+
+#  Cross Join:
+CREATE TABLE Students (
+    Student_ID INT,
+    Student_Name VARCHAR(50)
+);
+
+INSERT INTO Students VALUES
+(1, 'Amit'),
+(2, 'Priya'),
+(3, 'Rahul');
+
+CREATE TABLE Courses (
+    Course_ID INT,
+    Course_Name VARCHAR(50)
+);
+
+INSERT INTO Courses VALUES
+(101, 'SQL'),
+(102, 'Python'),
+(103, 'Power BI');
+
+SELECT * FROM Students;
+SELECT * FROM Courses;
+
+SELECT * FROM Students
+CROSS JOIN Courses;
