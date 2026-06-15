@@ -21,3 +21,10 @@ INSERT INTO Employees VALUES
 (110, 'Anjali', 'Patel', 'anjali.p@gmail.com', 'Pune');
 
 SELECT * FROM Employees;
+
+SELECT UPPER(First_Name) FROM Employees;
+
+SELECT LOWER(City) FROM Employees;
+
+SELECT Email, LENGTH(Email) AS Email_Length
+FROM Employees;
