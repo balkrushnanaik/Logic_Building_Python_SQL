@@ -1,4 +1,3 @@
-from turtledemo.penrose import start
 
 lst = ['Soumya','Ramya','Vaibhav','Sidharth']
 
