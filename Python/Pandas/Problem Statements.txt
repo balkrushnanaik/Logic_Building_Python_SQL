@@ -1,0 +1,682 @@
+That's an excellent idea.
+
+If your goal is to become **very strong at solving Pandas problems on LeetCode**, you should first master the operations that LeetCode repeatedly tests. Below are **100 practice problems** arranged from **Beginner → Intermediate**, covering almost every Pandas concept used in LeetCode's Pandas track.
+
+---
+
+# Section 1: Creating DataFrames (1-10)
+
+### 1.
+
+Create a DataFrame named `students` with columns:
+
+* student_id
+* name
+* age
+* marks
+
+---
+
+### 2.
+
+Create a DataFrame from a list of dictionaries.
+
+---
+
+### 3.
+
+Create a DataFrame using a dictionary of lists.
+
+---
+
+### 4.
+
+Set `student_id` as the index.
+
+---
+
+### 5.
+
+Reset the DataFrame index.
+
+---
+
+### 6.
+
+Rename the column `marks` to `score`.
+
+---
+
+### 7.
+
+Change all column names to uppercase.
+
+---
+
+### 8.
+
+Display only the first 5 rows.
+
+---
+
+### 9.
+
+Display only the last 3 rows.
+
+---
+
+### 10.
+
+Print the DataFrame shape, columns, and data types.
+
+---
+
+# Section 2: Selecting Data (11-20)
+
+### 11.
+
+Select only the `name` column.
+
+---
+
+### 12.
+
+Select multiple columns:
+
+* name
+* marks
+
+---
+
+### 13.
+
+Retrieve the first row using `.iloc`.
+
+---
+
+### 14.
+
+Retrieve the last row using `.iloc`.
+
+---
+
+### 15.
+
+Retrieve rows 5 to 10.
+
+---
+
+### 16.
+
+Retrieve rows where age > 20.
+
+---
+
+### 17.
+
+Retrieve rows where marks ≥ 80.
+
+---
+
+### 18.
+
+Retrieve students whose age is between 18 and 22.
+
+---
+
+### 19.
+
+Retrieve students whose marks are NOT greater than 60.
+
+---
+
+### 20.
+
+Retrieve rows where age > 18 AND marks > 75.
+
+---
+
+# Section 3: Filtering (21-30)
+
+### 21.
+
+Find students whose names start with "A".
+
+---
+
+### 22.
+
+Find students whose names end with "n".
+
+---
+
+### 23.
+
+Find students whose names contain "ar".
+
+---
+
+### 24.
+
+Find students whose city is Pune or Mumbai.
+
+---
+
+### 25.
+
+Find students whose department is NOT IT.
+
+---
+
+### 26.
+
+Filter rows using multiple OR conditions.
+
+---
+
+### 27.
+
+Filter using `isin()`.
+
+---
+
+### 28.
+
+Filter using `between()`.
+
+---
+
+### 29.
+
+Filter rows with missing marks.
+
+---
+
+### 30.
+
+Filter rows with non-missing email.
+
+---
+
+# Section 4: Sorting (31-35)
+
+### 31.
+
+Sort students by marks ascending.
+
+---
+
+### 32.
+
+Sort students by marks descending.
+
+---
+
+### 33.
+
+Sort by age then marks.
+
+---
+
+### 34.
+
+Sort by name alphabetically.
+
+---
+
+### 35.
+
+Sort by marks descending and age ascending.
+
+---
+
+# Section 5: Missing Values (36-45)
+
+### 36.
+
+Count missing values in every column.
+
+---
+
+### 37.
+
+Remove rows containing any null value.
+
+---
+
+### 38.
+
+Remove columns containing null values.
+
+---
+
+### 39.
+
+Replace null marks with 0.
+
+---
+
+### 40.
+
+Replace null city with "Unknown".
+
+---
+
+### 41.
+
+Forward fill missing values.
+
+---
+
+### 42.
+
+Backward fill missing values.
+
+---
+
+### 43.
+
+Count total missing values.
+
+---
+
+### 44.
+
+Replace all NaN values using mean.
+
+---
+
+### 45.
+
+Replace all NaN values using median.
+
+---
+
+# Section 6: Column Operations (46-55)
+
+### 46.
+
+Create a new column `Pass`.
+
+Pass if marks ≥ 40.
+
+---
+
+### 47.
+
+Create a column `Grade`.
+
+* A ≥90
+* B ≥80
+* C ≥70
+* D ≥60
+* F otherwise
+
+---
+
+### 48.
+
+Create a column `Percentage`.
+
+---
+
+### 49.
+
+Increase marks by 5%.
+
+---
+
+### 50.
+
+Convert names to uppercase.
+
+---
+
+### 51.
+
+Convert names to lowercase.
+
+---
+
+### 52.
+
+Calculate name length.
+
+---
+
+### 53.
+
+Split email into username and domain.
+
+---
+
+### 54.
+
+Extract first name from full name.
+
+---
+
+### 55.
+
+Replace spaces in names with underscores.
+
+---
+
+# Section 7: String Methods (56-65)
+
+### 56.
+
+Find names containing "ra".
+
+---
+
+### 57.
+
+Replace "Mr." with empty string.
+
+---
+
+### 58.
+
+Count vowels in every name.
+
+---
+
+### 59.
+
+Extract the first three letters.
+
+---
+
+### 60.
+
+Check whether emails end with ".com".
+
+---
+
+### 61.
+
+Find duplicate names.
+
+---
+
+### 62.
+
+Remove leading and trailing spaces.
+
+---
+
+### 63.
+
+Convert names to title case.
+
+---
+
+### 64.
+
+Replace every occurrence of "a" with "*".
+
+---
+
+### 65.
+
+Reverse every name.
+
+---
+
+# Section 8: GroupBy (66-75)
+
+### 66.
+
+Find average marks by department.
+
+---
+
+### 67.
+
+Find maximum marks by city.
+
+---
+
+### 68.
+
+Find minimum marks by city.
+
+---
+
+### 69.
+
+Count students in every department.
+
+---
+
+### 70.
+
+Find total marks by department.
+
+---
+
+### 71.
+
+Find average age by city.
+
+---
+
+### 72.
+
+Find highest scorer in every department.
+
+---
+
+### 73.
+
+Find lowest scorer in every department.
+
+---
+
+### 74.
+
+Find departments having average marks >75.
+
+---
+
+### 75.
+
+Count unique cities in every department.
+
+---
+
+# Section 9: Aggregations (76-80)
+
+### 76.
+
+Calculate average marks.
+
+---
+
+### 77.
+
+Find highest marks.
+
+---
+
+### 78.
+
+Find lowest marks.
+
+---
+
+### 79.
+
+Find total marks.
+
+---
+
+### 80.
+
+Count total students.
+
+---
+
+# Section 10: Merge & Join (81-90)
+
+Assume two DataFrames:
+
+* students
+* departments
+
+### 81.
+
+Perform an inner merge.
+
+---
+
+### 82.
+
+Perform a left merge.
+
+---
+
+### 83.
+
+Perform a right merge.
+
+---
+
+### 84.
+
+Perform a full outer merge.
+
+---
+
+### 85.
+
+Merge using different column names.
+
+---
+
+### 86.
+
+Find students without departments.
+
+---
+
+### 87.
+
+Find departments with no students.
+
+---
+
+### 88.
+
+Merge on multiple columns.
+
+---
+
+### 89.
+
+Join using index.
+
+---
+
+### 90.
+
+Concatenate two DataFrames vertically.
+
+---
+
+# Section 11: Pivot Tables (91-95)
+
+### 91.
+
+Create a pivot table of average marks by city.
+
+---
+
+### 92.
+
+Create a pivot table of average marks by department and city.
+
+---
+
+### 93.
+
+Create a pivot table using sum.
+
+---
+
+### 94.
+
+Create a pivot table using count.
+
+---
+
+### 95.
+
+Create a pivot table with multiple aggregation functions.
+
+---
+
+# Section 12: Duplicate Handling (96-100)
+
+### 96.
+
+Find duplicate rows.
+
+---
+
+### 97.
+
+Remove duplicate rows.
+
+---
+
+### 98.
+
+Remove duplicates based on email.
+
+---
+
+### 99.
+
+Count duplicate names.
+
+---
+
+### 100.
+
+Keep only the last occurrence of duplicate records.
+
+---
+
+# Bonus (Highly Recommended for LeetCode)
+
+After completing these 100 problems, practice these advanced topics commonly used in LeetCode Pandas questions:
+
+1. `loc` vs `iloc`
+2. Boolean indexing
+3. `query()`
+4. `assign()`
+5. `apply()`
+6. `map()`
+7. `transform()`
+8. `agg()`
+9. `value_counts()`
+10. `unique()`
+11. `nunique()`
+12. `duplicated()`
+13. `drop_duplicates()`
+14. `merge()`
+15. `concat()`
+16. `groupby().agg()`
+17. `pivot_table()`
+18. `explode()`
+19. `melt()`
+20. `stack()` and `unstack()`
+21. `sort_values()`
+22. `sort_index()`
+23. `rank()`
+24. Window functions (`rolling()`, `expanding()`)
+25. Date and time operations with `pd.to_datetime()` and the `.dt` accessor
+
+Mastering these topics will prepare you for the majority of Pandas-based interview questions and the full Pandas problem set on LeetCode.
