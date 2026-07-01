@@ -18,6 +18,16 @@ VALUES
 (7, 4, '2019-08-09', '2019-08-09');
 
 
+SELECT ROUND(SUM(IF(order_date = customer_pref_delivery_date,1,0))*100/COUNT(DISTINCT customer_id),2) AS immediate_percent
+FROM Delivery
+WHERE (customer_id, order_date) IN (
+    SELECT customer_id, MIN(order_date) AS first_order_date
+    FROM Delivery
+    GROUP BY customer_id
+    );
+
+
+
 
 
 
