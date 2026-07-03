@@ -1,0 +1,14 @@
+from datetime import datetime
+
+# Get current date and time
+current_datetime = datetime.now()
+
+# Display current date and time
+print("Current Date and Time:")
+print(current_datetime)
+
+# Display in different formats
+print("\nFormatted Display:")
+print(f"Date: {current_datetime.strftime('%Y-%m-%d')}")
+print(f"Time: {current_datetime.strftime('%H:%M:%S')}")
+print(f"Full: {current_datetime.strftime('%A, %B %d, %Y %I:%M:%S %p')}")
