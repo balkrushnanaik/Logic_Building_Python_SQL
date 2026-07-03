@@ -1,0 +1,14 @@
+import random
+
+def generate_otp(length=6):
+    """Generate a random OTP of specified length."""
+    otp = ''.join(random.choice('0123456789') for _ in range(length))
+    return otp
+
+# Generate and display OTP
+otp = generate_otp()
+print(f"Generated OTP: {otp}")
+
+# Generate OTP of custom length
+custom_otp = generate_otp(8)
+print(f"Generated OTP (length 8): {custom_otp}")
