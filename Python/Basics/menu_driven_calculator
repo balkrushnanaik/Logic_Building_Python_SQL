@@ -1,0 +1,58 @@
+def menu_driven_calculator():
+    while True:
+        print("\nMenu Driven Calculator")
+        print("1. Addition")
+        print("2. Subtraction")
+        print("3. Multiplication")
+        print("4. Division")
+        print("5. Modulus")
+        print("6. Exponent")
+        print("7. Exit")
+
+        choice = input("Enter your choice (1-7): ")
+
+        if choice == '7':
+            print("Exiting calculator.")
+            break
+
+        if choice not in {'1', '2', '3', '4', '5', '6'}:
+            print("Invalid choice. Please choose a valid option.")
+            continue
+
+        try:
+            num1 = float(input("Enter first number: "))
+            num2 = float(input("Enter second number: "))
+        except ValueError:
+            print("Invalid input. Please enter numeric values.")
+            continue
+
+        if choice == '1':
+            result = num1 + num2
+            op = '+'
+        elif choice == '2':
+            result = num1 - num2
+            op = '-'
+        elif choice == '3':
+            result = num1 * num2
+            op = '*'
+        elif choice == '4':
+            if num2 == 0:
+                print("Cannot divide by zero.")
+                continue
+            result = num1 / num2
+            op = '/'
+        elif choice == '5':
+            if num2 == 0:
+                print("Cannot take modulus by zero.")
+                continue
+            result = num1 % num2
+            op = '%'
+        elif choice == '6':
+            result = num1 ** num2
+            op = '**'
+
+        print(f"{num1} {op} {num2} = {result}")
+
+
+if __name__ == '__main__':
+    menu_driven_calculator()
