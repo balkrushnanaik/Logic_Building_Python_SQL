@@ -1,0 +1,25 @@
+def second_largest(nums):
+    first = second = None
+    for x in nums:
+        if first is None or x > first:
+            second = first
+            first = x
+        elif x != first and (second is None or x > second):
+            second = x
+    return second
+
+
+if __name__ == "__main__":
+    try:
+        numbers = [int(x) for x in input("Enter numbers separated by spaces: ").split()]
+    except ValueError:
+        print("Please enter valid integers.")
+    else:
+        if len(numbers) < 2:
+            print("No second largest element")
+        else:
+            result = second_largest(numbers)
+            if result is None:
+                print("No second largest element")
+            else:
+                print(result)
