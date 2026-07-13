@@ -1,0 +1,30 @@
+
+"""Find common elements between two lists.
+
+Example usage:
+	python lists_common_elements.py
+"""
+
+def common_elements(list1, list2):
+	"""Return a list of common elements (unique) between list1 and list2.
+
+	Preserves the order of first appearance from list1.
+	"""
+	set2 = set(list2)
+	seen = set()
+	result = []
+	for item in list1:
+		if item in set2 and item not in seen:
+			result.append(item)
+			seen.add(item)
+	return result
+
+
+if __name__ == '__main__':
+	# Example lists
+	a = [1, 2, 3, 4, 5, 2]
+	b = [3, 5, 7, 2, 2]
+
+	print('List A:', a)
+	print('List B:', b)
+	print('Common elements:', common_elements(a, b))
