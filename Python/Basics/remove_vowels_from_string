@@ -1,0 +1,24 @@
+# Python program to remove all vowels from a string
+
+def remove_vowels(string):
+    """Remove all vowels from a string."""
+    vowels = "aeiouAEIOU"
+    return "".join([char for char in string if char not in vowels])
+
+
+# Test the function
+if __name__ == "__main__":
+    # Example 1
+    text1 = "Hello World"
+    print(f"Original string: {text1}")
+    print(f"After removing vowels: {remove_vowels(text1)}")
+    
+    # Example 2
+    text2 = "Python Programming"
+    print(f"\nOriginal string: {text2}")
+    print(f"After removing vowels: {remove_vowels(text2)}")
+    
+    # Example 3
+    text3 = "AEIOU"
+    print(f"\nOriginal string: {text3}")
+    print(f"After removing vowels: {remove_vowels(text3)}")

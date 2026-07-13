@@ -69,7 +69,6 @@ These are commonly asked beginner-level Python programming questions for practic
 
 ## 📘 Mixed Important Questions
 
-91. Write a Python program to check whether a list is empty.
 
 
 93. Write a Python program to remove all vowels from a string.
