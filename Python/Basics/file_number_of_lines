@@ -1,0 +1,15 @@
+def count_lines_in_file(file_path):
+    """Return the number of lines in the given file."""
+    with open(file_path, 'r', encoding='utf-8') as file:
+        return sum(1 for _ in file)
+
+
+if __name__ == '__main__':
+    file_path = input('Enter the file path: ').strip()
+    try:
+        lines = count_lines_in_file(file_path)
+        print(f'The file has {lines} lines.')
+    except FileNotFoundError:
+        print('Error: File not found.')
+    except IOError as e:
+        print(f'Error reading file: {e}')
