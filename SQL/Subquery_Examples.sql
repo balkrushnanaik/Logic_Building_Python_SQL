@@ -73,3 +73,13 @@ WHERE department IN (
     WHERE department = 'IT'
     );
 
+SELECT *
+FROM Employees
+WHERE salary IN (
+    SELECT salary
+    FROM Employees
+    WHERE salary BETWEEN 70000 AND 90000
+    );
+
+
+
