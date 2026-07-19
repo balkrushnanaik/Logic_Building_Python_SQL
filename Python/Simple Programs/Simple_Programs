@@ -1,0 +1,151 @@
+Here are **100 simple Python programs** organized by concept. These are ideal for beginners to practice Python fundamentals.
+
+### 1. Basics (1–20)
+
+1. Print "Hello, World!"
+2. Print your name and age.
+3. Add two numbers.
+4. Subtract two numbers.
+5. Multiply two numbers.
+6. Divide two numbers.
+7. Find remainder using `%`.
+8. Swap two variables.
+9. Find square of a number.
+10. Find cube of a number.
+11. Calculate simple interest.
+12. Calculate area of a rectangle.
+13. Calculate area of a circle.
+14. Convert Celsius to Fahrenheit.
+15. Convert Fahrenheit to Celsius.
+16. Convert kilometers to miles.
+17. Convert minutes into hours and minutes.
+18. Find ASCII value of a character.
+19. Take user input and display it.
+20. Calculate average of three numbers.
+
+### 2. Conditional Statements (21–40)
+
+21. Check if a number is even or odd.
+22. Check if a number is positive, negative, or zero.
+23. Find the largest of two numbers.
+24. Find the largest of three numbers.
+25. Check if a year is a leap year.
+26. Check voting eligibility.
+27. Check whether a character is a vowel or consonant.
+28. Check if a number is divisible by 5 and 11.
+29. Check whether a character is uppercase or lowercase.
+30. Find smallest of three numbers.
+31. Grade calculation based on marks.
+32. Check if a number is a multiple of 7.
+33. Check if a number is a palindrome.
+34. Check if a character is an alphabet.
+35. Check if a number is a three-digit number.
+36. Calculate electricity bill.
+37. Calculate income tax based on slabs.
+38. Find roots of a quadratic equation.
+39. Check triangle validity.
+40. Find type of triangle.
+
+### 3. Loops (41–60)
+
+41. Print numbers from 1 to 10.
+42. Print numbers from 10 to 1.
+43. Print even numbers from 1 to 100.
+44. Print odd numbers from 1 to 100.
+45. Find sum of first N numbers.
+46. Find factorial of a number.
+47. Generate multiplication table.
+48. Reverse a number.
+49. Count digits in a number.
+50. Find sum of digits.
+51. Find product of digits.
+52. Check Armstrong number.
+53. Print Fibonacci series.
+54. Check prime number.
+55. Print prime numbers between 1 and 100.
+56. Find GCD of two numbers.
+57. Find LCM of two numbers.
+58. Print star pattern.
+59. Print number pattern.
+60. Print pyramid pattern.
+
+### 4. Strings (61–75)
+
+61. Find length of a string.
+62. Reverse a string.
+63. Check palindrome string.
+64. Count vowels in a string.
+65. Count consonants in a string.
+66. Count words in a sentence.
+67. Convert string to uppercase.
+68. Convert string to lowercase.
+69. Replace a word in a string.
+70. Remove spaces from a string.
+71. Check anagram.
+72. Count frequency of each character.
+73. Find first non-repeating character.
+74. Check substring.
+75. Concatenate two strings.
+
+### 5. Lists (76–85)
+
+76. Find largest element in a list.
+77. Find smallest element in a list.
+78. Find sum of list elements.
+79. Find average of list elements.
+80. Remove duplicates from a list.
+81. Sort a list in ascending order.
+82. Sort a list in descending order.
+83. Reverse a list.
+84. Find second largest element.
+85. Merge two lists.
+
+### 6. Tuples, Sets & Dictionaries (86–92)
+
+86. Create and print a tuple.
+87. Count occurrences in a tuple.
+88. Find union of two sets.
+89. Find intersection of two sets.
+90. Create a dictionary and print keys and values.
+91. Find key with maximum value.
+92. Merge two dictionaries.
+
+### 7. Functions (93–96)
+
+93. Create a function to add two numbers.
+94. Create a function to check prime number.
+95. Create a function to calculate factorial.
+96. Create a recursive Fibonacci function.
+
+### 8. File Handling (97–98)
+
+97. Write text to a file.
+98. Read text from a file.
+
+### 9. Exception Handling (99)
+
+99. Handle division by zero using `try-except`.
+
+### 10. OOP (100)
+
+100. Create a `Student` class with attributes (`name`, `age`, `marks`) and a method to display details.
+
+These 100 programs cover the core Python concepts:
+
+* Variables & Data Types
+* Operators
+* Input/Output
+* Conditional Statements
+* Loops
+* Strings
+* Lists
+* Tuples
+* Sets
+* Dictionaries
+* Functions
+* Recursion
+* File Handling
+* Exception Handling
+* Object-Oriented Programming (OOP)
+
+Practicing all of these will give you a solid foundation in Python.
