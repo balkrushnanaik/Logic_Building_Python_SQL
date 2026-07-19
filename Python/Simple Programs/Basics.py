@@ -40,8 +40,8 @@ square = a ** 2
 print(square)
 # 10. Find cube of a number.
 num = 3
-cube = 3
-print(num*cube)
+cube = num ** 3
+print(cube)
 # 11. Calculate simple interest.
 p = 10000
 r = 9
@@ -55,14 +55,30 @@ breadth = 5
 area = length * breadth
 print(f"Area of rectangle is : {area}")
 # 13. Calculate area of a circle.
+radius = 5
+area = math.pi * radius ** 2
+print(f"Area of circle is : {area}")
 # 14. Convert Celsius to Fahrenheit.
 celsius = 25
 fahrenheit = (celsius * 9/5) + 32
 print(f"Fahrenheit is : {fahrenheit}")
 # 15. Convert Fahrenheit to Celsius.
+fahrenheit = 77
+celsius = (fahrenheit - 32) * 5/9
+print(f"Celsius is : {celsius}")
 # 16. Convert kilometers to miles.
+kilometers = 10
+miles = kilometers * 0.621371
+print(f"Miles is : {miles}")
 # 17. Convert minutes into hours and minutes.
+minutes = 150
+hours = minutes // 60
+remaining_minutes = minutes % 60
+print(f"Hours is : {hours} and Minutes is : {remaining_minutes}")
 # 18. Find ASCII value of a character.
+char = 'A'
+ascii_value = ord(char)
+print(f"ASCII value of {char} is : {ascii_value}")
 # 19. Take user input and display it.
 name = input("Enter your name: ")
 print(f"Your name is : {name}")
