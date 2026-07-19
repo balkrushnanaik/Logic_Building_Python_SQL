@@ -19,11 +19,31 @@ b = 30
 mul = a * b
 print(mul)
 # 6. Divide two numbers.
+a = 20
+b = 30
+div = a / b
+print(div)
 # 7. Find remainder using `%`.
+a = 20
+b = 30
+rem = a % b
+print(rem)
 # 8. Swap two variables.
+a = 10
+b = 5
+a, b = b, a 
+print(f'Before a : 10 After a: {a}')
+print(f'Before b : 5 After b: {b}')
 # 9. Find square of a number.
+a = 2
+square = a ** 2
+print(square)
 # 10. Find cube of a number.
+num = 3
+cube = 3
+print(num*cube)
 # 11. Calculate simple interest.
+
 # 12. Calculate area of a rectangle.
 # 13. Calculate area of a circle.
 # 14. Convert Celsius to Fahrenheit.
