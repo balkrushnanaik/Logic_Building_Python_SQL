@@ -1,4 +1,4 @@
-# # ### 2. Conditional Statements (21–40)
+# ### 2. Conditional Statements (21–40)
 
 # # 21. Check if a number is even or odd.
 # number = 10
@@ -51,24 +51,3 @@
 # age = 19
 # result = "eligible" if age >= 18 else "not eligible"
 # print(f"You are {result} to vote.")
-
-# 27. Check whether a character is a vowel or consonant.
-chars = input("Enter a character: ").lower()
-if chars in ['a', 'e', 'i', 'o', 'u']:
-    print(f"{chars} is a vowel.")
-else:
-    print(f"{chars} is a consonant.")
-
-# 28. Check if a number is divisible by 5 and 11.
-# 29. Check whether a character is uppercase or lowercase.
-# 30. Find smallest of three numbers.
-# 31. Grade calculation based on marks.
-# 32. Check if a number is a multiple of 7.
-# 33. Check if a number is a palindrome.
-# 34. Check if a character is an alphabet.
-# 35. Check if a number is a three-digit number.
-# 36. Calculate electricity bill.
-# 37. Calculate income tax based on slabs.
-# 38. Find roots of a quadratic equation.
-# 39. Check triangle validity.
-# 40. Find type of triangle.
