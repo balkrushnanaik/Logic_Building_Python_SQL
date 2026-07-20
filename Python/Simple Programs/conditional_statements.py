@@ -72,7 +72,33 @@ if char.isupper():
 else:
     print(f"{char} is lowercase.")
 # 30. Find smallest of three numbers.
+num1 = float(input("Enter first number: "))
+num2 = float(input("Enter second number: "))
+num3 = float(input("Enter third number: "))
+if num1 <= num2 and num1 <= num3:
+    smallest = num1
+elif num2 <= num1 and num2 <= num3:
+    smallest = num2
+else:
+    smallest = num3
+print(f"The smallest number is {smallest}.")
 # 31. Grade calculation based on marks.
+marks = float(input("Enter marks (0-100): "))
+match marks:
+    case m if 90 <= m <= 100:
+        grade = 'A'
+    case m if 80 <= m < 90:
+        grade = 'B'
+    case m if 70 <= m < 80:
+        grade = 'C'
+    case m if 60 <= m < 70:
+        grade = 'D'
+    case m if 0 <= m < 60:
+        grade = 'F'
+    case _:
+        grade = 'Invalid marks'
+print(f"Your grade is {grade}.")
+
 # 32. Check if a number is a multiple of 7.
 # 33. Check if a number is a palindrome.
 # 34. Check if a character is an alphabet.
