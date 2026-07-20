@@ -36,7 +36,12 @@ else:
     print(f"The largest number is {c}.")
 
 # 25. Check if a year is a leap year.
+
 # 26. Check voting eligibility.
+age = 19
+result = "eligible" if age >= 18 else "not eligible"
+print(f"You are {result} to vote.")
+
 # 27. Check whether a character is a vowel or consonant.
 # 28. Check if a number is divisible by 5 and 11.
 # 29. Check whether a character is uppercase or lowercase.
