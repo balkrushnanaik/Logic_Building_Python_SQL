@@ -60,7 +60,17 @@ else:
     print(f"{chars} is a consonant.")
 
 # 28. Check if a number is divisible by 5 and 11.
+number = int(input("Enter a number: "))
+if number % 5 == 0 and number % 11 == 0:
+    print(f"{number} is divisible by both 5 and 11.")
+else:
+    print(f"{number} is not divisible by both 5 and 11.")
 # 29. Check whether a character is uppercase or lowercase.
+char = input("Enter a character: ")
+if char.isupper():
+    print(f"{char} is uppercase.")
+else:
+    print(f"{char} is lowercase.")
 # 30. Find smallest of three numbers.
 # 31. Grade calculation based on marks.
 # 32. Check if a number is a multiple of 7.
