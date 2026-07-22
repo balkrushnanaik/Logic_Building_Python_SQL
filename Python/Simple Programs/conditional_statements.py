@@ -125,7 +125,9 @@ if 100 <= number <= 999:
 else:
     print(f"{number} is not a three-digit number.")
 # 36. Calculate electricity bill.
+
 # 37. Calculate income tax based on slabs.
 # 38. Find roots of a quadratic equation.
+
 # 39. Check triangle validity.
 # 40. Find type of triangle.
