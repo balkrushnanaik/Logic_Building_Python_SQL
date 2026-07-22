@@ -20,6 +20,10 @@ for i in range(1, N + 1):
 print(f"The sum of first {N} numbers is {sum}.")
 # 46. Find factorial of a number.
 # 47. Generate multiplication table.
+num = int(input("Enter a number: "))
+for i in range(1, 11):
+    print(f"{num} x {i} = {num * i}")
+    
 # 48. Reverse a number.
 # 49. Count digits in a number.
 # 50. Find sum of digits.
