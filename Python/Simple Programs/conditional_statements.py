@@ -119,6 +119,11 @@ if char.isalpha():
 else:
     print(f"{char} is not an alphabet.")
 # 35. Check if a number is a three-digit number.
+number = int(input("Enter a number: "))
+if 100 <= number <= 999:
+    print(f"{number} is a three-digit number.")
+else:
+    print(f"{number} is not a three-digit number.")
 # 36. Calculate electricity bill.
 # 37. Calculate income tax based on slabs.
 # 38. Find roots of a quadratic equation.
