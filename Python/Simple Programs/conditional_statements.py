@@ -100,7 +100,18 @@ match marks:
 print(f"Your grade is {grade}.")
 
 # 32. Check if a number is a multiple of 7.
+number = int(input("Enter a number: "))
+if number % 7 == 0:
+    print(f"{number} is a multiple of 7.")  
+else:
+    print(f"{number} is not a multiple of 7.")
 # 33. Check if a number is a palindrome.
+num = 121
+reverse_num = int(str(num)[::-1])
+if num == reverse_num:
+    print(f"{num} is a palindrome.")
+else:
+    print(f"{num} is not a palindrome.")
 # 34. Check if a character is an alphabet.
 # 35. Check if a number is a three-digit number.
 # 36. Calculate electricity bill.
