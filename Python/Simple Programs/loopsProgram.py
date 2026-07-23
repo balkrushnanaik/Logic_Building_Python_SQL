@@ -35,6 +35,13 @@ while num > 0:
 print(f"The number of digits is {count}.")
 
 # 50. Find sum of digits.
+num1 = int(input("Enter a number: "))
+sum_of_digits = 0
+while num1 > 0:
+    sum_of_digits += num1 % 10
+    num1 //= 10
+print(f"The sum of digits is {sum_of_digits}.")
+
 # 51. Find product of digits.
 # 52. Check Armstrong number.
 # 53. Print Fibonacci series.
