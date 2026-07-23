@@ -43,6 +43,13 @@ while num1 > 0:
 print(f"The sum of digits is {sum_of_digits}.")
 
 # 51. Find product of digits.
+num2 = int(input("Enter a number: "))
+product_of_digits = 1
+while num2 > 0:
+    product_of_digits *= num2 % 10
+    num2 //= 10
+print(f"The product of digits is {product_of_digits}.")
+
 # 52. Check Armstrong number.
 # 53. Print Fibonacci series.
 # 54. Check prime number.
