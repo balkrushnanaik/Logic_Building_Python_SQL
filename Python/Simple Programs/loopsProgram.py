@@ -23,9 +23,17 @@ print(f"The sum of first {N} numbers is {sum}.")
 num = int(input("Enter a number: "))
 for i in range(1, 11):
     print(f"{num} x {i} = {num * i}")
-    
+
 # 48. Reverse a number.
+# num = int(input("Enter a number: "))
 # 49. Count digits in a number.
+num = int(input("Enter a number: "))
+count = 0
+while num > 0:
+    num //= 10
+    count += 1
+print(f"The number of digits is {count}.")
+
 # 50. Find sum of digits.
 # 51. Find product of digits.
 # 52. Check Armstrong number.
