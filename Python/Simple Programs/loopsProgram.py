@@ -51,6 +51,7 @@ while num2 > 0:
 print(f"The product of digits is {product_of_digits}.")
 
 # 52. Check Armstrong number.
+
 # 53. Print Fibonacci series.
 # 54. Check prime number.
 # 55. Print prime numbers between 1 and 100.
