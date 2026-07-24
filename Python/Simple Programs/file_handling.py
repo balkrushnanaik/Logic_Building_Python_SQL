@@ -7,3 +7,6 @@ with open('test.txt', 'w') as f:
     f.write("File handling in Python is easy and fun!\n")
 
 # 98. Read text from a file.
+with open('test.txt', 'r') as f:
+    content = f.read()
+    print(content)
