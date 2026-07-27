@@ -71,5 +71,9 @@ for _ in range(n):
 # 56. Find GCD of two numbers.
 # 57. Find LCM of two numbers.
 # 58. Print star pattern.
+n = int(input("Enter the number of rows: "))
+for i in range(1, n + 1):
+    print('*' * i)
+    
 # 59. Print number pattern.
 # 60. Print pyramid pattern.
