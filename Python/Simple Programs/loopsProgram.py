@@ -51,7 +51,14 @@ while num2 > 0:
 print(f"The product of digits is {product_of_digits}.")
 
 # 52. Check Armstrong number.
-
+num3 = int(input("Enter a number: "))
+order = len(str(num3))
+sum_of_powers = sum(int(digit) ** order for digit in str(num3))
+if sum_of_powers == num3:   
+    print(f"{num3} is an Armstrong number.")
+else:
+    print(f"{num3} is not an Armstrong number.")        
+    
 # 53. Print Fibonacci series.
 # 54. Check prime number.
 # 55. Print prime numbers between 1 and 100.
