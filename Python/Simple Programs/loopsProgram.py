@@ -58,8 +58,14 @@ if sum_of_powers == num3:
     print(f"{num3} is an Armstrong number.")
 else:
     print(f"{num3} is not an Armstrong number.")        
-    
+
 # 53. Print Fibonacci series.
+n = int(input("Enter the number of terms: "))
+a, b = 0, 1
+for _ in range(n):
+    print(a, end=' ')
+    a, b = b, a + b
+
 # 54. Check prime number.
 # 55. Print prime numbers between 1 and 100.
 # 56. Find GCD of two numbers.
