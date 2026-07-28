@@ -76,6 +76,14 @@ if num4 > 1:
     else:
         print(f"{num4} is a prime number.")
 # 55. Print prime numbers between 1 and 100.
+for num5 in range(2, 101):
+    is_prime = True
+    for i in range(2, int(num5 ** 0.5) + 1):
+        if num5 % i == 0:
+            is_prime = False
+            break
+    if is_prime:
+        print(num5)
 # 56. Find GCD of two numbers.
 # 57. Find LCM of two numbers.
 # 58. Print star pattern.
