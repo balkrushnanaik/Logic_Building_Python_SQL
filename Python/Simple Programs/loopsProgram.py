@@ -85,6 +85,12 @@ for num5 in range(2, 101):
     if is_prime:
         print(num5)
 # 56. Find GCD of two numbers.
+num6 = int(input("Enter the first number: "))
+num7 = int(input("Enter the second number: "))
+while num7:
+    num6, num7 = num7, num6 % num7
+print(f"The GCD is {num6}.")    
+
 # 57. Find LCM of two numbers.
 # 58. Print star pattern.
 n = int(input("Enter the number of rows: "))
