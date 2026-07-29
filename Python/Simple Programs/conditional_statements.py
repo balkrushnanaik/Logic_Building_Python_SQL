@@ -132,9 +132,18 @@ elif units <= 200:
     bill = 100 * 5 + (units - 100) * 10
 else:
     bill = 100 * 5 + 100 * 10 + (units - 200) * 15      
-    
+
 
 # 37. Calculate income tax based on slabs.
+income = float(input("Enter your income: "))
+if income <= 250000:
+    tax = 0
+elif income <= 500000:  
+    tax = (income - 250000) * 0.1
+else:
+    tax = 25000 + (income - 500000) * 0.2
+    
+print(f"Your income tax is: {tax}.")
 # 38. Find roots of a quadratic equation.
 
 # 39. Check triangle validity.
