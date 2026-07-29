@@ -142,9 +142,20 @@ elif income <= 500000:
     tax = (income - 250000) * 0.1
 else:
     tax = 25000 + (income - 500000) * 0.2
-    
+
 print(f"Your income tax is: {tax}.")
 # 38. Find roots of a quadratic equation.
+import cmath
+
+a = float(input("Enter coefficient a: "))
+b = float(input("Enter coefficient b: "))
+c = float(input("Enter coefficient c: "))
+
+discriminant = b**2 - 4*a*c
+root1 = (-b + cmath.sqrt(discriminant)) / (2*a)
+root2 = (-b - cmath.sqrt(discriminant)) / (2*a)
+
+print(f"The roots are {root1} and {root2}.")
 
 # 39. Check triangle validity.
 # 40. Find type of triangle.
