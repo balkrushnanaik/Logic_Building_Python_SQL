@@ -92,6 +92,12 @@ while num7:
 print(f"The GCD is {num6}.")    
 
 # 57. Find LCM of two numbers.
+num8 = int(input("Enter the first number: "))
+num9 = int(input("Enter the second number: "))
+# Find LCM
+lcm = (num8 * num9) // num6
+print(f"The LCM is {lcm}.")
+
 # 58. Print star pattern.
 n = int(input("Enter the number of rows: "))
 for i in range(1, n + 1):
