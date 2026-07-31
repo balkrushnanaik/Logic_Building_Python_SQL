@@ -29,7 +29,13 @@ num5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 num5.remove(5)  # Remove the element 5 from the list
 print(f"List after removing the element 5: {num5}")
 # 7. Find the largest number in a list.
+num6 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+largest = max(num6)
+print(f"The largest number in the list is: {largest}")
 # 8. Find the smallest number in a list.
+num7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+smallest = min(num7)    
+print(f"The smallest number in the list is: {smallest}")
 # 9. Calculate the sum of all elements in a list.
 # 10. Count how many times a given number appears.
 # 11. Reverse a list without using slicing.
