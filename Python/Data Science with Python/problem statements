@@ -1,0 +1,90 @@
+Here are **50 beginner to intermediate Python practice problems** on **Lists, Tuples, Sets, and Dictionaries**. These are designed to strengthen your logic without using advanced concepts.
+
+---
+
+# 🟢 List (15 Problems)
+
+1. Create a list of 10 numbers and print it.
+2. Find the length of a list.
+3. Print the first and last element of a list.
+4. Add an element at the end of a list.
+5. Insert an element at a specific position.
+6. Remove a given element from a list.
+7. Find the largest number in a list.
+8. Find the smallest number in a list.
+9. Calculate the sum of all elements in a list.
+10. Count how many times a given number appears.
+11. Reverse a list without using slicing.
+12. Sort a list in ascending and descending order.
+13. Remove duplicate elements from a list.
+14. Merge two lists into one.
+15. Find the second largest number in a list.
+
+---
+
+# 🟡 Tuple (10 Problems)
+
+16. Create a tuple with five elements.
+17. Print the first and last element of a tuple.
+18. Count the occurrence of an element in a tuple.
+19. Find the index of a given element.
+20. Convert a tuple into a list.
+21. Convert a list into a tuple.
+22. Check whether an element exists in a tuple.
+23. Find the maximum and minimum values in a tuple.
+24. Concatenate two tuples.
+25. Create a tuple with mixed data types and print each element.
+
+---
+
+# 🔵 Set (10 Problems)
+
+26. Create a set of integers.
+27. Add a new element to a set.
+28. Remove an element from a set.
+29. Find the union of two sets.
+30. Find the intersection of two sets.
+31. Find the difference between two sets.
+32. Check whether an element exists in a set.
+33. Remove duplicate values from a list using a set.
+34. Find elements present in one set but not in another.
+35. Check whether two sets are disjoint.
+
+---
+
+# 🟣 Dictionary (15 Problems)
+
+36. Create a dictionary of student details.
+37. Print all keys of a dictionary.
+38. Print all values of a dictionary.
+39. Print all key-value pairs.
+40. Add a new key-value pair.
+41. Update the value of an existing key.
+42. Delete a key from the dictionary.
+43. Check whether a key exists.
+44. Count the number of key-value pairs.
+45. Find the student with the highest marks.
+46. Calculate the sum of all values in a dictionary.
+47. Merge two dictionaries.
+48. Create a dictionary from two lists (keys and values).
+49. Count the frequency of each character in a string using a dictionary.
+50. Count the frequency of each word in a sentence using a dictionary.
+
+---
+
+# ⭐ Bonus Mixed Problems (Optional)
+
+If you finish the first 50, try these:
+
+1. Remove duplicates from a list and store the result in a tuple.
+2. Convert a list into a dictionary where the index is the key.
+3. Find common elements between two lists using sets.
+4. Store student names and marks in a dictionary and print students scoring above 75.
+5. Create a list of dictionaries representing employees and print employees with salary greater than ₹50,000.
+6. Count the frequency of elements in a list using a dictionary.
+7. Convert a dictionary into a list of tuples.
+8. Find unique vowels in a sentence using a set.
+9. Find the common keys between two dictionaries.
+10. Create a phonebook dictionary and search for a contact by name.
+
+These problems cover the core operations you'll frequently use in **Python programming**, **Data Analytics**, and **coding interviews**, while staying within a beginner-to-intermediate difficulty level.
