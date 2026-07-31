@@ -9,7 +9,17 @@ num1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 length = len(num1)
 print(f"\nLength of the list is: {length}")
 # 3. Print the first and last element of a list.
+num2 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+first_element = num2[0]
+last_element = num2[-1]
+print(f"First element: {first_element}")
+print(f"Last element: {last_element}")
 # 4. Add an element at the end of a list.
+num3 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# num3.append(11)
+num3.extend([11,12,13,14])  # Using extend we can add multiple element at the end of list
+print(f"List after adding an element at the end: {num3}")
+
 # 5. Insert an element at a specific position.
 # 6. Remove a given element from a list.
 # 7. Find the largest number in a list.
