@@ -5,6 +5,9 @@ num = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 for i in num:
     print(f"{i}", end=" ")
 # 2. Find the length of a list.
+num1 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+length = len(num1)
+print(f"\nLength of the list is: {length}")
 # 3. Print the first and last element of a list.
 # 4. Add an element at the end of a list.
 # 5. Insert an element at a specific position.
