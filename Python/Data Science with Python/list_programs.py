@@ -21,7 +21,13 @@ num3.extend([11,12,13,14])  # Using extend we can add multiple element at the en
 print(f"List after adding an element at the end: {num3}")
 
 # 5. Insert an element at a specific position.
+num4 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+num4.insert(5, 99)  # Insert 99 at index 5
+print(f"List after inserting an element at index 5: {num4}")
 # 6. Remove a given element from a list.
+num5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+num5.remove(5)  # Remove the element 5 from the list
+print(f"List after removing the element 5: {num5}")
 # 7. Find the largest number in a list.
 # 8. Find the smallest number in a list.
 # 9. Calculate the sum of all elements in a list.
