@@ -50,6 +50,13 @@ for i in range(len(num10)-1, -1, -1):
     reversed_list.append(num10[i])
 print(f"Reversed list: {reversed_list}")
 # 12. Sort a list in ascending and descending order.
+list1 = [5, 2, 9, 1, 5, 6]
+# Ascending order
+list1.sort()
+print(f"List in ascending order: {list1}")
+# Descending order
+list1.sort(reverse=True)
+print(f"List in descending order: {list1}")
 # 13. Remove duplicate elements from a list.
 # 14. Merge two lists into one.
 # 15. Find the second largest number in a list.

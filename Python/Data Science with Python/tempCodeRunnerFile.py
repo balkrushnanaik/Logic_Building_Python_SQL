@@ -1,5 +1,7 @@
-num10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-reversed_list = []
-for i in range(len(num10)-1, -1, -1):
-    reversed_list.append(num10[i])
-print(f"Reversed list: {reversed_list}")
+list1 = [5, 2, 9, 1, 5, 6]
+# Ascending order
+list1.sort()
+print(f"List in ascending order: {list1}")
+# Descending order
+list1.sort(reverse=True)
+print(f"List in descending order: {list1}")
