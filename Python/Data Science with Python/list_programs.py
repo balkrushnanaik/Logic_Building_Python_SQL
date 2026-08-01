@@ -37,8 +37,18 @@ num7 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 smallest = min(num7)    
 print(f"The smallest number in the list is: {smallest}")
 # 9. Calculate the sum of all elements in a list.
+num8 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+total_sum = sum(num8)   
+print(f"The sum of all elements in the list is: {total_sum}")
 # 10. Count how many times a given number appears.
+num9 = [1,2,2,3,4,5,2,3]
+print(f"Given number repeat {num9.count(2)} times")
 # 11. Reverse a list without using slicing.
+num10 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+reversed_list = []
+for i in range(len(num10)-1, -1, -1):
+    reversed_list.append(num10[i])
+print(f"Reversed list: {reversed_list}")
 # 12. Sort a list in ascending and descending order.
 # 13. Remove duplicate elements from a list.
 # 14. Merge two lists into one.
