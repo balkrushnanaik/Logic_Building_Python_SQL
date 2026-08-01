@@ -1,7 +1,7 @@
-list1 = [5, 2, 9, 1, 5, 6]
-# Ascending order
-list1.sort()
-print(f"List in ascending order: {list1}")
-# Descending order
-list1.sort(reverse=True)
-print(f"List in descending order: {list1}")
+list5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list5.sort()
+second_largest = list5[-2]
+list5.sort(reverse=True)
+second_lowest = list5[-2]
+print(f"The second lowest number in the list is: {second_lowest}")
+print(f"The second largest number in the list is: {second_largest}")

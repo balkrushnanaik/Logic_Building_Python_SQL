@@ -67,3 +67,10 @@ list4 = [4, 5, 6]
 merged_list = list3 + list4
 print(f"Merged list: {merged_list}")
 # 15. Find the second largest number in a list.
+list5 = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list5.sort()
+second_largest = list5[-2]
+list5.sort(reverse=True)
+second_lowest = list5[-2]
+print(f"The second lowest number in the list is: {second_lowest}")
+print(f"The second largest number in the list is: {second_largest}")
