@@ -58,5 +58,12 @@ print(f"List in ascending order: {list1}")
 list1.sort(reverse=True)
 print(f"List in descending order: {list1}")
 # 13. Remove duplicate elements from a list.
+list2 = [1, 2, 3, 4, 5, 1, 2, 3]
+unique_list = list(set(list2))
+print(f"List with unique elements: {unique_list}")
 # 14. Merge two lists into one.
+list3 = [1, 2, 3]
+list4 = [4, 5, 6]
+merged_list = list3 + list4
+print(f"Merged list: {merged_list}")
 # 15. Find the second largest number in a list.
