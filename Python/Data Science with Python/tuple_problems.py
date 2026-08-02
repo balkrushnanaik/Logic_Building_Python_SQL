@@ -15,6 +15,8 @@ element = 3
 index = tuple2.index(element)
 print(f"Index of element {element}: {index}")
 # 20. Convert a tuple into a list.
+list_from_tuple = list(tuple1)
+print(f"List converted from tuple: {list_from_tuple}")
 # 21. Convert a list into a tuple.
 # 22. Check whether an element exists in a tuple.
 # 23. Find the maximum and minimum values in a tuple.
