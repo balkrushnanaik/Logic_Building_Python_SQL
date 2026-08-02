@@ -22,6 +22,11 @@ list1 = [6, 7, 8, 9, 10]
 tuple_from_list = tuple(list1)
 print(f"Tuple converted from list: {tuple_from_list}")
 # 22. Check whether an element exists in a tuple.
+element_to_check = 4
+if element_to_check in tuple1:
+    print(f"Element {element_to_check} exists in the tuple.")
+else:
+    print(f"Element {element_to_check} does not exist in the tuple.")
 # 23. Find the maximum and minimum values in a tuple.
 # 24. Concatenate two tuples.
 # 25. Create a tuple with mixed data types and print each element.
