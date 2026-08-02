@@ -18,6 +18,9 @@ print(f"Index of element {element}: {index}")
 list_from_tuple = list(tuple1)
 print(f"List converted from tuple: {list_from_tuple}")
 # 21. Convert a list into a tuple.
+list1 = [6, 7, 8, 9, 10]
+tuple_from_list = tuple(list1)
+print(f"Tuple converted from list: {tuple_from_list}")
 # 22. Check whether an element exists in a tuple.
 # 23. Find the maximum and minimum values in a tuple.
 # 24. Concatenate two tuples.
