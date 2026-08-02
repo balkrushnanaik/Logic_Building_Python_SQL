@@ -28,5 +28,9 @@ if element_to_check in tuple1:
 else:
     print(f"Element {element_to_check} does not exist in the tuple.")
 # 23. Find the maximum and minimum values in a tuple.
+max_value = max(tuple1)
+min_value = min(tuple1)
+print(f"Maximum value in the tuple: {max_value}")
+print(f"Minimum value in the tuple: {min_value}")
 # 24. Concatenate two tuples.
 # 25. Create a tuple with mixed data types and print each element.
