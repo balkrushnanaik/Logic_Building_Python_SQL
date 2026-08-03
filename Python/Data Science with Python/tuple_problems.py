@@ -33,4 +33,8 @@ min_value = min(tuple1)
 print(f"Maximum value in the tuple: {max_value}")
 print(f"Minimum value in the tuple: {min_value}")
 # 24. Concatenate two tuples.
+tup1 = (1, 2, 3)
+tup2 = (4, 5, 6)
+tuple_concatenated = tup1 + tup2
+print(f"Concatenated tuple: {tuple_concatenated}")
 # 25. Create a tuple with mixed data types and print each element.
