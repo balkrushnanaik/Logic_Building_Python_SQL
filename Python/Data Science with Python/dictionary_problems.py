@@ -19,9 +19,18 @@ for key, value in student_details.items():
 # 40. Add a new key-value pair.
 student_details["email"] = "john.doe@example.com"
 # 41. Update the value of an existing key.
+student_details["GPA"] = 3.9
 # 42. Delete a key from the dictionary.
+del student_details["age"]
 # 43. Check whether a key exists.
+key_to_check = "major"
+if key_to_check in student_details:
+    print(f"Key '{key_to_check}' exists in the dictionary.")
+else:
+    print(f"Key '{key_to_check}' does not exist in the dictionary.")
 # 44. Count the number of key-value pairs.
+num_pairs = len(student_details)
+print(f"Number of key-value pairs: {num_pairs}")
 # 45. Find the student with the highest marks.
 # 46. Calculate the sum of all values in a dictionary.
 # 47. Merge two dictionaries.
