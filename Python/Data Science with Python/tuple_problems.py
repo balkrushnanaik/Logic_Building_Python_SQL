@@ -38,3 +38,7 @@ tup2 = (4, 5, 6)
 tuple_concatenated = tup1 + tup2
 print(f"Concatenated tuple: {tuple_concatenated}")
 # 25. Create a tuple with mixed data types and print each element.
+tup3 = (1, "Hello", 3.14, True)
+print("Tuple with mixed data types:")
+for element in tup3:
+    print(element)
