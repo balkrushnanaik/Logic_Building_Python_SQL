@@ -14,7 +14,10 @@ for key in student_details.keys():
 for value in student_details.values():
     print(f"Value: {value}")
 # 39. Print all key-value pairs.
+for key, value in student_details.items():
+    print(f"Key: {key}, Value: {value}")
 # 40. Add a new key-value pair.
+student_details["email"] = "john.doe@example.com"
 # 41. Update the value of an existing key.
 # 42. Delete a key from the dictionary.
 # 43. Check whether a key exists.
