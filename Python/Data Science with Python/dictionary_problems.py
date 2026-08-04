@@ -32,6 +32,8 @@ else:
 num_pairs = len(student_details)
 print(f"Number of key-value pairs: {num_pairs}")
 # 45. Find the student with the highest marks.
+highest_student = max(student_details, key=lambda x: student_details[x]["GPA"])
+print(f"Student with the highest marks: {highest_student}")
 # 46. Calculate the sum of all values in a dictionary.
 # 47. Merge two dictionaries.
 # 48. Create a dictionary from two lists (keys and values).
