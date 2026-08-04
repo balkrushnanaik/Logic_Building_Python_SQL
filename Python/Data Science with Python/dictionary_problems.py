@@ -35,6 +35,8 @@ print(f"Number of key-value pairs: {num_pairs}")
 highest_student = max(student_details, key=lambda x: student_details[x]["GPA"])
 print(f"Student with the highest marks: {highest_student}")
 # 46. Calculate the sum of all values in a dictionary.
+total_gpa = sum(student_details[key]["GPA"] for key in student_details if "GPA" in student_details[key])
+print(f"Total GPA: {total_gpa}")
 # 47. Merge two dictionaries.
 # 48. Create a dictionary from two lists (keys and values).
 # 49. Count the frequency of each character in a string using a dictionary.
