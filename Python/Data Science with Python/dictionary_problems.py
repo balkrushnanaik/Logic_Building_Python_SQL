@@ -56,3 +56,9 @@ for char in text:
     char_freq[char] = char_freq.get(char, 0) + 1
 print(f"Character frequency: {char_freq}")
 # 50. Count the frequency of each word in a sentence using a dictionary.
+sentence = "hello world hello"
+word_freq = {}
+for word in sentence.split():
+    word_freq[word] = word_freq.get(word, 0) + 1
+print(f"Word frequency: {word_freq}")
+
