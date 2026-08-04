@@ -50,4 +50,9 @@ values = ["Bob", 21, "Physics"]
 student_info = dict(zip(keys, values))
 print(f"Dictionary from two lists: {student_info}")
 # 49. Count the frequency of each character in a string using a dictionary.
+text = "hello world"
+char_freq = {}
+for char in text:
+    char_freq[char] = char_freq.get(char, 0) + 1
+print(f"Character frequency: {char_freq}")
 # 50. Count the frequency of each word in a sentence using a dictionary.
