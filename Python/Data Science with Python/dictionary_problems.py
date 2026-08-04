@@ -38,6 +38,12 @@ print(f"Student with the highest marks: {highest_student}")
 total_gpa = sum(student_details[key]["GPA"] for key in student_details if "GPA" in student_details[key])
 print(f"Total GPA: {total_gpa}")
 # 47. Merge two dictionaries.
+stud1 = {"name": "Alice", "age": 22}
+stud2 = {"major": "Mathematics", "GPA": 3.7}
+
+students = {**stud1, **stud2}
+print(f"Merged dictionary: {students}")
+         
 # 48. Create a dictionary from two lists (keys and values).
 # 49. Count the frequency of each character in a string using a dictionary.
 # 50. Count the frequency of each word in a sentence using a dictionary.
