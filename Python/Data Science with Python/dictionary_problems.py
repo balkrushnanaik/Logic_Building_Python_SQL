@@ -45,5 +45,9 @@ students = {**stud1, **stud2}
 print(f"Merged dictionary: {students}")
          
 # 48. Create a dictionary from two lists (keys and values).
+keys = ["name", "age", "major"]
+values = ["Bob", 21, "Physics"]
+student_info = dict(zip(keys, values))
+print(f"Dictionary from two lists: {student_info}")
 # 49. Count the frequency of each character in a string using a dictionary.
 # 50. Count the frequency of each word in a sentence using a dictionary.
