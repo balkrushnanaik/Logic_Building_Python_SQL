@@ -6,6 +6,8 @@ set1 = {1, 2, 3, 4, 5}
 set1.add(6)
 print(f"Set after adding an element: {set1}")
 # 28. Remove an element from a set.
+set1.remove(3)
+print(f"Set after removing an element: {set1}")
 # 29. Find the union of two sets.
 # 30. Find the intersection of two sets.
 # 31. Find the difference between two sets.
