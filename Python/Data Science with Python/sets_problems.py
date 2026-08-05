@@ -26,4 +26,8 @@ list_with_duplicates = [1, 2, 2, 3, 4, 4, 5]
 unique_list = list(set(list_with_duplicates))
 print(f"List with unique values: {unique_list}")
 # 34. Find elements present in one set but not in another.
+elements_only_in_set1 = set1.difference(set2)
+print(f"Elements present in set1 but not in set2: {elements_only_in_set1}")
 # 35. Check whether two sets are disjoint.
+are_disjoint = set1.isdisjoint(set2)
+print(f"Sets set1 and set2 are disjoint: {are_disjoint}")
