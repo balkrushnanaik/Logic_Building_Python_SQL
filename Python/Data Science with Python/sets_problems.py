@@ -13,7 +13,11 @@ set2 = {4, 5, 6, 7, 8}
 union_set = set1.union(set2)
 print(f"Union of set1 and set2: {union_set}")
 # 30. Find the intersection of two sets.
+intersection_set = set1.intersection(set2)
+print(f"Intersection of set1 and set2: {intersection_set}")
 # 31. Find the difference between two sets.
+difference_set = set1.difference(set2)
+print(f"Difference of set1 and set2: {difference_set}")
 # 32. Check whether an element exists in a set.
 # 33. Remove duplicate values from a list using a set.
 # 34. Find elements present in one set but not in another.
