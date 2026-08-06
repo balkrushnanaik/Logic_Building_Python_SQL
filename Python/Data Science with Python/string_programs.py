@@ -41,13 +41,22 @@ for char in text:
     if char.isalpha() and char not in vowels:
         count_consonants += 1
 # Check whether a string is a palindrome.
+text = input("Enter a string to check for palindrome: ")
+if text == text[::-1]:
+    print("The string is a palindrome.")
+else:
+    print("The string is not a palindrome.")
 # Count the number of words in a sentence.
+sentence = "This is a sample sentence."
+word_count = len(sentence.split())
+print(f"Number of words in the sentence: {word_count}")
 # Replace all spaces with underscores (_).
 # Remove all vowels from a string.
 # Find the index of the first occurrence of a character.
 # Check whether a string starts with a given prefix.
 # Check whether a string ends with a given suffix.
 # Count uppercase letters, lowercase letters, digits, and special characters.
+
 # 🟡 Intermediate String Questions (21–40)
 # Find the frequency of every character in a string.
 # Find the first non-repeating character.
