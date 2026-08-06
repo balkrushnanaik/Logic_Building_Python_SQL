@@ -8,7 +8,10 @@ print(user_input)
 text = "Hello, World!"
 print(len(text))
 # Convert a string to uppercase.
+name = "python"
+print(name.upper())
 # Convert a string to lowercase.
+print(name.lower())
 # Count the occurrence of a given character.
 # Check whether a character exists in a string.
 # Reverse a string.
