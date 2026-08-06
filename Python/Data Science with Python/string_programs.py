@@ -13,9 +13,19 @@ print(name.upper())
 # Convert a string to lowercase.
 print(name.lower())
 # Count the occurrence of a given character.
+name = "banana"
+print(name.count("n"))
 # Check whether a character exists in a string.
+for n in name:
+    if n == "a":
+        print("Character 'a' exists in the string.")
+        break
 # Reverse a string.
+text = "Hello, World!"
+print(text[::-1])
 # Print the first and last character.
+print(text[0])
+print(text[-1])
 # Remove leading and trailing spaces.
 # Count the number of vowels.
 # Count the number of consonants.
