@@ -27,8 +27,19 @@ print(text[::-1])
 print(text[0])
 print(text[-1])
 # Remove leading and trailing spaces.
+text = "  Hello, World!  "
+print(text.strip())
 # Count the number of vowels.
+vowels = "aeiouAEIOU"
+count = 0
+for char in text:
+    if char in vowels:
+        count += 1
 # Count the number of consonants.
+count_consonants = 0
+for char in text:
+    if char.isalpha() and char not in vowels:
+        count_consonants += 1
 # Check whether a string is a palindrome.
 # Count the number of words in a sentence.
 # Replace all spaces with underscores (_).
