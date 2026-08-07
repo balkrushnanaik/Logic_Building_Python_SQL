@@ -51,6 +51,8 @@ sentence = "This is a sample sentence."
 word_count = len(sentence.split())
 print(f"Number of words in the sentence: {word_count}")
 # Replace all spaces with underscores (_).
+sentence = sentence.replace(" ", "_")
+print(f"Sentence with spaces replaced by underscores: {sentence}")
 # Remove all vowels from a string.
 # Find the index of the first occurrence of a character.
 # Check whether a string starts with a given prefix.
