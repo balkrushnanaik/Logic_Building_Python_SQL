@@ -56,6 +56,16 @@ print(f"Number of words in the sentence: {word_count}")
 # Check whether a string starts with a given prefix.
 # Check whether a string ends with a given suffix.
 # Count uppercase letters, lowercase letters, digits, and special characters.
+email = "balkrushnanaik9322@gmail.com"
+uppercase_count = sum(1 for c in email if c.isupper())
+lowercase_count = sum(1 for c in email if c.islower())
+digit_count = sum(1 for c in email if c.isdigit())
+special_count = sum(1 for c in email if not c.isalnum())
+
+print(f"Uppercase letters: {uppercase_count}")
+print(f"Lowercase letters: {lowercase_count}")
+print(f"Digits: {digit_count}")
+print(f"Special characters: {special_count}")
 
 # 🟡 Intermediate String Questions (21–40)
 # Find the frequency of every character in a string.
