@@ -54,6 +54,9 @@ print(f"Number of words in the sentence: {word_count}")
 sentence = sentence.replace(" ", "_")
 print(f"Sentence with spaces replaced by underscores: {sentence}")
 # Remove all vowels from a string.
+vowels = "aeiouAEIOU"
+sentence = sentence.replace(vowels, "")
+print(f"Sentence with vowels removed: {sentence}")
 # Find the index of the first occurrence of a character.
 # Check whether a string starts with a given prefix.
 # Check whether a string ends with a given suffix.
