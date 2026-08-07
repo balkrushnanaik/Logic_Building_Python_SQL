@@ -62,6 +62,12 @@ text = "Hello, World!"
 char_index = text.index("o")
 print(f"Index of the first occurrence of 'o': {char_index}")
 # Check whether a string starts with a given prefix.
+text = "Hello, World!"
+prefix = "Hello"
+if text.startswith(prefix):
+    print(f"The string starts with '{prefix}'.")
+else:
+    print(f"The string does not start with '{prefix}'.")
 # Check whether a string ends with a given suffix.
 # Count uppercase letters, lowercase letters, digits, and special characters.
 email = "balkrushnanaik9322@gmail.com"
