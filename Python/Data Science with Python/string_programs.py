@@ -69,6 +69,13 @@ if text.startswith(prefix):
 else:
     print(f"The string does not start with '{prefix}'.")
 # Check whether a string ends with a given suffix.
+text1 = "balkrushna naik"
+suffix = "balkrushna"
+if text1.endswith(suffix):
+    print(f"The string ends with '{suffix}'.")
+else:
+    print(f"The string does not end with '{suffix}'.")
+
 # Count uppercase letters, lowercase letters, digits, and special characters.
 email = "balkrushnanaik9322@gmail.com"
 uppercase_count = sum(1 for c in email if c.isupper())
