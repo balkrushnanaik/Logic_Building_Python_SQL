@@ -98,6 +98,13 @@ for char, freq in char_freq.items():
     print(f"'{char}': {freq}")
 
 # Find the first non-repeating character.
+first_non_repeating = None
+for char in email:
+    if char_freq[char] == 1:
+        first_non_repeating = char
+        break
+print(f"First non-repeating character: {first_non_repeating}")
+
 # Find the first repeating character.
 # Remove duplicate characters while maintaining order.
 # Check whether two strings are anagrams.
