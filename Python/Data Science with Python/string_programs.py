@@ -106,6 +106,12 @@ for char in email:
 print(f"First non-repeating character: {first_non_repeating}")
 
 # Find the first repeating character.
+first_repeating = None
+for char in email:
+    if char_freq[char] > 1:
+        first_repeating = char
+        break
+print(f"First repeating character: {first_repeating}")
 # Remove duplicate characters while maintaining order.
 # Check whether two strings are anagrams.
 # Find the longest word in a sentence.
