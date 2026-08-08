@@ -90,6 +90,13 @@ print(f"Special characters: {special_count}")
 
 # 🟡 Intermediate String Questions (21–40)
 # Find the frequency of every character in a string.
+char_freq = {}
+for char in email:
+    char_freq[char] = char_freq.get(char, 0) + 1
+print("Character frequencies:")
+for char, freq in char_freq.items():
+    print(f"'{char}': {freq}")
+
 # Find the first non-repeating character.
 # Find the first repeating character.
 # Remove duplicate characters while maintaining order.
