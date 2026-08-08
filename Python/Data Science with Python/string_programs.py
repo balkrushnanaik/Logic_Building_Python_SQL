@@ -113,6 +113,11 @@ for char in email:
         break
 print(f"First repeating character: {first_repeating}")
 # Remove duplicate characters while maintaining order.
+unique_chars = []
+for char in email:
+    if char not in unique_chars:
+        unique_chars.append(char)
+print(f"String with duplicate characters removed: {''.join(unique_chars)}")
 # Check whether two strings are anagrams.
 # Find the longest word in a sentence.
 # Find the shortest word in a sentence.
