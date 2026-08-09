@@ -126,6 +126,10 @@ if sorted(str1) == sorted(str2):
 else:
     print("The strings are not anagrams.")
 # Find the longest word in a sentence.
+sentence = "This is a sample sentence."
+words = sentence.split()
+longest_word = max(words, key=len)
+print(f"Longest word: {longest_word}")
 # Find the shortest word in a sentence.
 # Reverse every word in a sentence.
 # Example:
