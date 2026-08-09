@@ -137,6 +137,10 @@ print(f"Shortest word: {shortest_word}")
 # Example:
 # Input: "I love Python"
 # Output: "I evol nohtyP"
+sentence = "I love Python"
+reversed_words_sentence = " ".join(word[::-1] for word in sentence.split())
+print(f"Sentence with each word reversed: {reversed_words_sentence}")
+
 # Reverse the order of words.
 # Example:
 # Input: "I love Python"
