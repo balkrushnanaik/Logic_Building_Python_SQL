@@ -131,6 +131,8 @@ words = sentence.split()
 longest_word = max(words, key=len)
 print(f"Longest word: {longest_word}")
 # Find the shortest word in a sentence.
+shortest_word = min(words, key=len)
+print(f"Shortest word: {shortest_word}")
 # Reverse every word in a sentence.
 # Example:
 # Input: "I love Python"
