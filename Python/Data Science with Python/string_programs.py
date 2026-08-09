@@ -119,6 +119,12 @@ for char in email:
         unique_chars.append(char)
 print(f"String with duplicate characters removed: {''.join(unique_chars)}")
 # Check whether two strings are anagrams.
+str1 = input("String 1: ")
+str2 = input("String 2: ")
+if sorted(str1) == sorted(str2):
+    print("The strings are anagrams.")
+else:
+    print("The strings are not anagrams.")
 # Find the longest word in a sentence.
 # Find the shortest word in a sentence.
 # Reverse every word in a sentence.
