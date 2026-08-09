@@ -146,6 +146,13 @@ print(f"Sentence with each word reversed: {reversed_words_sentence}")
 # Input: "I love Python"
 # Output: "Python love I"
 # Count the frequency of each word in a sentence.
+sentence = "This is a sample sentence. This is another sample sentence."
+word_freq = {}
+for word in sentence.split():
+    word_freq[word] = word_freq.get(word, 0) + 1
+print("Word frequencies:")
+for word, freq in word_freq.items():
+    print(f"'{word}': {freq}")
 # Remove all duplicate words from a sentence.
 # Find the most frequent character.
 # Find the second most frequent character.
