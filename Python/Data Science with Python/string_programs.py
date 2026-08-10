@@ -201,3 +201,20 @@ print(f"Length of the longest substring without repeating characters: {max_lengt
 # Find all duplicate characters and their counts.
 # Check whether two strings are exactly one edit away (insert, delete, or replace one character).
 # Find the longest palindromic substring.
+s1 = "babad"
+def longest_palindrome(s):
+    if len(s) == 0:
+        return ""
+    
+    start, end = 0, 0
+    
+    for i in range(len(s)):
+        len1 = expand_around_center(s, i, i)      # Odd length palindrome
+        len2 = expand_around_center(s, i, i + 1)  # Even length palindrome
+        max_len = max(len1, len2)
+        
+        if max_len > (end - start):
+            start = i - (max_len - 1) // 2
+            end = i + max_len // 2
+            
+    return s[start:end + 1]
