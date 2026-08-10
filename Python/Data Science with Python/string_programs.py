@@ -157,6 +157,14 @@ for word, freq in word_freq.items():
 unique_words = list(dict.fromkeys(sentence.split()))
 print(f"Sentence with duplicate words removed: {' '.join(unique_words)}")
 # Find the most frequent character.
+string = "This is a sample string."
+char_freq = {}  
+for char in string:
+    char_freq[char] = char_freq.get(char, 0) + 1    
+print("Character frequencies:")
+for char, freq in char_freq.items():
+    print(f"'{char}': {freq}")
+    
 # Find the second most frequent character.
 # Check whether one string is a rotation of another.
 # Example:
