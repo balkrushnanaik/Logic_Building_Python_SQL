@@ -154,6 +154,8 @@ print("Word frequencies:")
 for word, freq in word_freq.items():
     print(f"'{word}': {freq}")
 # Remove all duplicate words from a sentence.
+unique_words = list(dict.fromkeys(sentence.split()))
+print(f"Sentence with duplicate words removed: {' '.join(unique_words)}")
 # Find the most frequent character.
 # Find the second most frequent character.
 # Check whether one string is a rotation of another.
