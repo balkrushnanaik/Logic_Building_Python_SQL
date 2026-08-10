@@ -175,7 +175,21 @@ else:
 # Check whether one string is a rotation of another.
 # Example:
 # "ABCD" and "CDAB" → True
+
 # Find the longest substring without repeating characters.
+s = "abcabcbb"
+start = 0
+max_length = 0
+char_index_map = {}
+
+for end in range(len(s)):
+    if s[end] in char_index_map:
+        start = max(start, char_index_map[s[end]] + 1)
+    char_index_map[s[end]] = end
+    max_length = max(max_length, end - start + 1)
+
+print(f"Length of the longest substring without repeating characters: {max_length}")
+
 # Compress a string.
 # Example:
 # Input: "aaabbcccc"
