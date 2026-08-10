@@ -164,8 +164,14 @@ for char in string:
 print("Character frequencies:")
 for char, freq in char_freq.items():
     print(f"'{char}': {freq}")
-    
+
 # Find the second most frequent character.
+sorted_chars = sorted(char_freq.items(), key=lambda x: x[1], reverse=True)
+if len(sorted_chars) >= 2:
+    print(f"Second most frequent character: '{sorted_chars[1][0]}' with frequency {sorted_chars[1][1]}")
+else:
+    print("Not enough unique characters.")
+
 # Check whether one string is a rotation of another.
 # Example:
 # "ABCD" and "CDAB" → True
