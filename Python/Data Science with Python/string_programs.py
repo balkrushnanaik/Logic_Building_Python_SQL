@@ -200,8 +200,28 @@ print(f"Length of the longest substring without repeating characters: {max_lengt
 # Output: "aaabbcccc"
 # Find all duplicate characters and their counts.
 # Check whether two strings are exactly one edit away (insert, delete, or replace one character).
+string1 = "pale"
+string2 = "ple"
+if len(string1) == len(string2):
+    # Check for replacement
+    found_difference = False
+    for c1, c2 in zip(string1, string2):
+        if c1 != c2:
+            if found_difference:
+                print("Strings are not one edit away.")
+                break
+            found_difference = True
+    else:
+        print("Strings are one edit away (replacement).")
 # Find the longest palindromic substring.
 s1 = "babad"
+
+def expand_around_center(s, left, right):
+    while left >= 0 and right < len(s) and s[left] == s[right]:
+        left -= 1
+        right += 1
+    return right - left - 1
+
 def longest_palindrome(s):
     if len(s) == 0:
         return ""
