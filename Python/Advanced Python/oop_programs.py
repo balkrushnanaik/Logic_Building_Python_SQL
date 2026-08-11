@@ -1,7 +1,6 @@
 # 🟢 Level 1: Very Basic
 # Create a Student Class
 # Create a Student class with attributes name, age, and course. Create an object and display the details.
-# Create a Car Class
 class Student:
     def __init__(self, name, age, course):
         self.name = name
@@ -12,7 +11,20 @@ class Student:
         print(f"Name: {self.name}, Age: {self.age}, Course: {self.course}")
 student1 = Student("Alice", 20, "Computer Science")
 student1.display_details()
+# Create a Car Class
 # Create a Car class with attributes brand, model, and price. Create two objects and display their information.
+class Car:
+    def __init__(self, brand, model, price):
+        self.brand = brand
+        self.model = model
+        self.price = price
+
+    def display_info(self):
+        print(f"Brand: {self.brand}, Model: {self.model}, Price: ${self.price}")
+car1 = Car("Toyota", "Camry", 25000)
+car2 = Car("Honda", "Civic", 22000)
+car1.display_info()
+car2.display_info()
 # Employee Details
 # Create an Employee class with name, id, and salary. Create an object and print all employee details.
 # Person Introduction
