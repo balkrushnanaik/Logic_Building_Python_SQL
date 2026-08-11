@@ -27,6 +27,16 @@ car1.display_info()
 car2.display_info()
 # Employee Details
 # Create an Employee class with name, id, and salary. Create an object and print all employee details.
+class Employee:
+    def __init__(self, name, emp_id, salary):
+        self.name = name
+        self.emp_id = emp_id
+        self.salary = salary
+
+    def display_details(self):
+        print(f"Name: {self.name}, ID: {self.emp_id}, Salary: ${self.salary}")
+emp1 = Employee("John Doe", "E123", 50000)
+emp1.display_details()
 # Person Introduction
 # Create a Person class with name and age. Create a method introduce() that prints:
 # "My name is ___ and I am ___ years old."
