@@ -199,6 +199,16 @@ print(f"Length of the longest substring without repeating characters: {max_lengt
 # Input: "a3b2c4"
 # Output: "aaabbcccc"
 # Find all duplicate characters and their counts.
+sentence = "This is a sample sentence."
+char_freq = {}
+for char in sentence:
+    char_freq[char] = char_freq.get(char, 0) + 1
+print("Duplicate characters and their counts:")
+for char, freq in char_freq.items():
+    if freq > 1:
+        print(f"'{char}': {freq}")
+    else:
+        print(f"'{char}': {freq} (not a duplicate)")
 # Check whether two strings are exactly one edit away (insert, delete, or replace one character).
 string1 = "pale"
 string2 = "ple"
