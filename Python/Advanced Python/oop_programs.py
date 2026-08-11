@@ -1,0 +1,74 @@
+# 🟢 Level 1: Very Basic
+# Create a Student Class
+# Create a Student class with attributes name, age, and course. Create an object and display the details.
+# Create a Car Class
+class Student:
+    def __init__(self, name, age, course):
+        self.name = name
+        self.age = age
+        self.course = course
+
+    def display_details(self):
+        print(f"Name: {self.name}, Age: {self.age}, Course: {self.course}")
+student1 = Student("Alice", 20, "Computer Science")
+student1.display_details()
+# Create a Car class with attributes brand, model, and price. Create two objects and display their information.
+# Employee Details
+# Create an Employee class with name, id, and salary. Create an object and print all employee details.
+# Person Introduction
+# Create a Person class with name and age. Create a method introduce() that prints:
+# "My name is ___ and I am ___ years old."
+# Rectangle Area
+# Create a Rectangle class with length and width. Create a method area() to calculate and return the area.
+# Circle Area
+# Create a Circle class with a radius attribute. Create a method area() to calculate the area of the circle.
+# Bank Account
+# Create a BankAccount class with account_holder and balance. Create methods deposit() and withdraw().
+# Mobile Phone
+# Create a Mobile class with brand, model, and price. Create a method display_details() to display the phone information.
+# 🟡 Level 2: Constructors & Methods
+# Book Class
+# Create a Book class with title, author, and price. Use a constructor to initialize the values and create three book objects.
+# Student Marks
+# Create a Student class with name and marks for three subjects. Create a method calculate_percentage() that returns the student's percentage.
+# Employee Salary
+# Create an Employee class with name and salary. Create a method calculate_bonus() that gives a 10% bonus on the salary.
+# Product Discount
+# Create a Product class with name and price. Create a method apply_discount(discount) that calculates the final price after discount.
+# Temperature Converter
+# Create a Temperature class with temperature in Celsius. Create methods to convert Celsius to Fahrenheit and Fahrenheit to Celsius.
+# Calculator Class
+# Create a Calculator class with methods:
+# add()
+# subtract()
+# multiply()
+# divide()
+# 🟠 Level 3: Basic OOP Concepts
+# Inheritance – Animal
+# Create a parent class Animal with a method sound(). Create child classes Dog and Cat that override the sound() method.
+# Inheritance – Vehicle
+# Create a parent class Vehicle with attributes brand and speed. Create a child class Bike with an additional attribute gear.
+# Encapsulation – Bank Account
+# Create a BankAccount class with a private variable __balance. Create methods deposit(), withdraw(), and get_balance() to access the balance safely.
+# Polymorphism – Shapes
+# Create classes Circle, Rectangle, and Triangle. Each class should have an area() method. Create objects and call area() using the same method name.
+# Class Variable – College
+# Create a Student class with name and roll_no as instance variables and college as a class variable. Create five students and display their details.
+
+# Simple Library System ⭐
+# Create a Book class and a Library class.
+
+# The Book class should contain:
+
+# title
+# author
+# is_available
+
+# The Library class should have methods:
+
+# add_book()
+# display_books()
+# borrow_book()
+# return_book()
+
+# Implement a simple system where a user can borrow and return books.
