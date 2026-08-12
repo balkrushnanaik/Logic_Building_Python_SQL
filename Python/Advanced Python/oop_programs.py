@@ -91,6 +91,16 @@ person1.deposit(500)
 person1.withdraw(200)
 # Mobile Phone
 # Create a Mobile class with brand, model, and price. Create a method display_details() to display the phone information.
+class Mobile:
+    def __init__(self, brand, model, price):
+        self.brand = brand
+        self.model = model
+        self.price = price
+
+    def display_details(self):
+        print(f"Brand: {self.brand}, Model: {self.model}, Price: ${self.price}")
+m1 = Mobile("Apple", "iPhone 13", 999)
+m1.display_details()
 # 🟡 Level 2: Constructors & Methods
 # Book Class
 # Create a Book class with title, author, and price. Use a constructor to initialize the values and create three book objects.
