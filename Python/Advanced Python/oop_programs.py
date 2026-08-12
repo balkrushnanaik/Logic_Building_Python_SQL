@@ -40,6 +40,14 @@ emp1.display_details()
 # Person Introduction
 # Create a Person class with name and age. Create a method introduce() that prints:
 # "My name is ___ and I am ___ years old."
+class Person:
+    def __init__(self,name,age):
+        self.name = name
+        self.age = age
+    def introduce(self):
+        print(f'My name is{self.name} and I am {self.age} years old.')
+p1 = Person("Soumya", 22)
+p1.introduce()
 # Rectangle Area
 # Create a Rectangle class with length and width. Create a method area() to calculate and return the area.
 # Circle Area
