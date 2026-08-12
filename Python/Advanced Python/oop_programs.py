@@ -62,6 +62,13 @@ print(r1.area())
             
 # Circle Area
 # Create a Circle class with a radius attribute. Create a method area() to calculate the area of the circle.
+class circle:
+    def __init__(self,radius):
+        self.radius = radius
+    def area(self):
+        return 3.14 * self.radius * self.radius
+c1 = circle(5)
+print(c1.area())
 # Bank Account
 # Create a BankAccount class with account_holder and balance. Create methods deposit() and withdraw().
 # Mobile Phone
