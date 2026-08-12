@@ -71,6 +71,24 @@ c1 = circle(5)
 print(c1.area())
 # Bank Account
 # Create a BankAccount class with account_holder and balance. Create methods deposit() and withdraw().
+class BankAccount:
+    def __init__(self, account_holder, balance):
+        self.account_holder = account_holder
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print(f"Deposited ${amount}. New balance: ${self.balance}")
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print(f"Withdrew ${amount}. New balance: ${self.balance}")
+        else:
+            print("Insufficient funds.")
+person1 = BankAccount("Alice", 1000)
+person1.deposit(500)
+person1.withdraw(200)
 # Mobile Phone
 # Create a Mobile class with brand, model, and price. Create a method display_details() to display the phone information.
 # 🟡 Level 2: Constructors & Methods
