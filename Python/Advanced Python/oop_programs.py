@@ -50,6 +50,16 @@ p1 = Person("Soumya", 22)
 p1.introduce()
 # Rectangle Area
 # Create a Rectangle class with length and width. Create a method area() to calculate and return the area.
+class Rectangle:
+    def __init__(self,length,width):
+        self.length = length
+        self.width = width
+    def area(self):
+        return self.length * self.width
+r1 = Rectangle(10,20)
+print(r1.area())
+
+            
 # Circle Area
 # Create a Circle class with a radius attribute. Create a method area() to calculate the area of the circle.
 # Bank Account

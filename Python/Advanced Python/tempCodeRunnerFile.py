@@ -1,8 +1,8 @@
-class Person:
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-    def introduce(self):
-        print(f'My name is{self.name} and I am {self.age} years old.')
-p1 = Person("Soumya", 22)
-p1.introduce()
+class Rectangle:
+    def __init__(self,length,width):
+        self.length = length
+        self.width = width
+    def area(self):
+        return self.length * self.width
+r1 = Rectangle(10,20)
+print(r1.area())
