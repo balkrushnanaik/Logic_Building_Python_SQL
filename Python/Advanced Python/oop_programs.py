@@ -127,6 +127,32 @@ book3.display()
 
 # Student Marks
 # Create a Student class with name and marks for three subjects. Create a method calculate_percentage() that returns the student's percentage.
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = {
+            "Hindi": marks[0],
+            "Marathi": marks[1],
+            "English": marks[2]
+        }
+
+    def calculate_percentage(self):
+        print(f"Name: {self.name}")
+
+        total = (
+            self.marks["Hindi"] +
+            self.marks["Marathi"] +
+            self.marks["English"]
+        )
+
+        percentage = total / 300 * 100
+
+        print(f"Percentage: {percentage:.2f}%")
+
+
+student1 = Student("Balkrushna", [80, 75, 90])
+student1.calculate_percentage()
+   
 # Employee Salary
 # Create an Employee class with name and salary. Create a method calculate_bonus() that gives a 10% bonus on the salary.
 # Product Discount

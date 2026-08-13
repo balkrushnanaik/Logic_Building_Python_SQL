@@ -1,20 +1,16 @@
-class Book:
-    def __init__(self, title, author, price):
-        self.title = title
-        self.author = author
-        self.price = price
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.marks = {
+            "Hindi": marks[0],
+            "Marathi": marks[1],
+            "English": marks[2]
+        }
 
-    def display(self):
-        print(f"Book Name   : {self.title}")
-        print(f"Author Name : {self.author}")
-        print(f"Price       : {self.price}")
-        print()
+    def calculate_percentage(self):
+        print(f"Name: {self.name}")
+        print(f"Percentage:{self.marks[0]+self.marks[1]+self.marks[2] / 3 * 100}")
 
 
-book1 = Book("IKIGAI", "XYZ", 200)
-book2 = Book("Soumya", "Balkrushna", 100000)
-book3 = Book("Python Basics", "ABC", 500)
-
-book1.display()
-book2.display()
-book3.display()
+student1 = Student("Balkrushna", [80, 75, 90])
+student1.calculate_percentage()
