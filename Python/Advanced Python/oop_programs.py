@@ -104,6 +104,27 @@ m1.display_details()
 # 🟡 Level 2: Constructors & Methods
 # Book Class
 # Create a Book class with title, author, and price. Use a constructor to initialize the values and create three book objects.
+class Book:
+    def __init__(self, title, author, price):
+        self.title = title
+        self.author = author
+        self.price = price
+
+    def display(self):
+        print(f"Book Name   : {self.title}")
+        print(f"Author Name : {self.author}")
+        print(f"Price       : {self.price}")
+        print()
+
+
+book1 = Book("IKIGAI", "XYZ", 200)
+book2 = Book("Soumya", "Balkrushna", 100000)
+book3 = Book("Python Basics", "ABC", 500)
+
+book1.display()
+book2.display()
+book3.display()
+
 # Student Marks
 # Create a Student class with name and marks for three subjects. Create a method calculate_percentage() that returns the student's percentage.
 # Employee Salary
