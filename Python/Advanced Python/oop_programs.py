@@ -187,6 +187,21 @@ product1.apply_discount(10)
 
 # Temperature Converter
 # Create a Temperature class with temperature in Celsius. Create methods to convert Celsius to Fahrenheit and Fahrenheit to Celsius.
+class Temperature:
+    def __init__(self, celsius):
+        self.celsius = celsius
+
+    def to_fahrenheit(self):
+        fahrenheit = (self.celsius * 9/5) + 32
+        print(f"{self.celsius}°C is {fahrenheit}°F")
+
+    def to_celsius(self, fahrenheit):
+        celsius = (fahrenheit - 32) * 5/9
+        print(f"{fahrenheit}°F is {celsius}°C")
+temp1 = Temperature(25)
+temp1.to_fahrenheit()
+temp1.to_celsius(77)
+
 # Calculator Class
 # Create a Calculator class with methods:
 # add()
