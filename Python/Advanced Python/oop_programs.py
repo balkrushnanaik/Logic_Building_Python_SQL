@@ -155,6 +155,20 @@ student1.calculate_percentage()
    
 # Employee Salary
 # Create an Employee class with name and salary. Create a method calculate_bonus() that gives a 10% bonus on the salary.
+class Employee:
+    def __init__(self, name, salary):
+        self.name = name
+        self.salary = salary
+
+    def calculate_bonus(self):
+        bonus = self.salary * 0.10
+        print(f"Name: {self.name}")
+        print(f"Salary: ${self.salary}")
+        print(f"Bonus: ${bonus}")
+
+employee1 = Employee("Alice", 50000)
+employee1.calculate_bonus()
+
 # Product Discount
 # Create a Product class with name and price. Create a method apply_discount(discount) that calculates the final price after discount.
 # Temperature Converter
