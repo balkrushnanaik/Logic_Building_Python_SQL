@@ -171,6 +171,20 @@ employee1.calculate_bonus()
 
 # Product Discount
 # Create a Product class with name and price. Create a method apply_discount(discount) that calculates the final price after discount.
+class Product:
+    def __init__(self, name, price):
+        self.name = name
+        self.price = price
+
+    def apply_discount(self, discount):
+        final_price = self.price - (self.price * discount / 100)
+        print(f"Product: {self.name}")
+        print(f"Original Price: ${self.price}")
+        print(f"Final Price after {discount}% discount: ${final_price}")
+
+product1 = Product("Laptop", 1000)
+product1.apply_discount(10)
+
 # Temperature Converter
 # Create a Temperature class with temperature in Celsius. Create methods to convert Celsius to Fahrenheit and Fahrenheit to Celsius.
 # Calculator Class
