@@ -310,6 +310,46 @@ account.withdraw(1000)
 print("Current Balance:", account.get_balance())
 # Polymorphism – Shapes
 # Create classes Circle, Rectangle, and Triangle. Each class should have an area() method. Create objects and call area() using the same method name.
+import math
+
+# Circle class
+class Circle:
+    def __init__(self, radius):
+        self.radius = radius
+
+    def area(self):
+        return math.pi * self.radius ** 2
+
+
+# Rectangle class
+class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    def area(self):
+        return self.length * self.width
+
+
+# Triangle class
+class Triangle:
+    def __init__(self, base, height):
+        self.base = base
+        self.height = height
+
+    def area(self):
+        return 0.5 * self.base * self.height
+
+
+# Create objects
+circle = Circle(5)
+rectangle = Rectangle(10, 5)
+triangle = Triangle(8, 6)
+
+# Same method name used for different objects
+print("Circle Area:", circle.area())
+print("Rectangle Area:", rectangle.area())
+print("Triangle Area:", triangle.area())
 # Class Variable – College
 # Create a Student class with name and roll_no as instance variables and college as a class variable. Create five students and display their details.
 
