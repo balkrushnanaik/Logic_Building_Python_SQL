@@ -260,6 +260,26 @@ cat.sound()
 
 # Inheritance – Vehicle
 # Create a parent class Vehicle with attributes brand and speed. Create a child class Bike with an additional attribute gear.
+# Parent class
+class Vehicle:
+    def __init__(self, brand, speed):
+        self.brand = brand
+        self.speed = speed
+
+
+# Child class
+class Bike(Vehicle):
+    def __init__(self, brand, speed, gear):
+        super().__init__(brand, speed)
+        self.gear = gear
+
+
+# Create Bike object
+bike = Bike("Honda", 120, 5)
+
+print("Brand:", bike.brand)
+print("Speed:", bike.speed, "km/h")
+print("Gear:", bike.gear)
 # Encapsulation – Bank Account
 # Create a BankAccount class with a private variable __balance. Create methods deposit(), withdraw(), and get_balance() to access the balance safely.
 # Polymorphism – Shapes
