@@ -1,16 +1,20 @@
-class Student:
-    def __init__(self, name, marks):
-        self.name = name
-        self.marks = {
-            "Hindi": marks[0],
-            "Marathi": marks[1],
-            "English": marks[2]
-        }
+class Calculator:
+    def add(self, a, b):
+        return a + b
 
-    def calculate_percentage(self):
-        print(f"Name: {self.name}")
-        print(f"Percentage:{self.marks[0]+self.marks[1]+self.marks[2] / 3 * 100}")
+    def subtract(self, a, b):
+        return a - b
 
+    def multiply(self, a, b):
+        return a * b
 
-student1 = Student("Balkrushna", [80, 75, 90])
-student1.calculate_percentage()
+    def divide(self, a, b):
+        if b != 0:
+            return a / b
+        else:
+            return "Cannot divide by zero"
+c1 = Calculator()
+print(c1.add(10, 5))
+print(c1.subtract(10, 5))
+print(c1.multiply(10, 5))
+print(c1.divide(10, 5))
