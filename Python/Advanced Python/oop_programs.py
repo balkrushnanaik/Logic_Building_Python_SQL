@@ -233,6 +233,31 @@ print(c1.divide(10, 5))
 # 🟠 Level 3: Basic OOP Concepts
 # Inheritance – Animal
 # Create a parent class Animal with a method sound(). Create child classes Dog and Cat that override the sound() method.
+# Parent class
+class Animal:
+    def sound(self):
+        print("Animal makes a sound")
+
+
+# Child class
+class Dog(Animal):
+    def sound(self):
+        print("Dog says: Woof Woof")
+
+
+# Child class
+class Cat(Animal):
+    def sound(self):
+        print("Cat says: Meow")
+
+
+# Creating objects
+dog = Dog()
+cat = Cat()
+
+dog.sound()
+cat.sound()
+
 # Inheritance – Vehicle
 # Create a parent class Vehicle with attributes brand and speed. Create a child class Bike with an additional attribute gear.
 # Encapsulation – Bank Account
