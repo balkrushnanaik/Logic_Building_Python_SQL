@@ -282,6 +282,32 @@ print("Speed:", bike.speed, "km/h")
 print("Gear:", bike.gear)
 # Encapsulation – Bank Account
 # Create a BankAccount class with a private variable __balance. Create methods deposit(), withdraw(), and get_balance() to access the balance safely.
+class BankAccount:
+    def __init__(self, balance):
+        self.__balance = balance
+
+    def deposit(self, amount):
+        self.__balance += amount
+        print("Amount deposited:", amount)
+
+    def withdraw(self, amount):
+        if amount <= self.__balance:
+            self.__balance -= amount
+            print("Amount withdrawn:", amount)
+        else:
+            print("Insufficient balance")
+
+    def get_balance(self):
+        return self.__balance
+
+
+# Create object
+account = BankAccount(5000)
+
+account.deposit(2000)
+account.withdraw(1000)
+
+print("Current Balance:", account.get_balance())
 # Polymorphism – Shapes
 # Create classes Circle, Rectangle, and Triangle. Each class should have an area() method. Create objects and call area() using the same method name.
 # Class Variable – College
