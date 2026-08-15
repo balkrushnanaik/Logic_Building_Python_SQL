@@ -426,6 +426,70 @@ library.display_books()
 # title
 # author
 # is_available
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+        self.is_available = True
+
+
+class Library:
+    def __init__(self):
+        self.books = []
+
+    def add_book(self, book):
+        self.books.append(book)
+
+    def display_books(self):
+        for book in self.books:
+            print(f"Title: {book.title}")
+            print(f"Author: {book.author}")
+            print(f"Available: {book.is_available}")
+            print("-" * 30)
+
+    def borrow_book(self, title):
+        for book in self.books:
+            if book.title == title:
+                if book.is_available:
+                    book.is_available = False
+                    print(f"You borrowed '{book.title}'.")
+                else:
+                    print(f"'{book.title}' is not available.")
+                return
+
+        print("Book not found.")
+
+    def return_book(self, title):
+        for book in self.books:
+            if book.title == title:
+                book.is_available = True
+                print(f"You returned '{book.title}'.")
+                return
+
+        print("Book not found.")
+
+
+# Create books
+book1 = Book("Python", "John")
+book2 = Book("SQL", "David")
+book3 = Book("Data Analytics", "Robert")
+
+# Create library
+library = Library()
+
+# Add books
+library.add_book(book1)
+library.add_book(book2)
+library.add_book(book3)
+
+# Display books
+library.display_books()
+
+# Borrow book
+library.borrow_book("Python")
+
+# Return book
+library.return_book("Python")
 
 # The Library class should have methods:
 
