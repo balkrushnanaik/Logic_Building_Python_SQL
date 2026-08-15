@@ -352,7 +352,33 @@ print("Rectangle Area:", rectangle.area())
 print("Triangle Area:", triangle.area())
 # Class Variable – College
 # Create a Student class with name and roll_no as instance variables and college as a class variable. Create five students and display their details.
+class Student:
+    college = "Adsul Technical Campus"  # Class variable
 
+    def __init__(self, name, roll_no):
+        self.name = name          # Instance variable
+        self.roll_no = roll_no    # Instance variable
+
+    def display(self):
+        print(f"Name: {self.name}")
+        print(f"Roll No: {self.roll_no}")
+        print(f"College: {self.college}")
+        print("-" * 30)
+
+
+# Create five student objects
+student1 = Student("Rahul", 101)
+student2 = Student("Amit", 102)
+student3 = Student("Priya", 103)
+student4 = Student("Sneha", 104)
+student5 = Student("Rohan", 105)
+
+# Display details
+student1.display()
+student2.display()
+student3.display()
+student4.display()
+student5.display()
 # Simple Library System ⭐
 # Create a Book class and a Library class.
 
