@@ -434,4 +434,81 @@ library.display_books()
 # borrow_book()
 # return_book()
 
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+        self.available = True
+
+
+class Library:
+    def __init__(self):
+        self.books = []
+
+    def add_book(self, book):
+        self.books.append(book)
+        print(f"'{book.title}' added to the library.")
+
+    def display_books(self):
+        print("\nLibrary Books:")
+        for book in self.books:
+            status = "Available" if book.available else "Borrowed"
+            print(f"Title: {book.title}")
+            print(f"Author: {book.author}")
+            print(f"Status: {status}")
+            print("-" * 30)
+
+    def borrow_book(self, title):
+        for book in self.books:
+            if book.title == title:
+                if book.available:
+                    book.available = False
+                    print(f"You borrowed '{book.title}'.")
+                else:
+                    print(f"'{book.title}' is already borrowed.")
+                return
+
+        print(f"'{title}' not found in the library.")
+
+    def return_book(self, title):
+        for book in self.books:
+            if book.title == title:
+                if not book.available:
+                    book.available = True
+                    print(f"You returned '{book.title}'.")
+                else:
+                    print(f"'{book.title}' was not borrowed.")
+                return
+
+        print(f"'{title}' not found in the library.")
+
+
+# Create books
+book1 = Book("Python Programming", "John Smith")
+book2 = Book("Data Analytics", "Robert Brown")
+book3 = Book("Machine Learning", "David Miller")
+
+# Create library
+library = Library()
+
+# Add books
+library.add_book(book1)
+library.add_book(book2)
+library.add_book(book3)
+
+# Display books
+library.display_books()
+
+# Borrow a book
+library.borrow_book("Python Programming")
+
+# Display books again
+library.display_books()
+
+# Return the book
+library.return_book("Python Programming")
+
+# Display books again
+library.display_books()
+
 # Implement a simple system where a user can borrow and return books.
