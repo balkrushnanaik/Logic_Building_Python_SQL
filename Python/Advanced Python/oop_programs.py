@@ -512,3 +512,77 @@ library.return_book("Python Programming")
 library.display_books()
 
 # Implement a simple system where a user can borrow and return books.
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+        self.available = True
+
+
+class Library:
+    def __init__(self):
+        self.books = []
+
+    def add_book(self, book):
+        self.books.append(book)
+
+    def display_books(self):
+        for book in self.books:
+            status = "Available" if book.available else "Borrowed"
+            print(f"{book.title} - {book.author} - {status}")
+
+    def borrow_book(self, title):
+        for book in self.books:
+            if book.title == title:
+                if book.available:
+                    book.available = False
+                    print(f"You borrowed: {book.title}")
+                else:
+                    print(f"{book.title} is already borrowed.")
+                return
+
+        print("Book not found.")
+
+    def return_book(self, title):
+        for book in self.books:
+            if book.title == title:
+                if not book.available:
+                    book.available = True
+                    print(f"You returned: {book.title}")
+                else:
+                    print(f"{book.title} was not borrowed.")
+                return
+
+        print("Book not found.")
+
+
+# Create books
+book1 = Book("Python", "John")
+book2 = Book("SQL", "David")
+book3 = Book("Data Analytics", "Robert")
+
+# Create library
+library = Library()
+
+# Add books
+library.add_book(book1)
+library.add_book(book2)
+library.add_book(book3)
+
+# Display books
+print("Before Borrowing:")
+library.display_books()
+
+# Borrow a book
+library.borrow_book("Python")
+
+# Display books
+print("\nAfter Borrowing:")
+library.display_books()
+
+# Return a book
+library.return_book("Python")
+
+# Display books
+print("\nAfter Returning:")
+library.display_books()
