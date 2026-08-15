@@ -381,6 +381,45 @@ student4.display()
 student5.display()
 # Simple Library System ⭐
 # Create a Book class and a Library class.
+class Book:
+    def __init__(self, title, author):
+        self.title = title
+        self.author = author
+
+    def display_book(self):
+        print(f"Title: {self.title}")
+        print(f"Author: {self.author}")
+
+
+class Library:
+    def __init__(self):
+        self.books = []
+
+    def add_book(self, book):
+        self.books.append(book)
+
+    def display_books(self):
+        print("Library Books:")
+        for book in self.books:
+            book.display_book()
+            print("-" * 30)
+
+
+# Create Book objects
+book1 = Book("Python Programming", "John Smith")
+book2 = Book("Data Analytics", "Robert Brown")
+book3 = Book("Machine Learning", "David Miller")
+
+# Create Library object
+library = Library()
+
+# Add books to library
+library.add_book(book1)
+library.add_book(book2)
+library.add_book(book3)
+
+# Display all books
+library.display_books()
 
 # The Book class should contain:
 
