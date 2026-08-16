@@ -176,7 +176,11 @@ VALUES
 # 3. Display the names and marks of all students.
     SELECT name, marks FROM students;
 # 4. Find the total number of students.
+    SELECT COUNT(*) AS Total_Students
+    FROM students;
 # 5. Find the average marks of all students.
+    SELECT AVG(students.marks) AS Average_Marks
+    FROM students;
 # 6. Find the highest marks obtained by a student.
 # 7. Find the lowest marks obtained by a student.
 # 8. Find the total fees collected from all students.
