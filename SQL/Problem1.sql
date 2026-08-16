@@ -172,7 +172,9 @@ VALUES
 # 1. Display all records from the `students` table.
     SELECT * FROM students;
 # 2. Display only the `name` and `city` of all students.
+    SELECT name, city FROM students;
 # 3. Display the names and marks of all students.
+    SELECT name, marks FROM students;
 # 4. Find the total number of students.
 # 5. Find the average marks of all students.
 # 6. Find the highest marks obtained by a student.
