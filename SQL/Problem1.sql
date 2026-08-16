@@ -182,7 +182,13 @@ VALUES
     SELECT AVG(students.marks) AS Average_Marks
     FROM students;
 # 6. Find the highest marks obtained by a student.
+    SELECT MAX(students.marks)  AS Highest_Marks
+    FROM students;
 # 7. Find the lowest marks obtained by a student.
+    SELECT MIN(students.marks)  AS Lowest_Marks
+    FROM students;
 # 8. Find the total fees collected from all students.
+    SELECT SUM(students.fees) AS Total_Fees
+    FROM students;
 # 9. Display students whose marks are greater than 70.
 # 10. Display students whose marks are less than 40.
