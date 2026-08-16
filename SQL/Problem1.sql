@@ -191,4 +191,8 @@ VALUES
     SELECT SUM(students.fees) AS Total_Fees
     FROM students;
 # 9. Display students whose marks are greater than 70.
-# 10. Display students whose marks are less than 40.
+    SELECT * FROM students
+    WHERE marks > 70;
+# 10. Display students whose marks are less than 60.
+SELECT * FROM students
+WHERE marks < 60;
