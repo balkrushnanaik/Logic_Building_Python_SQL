@@ -216,7 +216,13 @@ WHERE marks < 60;
     FROM students
     WHERE age BETWEEN 18 and 22;
 # 15. Display students who scored between 60 and 80 marks.
+    SELECT *
+    FROM students
+    WHERE marks BETWEEN 60 and 80;
 # 16. Display students who are not from `Mumbai`.
+    SELECT *
+    FROM students
+    WHERE city <> 'Mumbai';
 # 17. Display students whose gender is `Female`.
 # 18. Display students whose fees are greater than ₹50,000.
 # 19. Display students from either `Pune` or `Mumbai`.
