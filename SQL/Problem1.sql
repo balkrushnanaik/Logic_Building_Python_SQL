@@ -196,3 +196,19 @@ VALUES
 # 10. Display students whose marks are less than 60.
 SELECT * FROM students
 WHERE marks < 60;
+
+### 🟡 Level 2 — WHERE Conditions
+
+# 11. Display students who are from `Pune`.
+    SELECT *
+    FROM students
+    WHERE city = 'Pune';
+# 12. Display students who are enrolled in the `Computer Engineering` course.
+# 13. Display students whose age is greater than 20.
+# 14. Display students whose age is between 18 and 22.
+# 15. Display students who scored between 60 and 80 marks.
+# 16. Display students who are not from `Mumbai`.
+# 17. Display students whose gender is `Female`.
+# 18. Display students whose fees are greater than ₹50,000.
+# 19. Display students from either `Pune` or `Mumbai`.
+# 20. Display students who are from `Pune` and have marks greater than 75.
