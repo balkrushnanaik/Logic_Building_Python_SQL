@@ -224,6 +224,12 @@ WHERE marks < 60;
     FROM students
     WHERE city <> 'Mumbai';
 # 17. Display students whose gender is `Female`.
+    SELECT *
+    FROM students
+    WHERE gender = 'Female';
 # 18. Display students whose fees are greater than ₹50,000.
+    SELECT *
+    FROM students
+    WHERE fees > 50000;
 # 19. Display students from either `Pune` or `Mumbai`.
 # 20. Display students who are from `Pune` and have marks greater than 75.
