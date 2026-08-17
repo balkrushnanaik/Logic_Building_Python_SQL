@@ -208,7 +208,13 @@ WHERE marks < 60;
     FROM students
     WHERE course = 'Computer Engineering';
 # 13. Display students whose age is greater than 20.
+    SELECT *
+    FROM students
+    WHERE age > 20;
 # 14. Display students whose age is between 18 and 22.
+    SELECT *
+    FROM students
+    WHERE age BETWEEN 18 and 22;
 # 15. Display students who scored between 60 and 80 marks.
 # 16. Display students who are not from `Mumbai`.
 # 17. Display students whose gender is `Female`.
