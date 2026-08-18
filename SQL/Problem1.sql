@@ -236,3 +236,6 @@ SELECT *
 FROM students
 WHERE city = 'Pune' OR city = 'Mumbai';
 # 20. Display students who are from `Pune` and have marks greater than 75.
+SELECT *
+FROM students
+WHERE city = 'Pune' AND marks > 75;
