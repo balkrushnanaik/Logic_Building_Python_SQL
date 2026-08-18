@@ -232,4 +232,7 @@ WHERE marks < 60;
     FROM students
     WHERE fees > 50000;
 # 19. Display students from either `Pune` or `Mumbai`.
+SELECT *
+FROM students
+WHERE city = 'Pune' OR city = 'Mumbai';
 # 20. Display students who are from `Pune` and have marks greater than 75.
