@@ -252,7 +252,14 @@ WHERE city = 'Pune' AND marks > 75;
     FROM students
     ORDER BY marks DESC ;
 # 23. Display students sorted by name alphabetically.
+    SELECT *
+    FROM students
+    ORDER BY name;
 # 24. Display the top 5 students based on marks.
+    SELECT *
+    FROM students
+    ORDER BY marks DESC
+    LIMIT 5;
 # 25. Display the 3 students with the lowest marks.
 # 26. Display all unique cities from the `students` table.
 # 27. Display all unique courses.
