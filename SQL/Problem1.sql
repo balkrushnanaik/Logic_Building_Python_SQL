@@ -239,3 +239,23 @@ WHERE city = 'Pune' OR city = 'Mumbai';
 SELECT *
 FROM students
 WHERE city = 'Pune' AND marks > 75;
+
+
+### 🟠 Level 3 — ORDER BY, DISTINCT & LIMIT
+
+# 21. Display all students sorted by marks in ascending order.
+    SELECT *
+    FROM students
+    ORDER BY marks; # By default assending
+# 22. Display all students sorted by marks in descending order.
+     SELECT *
+    FROM students
+    ORDER BY marks DESC ;
+# 23. Display students sorted by name alphabetically.
+# 24. Display the top 5 students based on marks.
+# 25. Display the 3 students with the lowest marks.
+# 26. Display all unique cities from the `students` table.
+# 27. Display all unique courses.
+# 28. Display students sorted first by city and then by marks descending.
+# 29. Display the student with the highest marks.
+# 30. Display the student with the lowest marks.
