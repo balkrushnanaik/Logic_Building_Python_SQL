@@ -261,8 +261,16 @@ WHERE city = 'Pune' AND marks > 75;
     ORDER BY marks DESC
     LIMIT 5;
 # 25. Display the 3 students with the lowest marks.
+    SELECT *
+    FROM students
+    ORDER BY marks
+    LIMIT 3;
 # 26. Display all unique cities from the `students` table.
+   SELECT DISTINCT students.city
+   FROM students;
 # 27. Display all unique courses.
+    SELECT DISTINCT students.course
+    FROM students;
 # 28. Display students sorted first by city and then by marks descending.
 # 29. Display the student with the highest marks.
 # 30. Display the student with the lowest marks.
