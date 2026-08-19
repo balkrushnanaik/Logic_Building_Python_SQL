@@ -272,5 +272,8 @@ WHERE city = 'Pune' AND marks > 75;
     SELECT DISTINCT students.course
     FROM students;
 # 28. Display students sorted first by city and then by marks descending.
+    SELECT *
+    FROM students
+    ORDER BY city ASC,  marks DESC;
 # 29. Display the student with the highest marks.
 # 30. Display the student with the lowest marks.
