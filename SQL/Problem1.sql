@@ -276,4 +276,7 @@ WHERE city = 'Pune' AND marks > 75;
     FROM students
     ORDER BY city ASC,  marks DESC;
 # 29. Display the student with the highest marks.
+    SELECT *
+    FROM students
+    ORDER BY marks DESC ;
 # 30. Display the student with the lowest marks.
