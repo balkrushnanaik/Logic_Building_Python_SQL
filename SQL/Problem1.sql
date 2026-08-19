@@ -291,7 +291,13 @@ ORDER BY marks;
     FROM students
     GROUP BY city;
 # 32. Find the average marks for each course.
+    SELECT students.course, AVG(marks) AS Average_Marks
+    FROM students
+    GROUP BY course;
 # 33. Find the highest marks in each course.
+    SELECT course, MAX(marks) AS Highest_Marks
+    FROM students
+    GROUP BY course;
 # 34. Find the lowest marks in each course.
 # 35. Find the total fees collected for each course.
 # 36. Find the number of students in each course.
