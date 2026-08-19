@@ -283,3 +283,19 @@ WHERE city = 'Pune' AND marks > 75;
 SELECT *
 FROM students
 ORDER BY marks;
+
+### 🔵 Level 4 — Aggregate Functions & GROUP BY
+
+# 31. Find the number of students in each city.
+    SELECT city, COUNT(student_id) AS Total_Students
+    FROM students
+    GROUP BY city;
+# 32. Find the average marks for each course.
+# 33. Find the highest marks in each course.
+# 34. Find the lowest marks in each course.
+# 35. Find the total fees collected for each course.
+# 36. Find the number of students in each course.
+# 37. Find the average age of students in each city.
+# 38. Find courses where the average marks are greater than 70.
+# 39. Find cities having more than 5 students.
+# 40. Find courses where total fees collected are greater than ₹5,00,000.
