@@ -299,6 +299,9 @@ ORDER BY marks;
     FROM students
     GROUP BY course;
 # 34. Find the lowest marks in each course.
+    SELECT course, MIN(marks) AS Lowest_Marks
+    FROM students
+    GROUP BY course;
 # 35. Find the total fees collected for each course.
 # 36. Find the number of students in each course.
 # 37. Find the average age of students in each city.
