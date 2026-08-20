@@ -307,6 +307,9 @@ ORDER BY marks;
     FROM students
     GROUP BY course;
 # 36. Find the number of students in each course.
+    SELECT course, COUNT(student_id) AS Number_of_Students
+    FROM students
+    GROUP BY course;
 # 37. Find the average age of students in each city.
 # 38. Find courses where the average marks are greater than 70.
 # 39. Find cities having more than 5 students.
