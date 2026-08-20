@@ -303,6 +303,9 @@ ORDER BY marks;
     FROM students
     GROUP BY course;
 # 35. Find the total fees collected for each course.
+    SELECT course, SUM(fees) AS Total_Fee
+    FROM students
+    GROUP BY course;
 # 36. Find the number of students in each course.
 # 37. Find the average age of students in each city.
 # 38. Find courses where the average marks are greater than 70.
