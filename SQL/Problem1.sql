@@ -315,5 +315,9 @@ ORDER BY marks;
     FROM students
     GROUP BY city;
 # 38. Find courses where the average marks are greater than 70.
+    SELECT course, AVG(marks) AS Average_Marks
+    FROM students
+    GROUP BY course
+    HAVING Average_Marks > 70;
 # 39. Find cities having more than 5 students.
 # 40. Find courses where total fees collected are greater than ₹5,00,000.
