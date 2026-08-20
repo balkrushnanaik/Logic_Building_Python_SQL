@@ -311,6 +311,9 @@ ORDER BY marks;
     FROM students
     GROUP BY course;
 # 37. Find the average age of students in each city.
+    SELECT city, ROUND(AVG(age),2) AS Students_Average_Age
+    FROM students
+    GROUP BY city;
 # 38. Find courses where the average marks are greater than 70.
 # 39. Find cities having more than 5 students.
 # 40. Find courses where total fees collected are greater than ₹5,00,000.
