@@ -320,4 +320,8 @@ ORDER BY marks;
     GROUP BY course
     HAVING Average_Marks > 70;
 # 39. Find cities having more than 5 students.
+    SELECT city, COUNT(student_id) AS Total_Students
+    FROM students
+    GROUP BY city
+    HAVING Total_Students >= 5;
 # 40. Find courses where total fees collected are greater than ₹5,00,000.
