@@ -342,8 +342,16 @@ CREATE TABLE courses (
     department VARCHAR(100),
     duration INT
 );
-# And modify `students` to include:
-#
+
+INSERT INTO courses
+(course_id, course_name, department, duration)
+VALUES
+(101, 'Computer Engineering', 'Computer Science', 4),
+(102, 'Information Technology', 'Computer Science', 4),
+(103, 'Electronics', 'Electronics & Telecommunication', 4),
+(104, 'Mechanical Engineering', 'Mechanical Engineering', 4),
+(105, 'Civil Engineering', 'Civil Engineering', 4);
+# And modify `students` to include:# #
 # `student_id, name, age, city, course_id, marks, fees`
 #
 # 41. Display each student's name along with their course name.
