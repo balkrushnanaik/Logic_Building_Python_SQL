@@ -351,6 +351,8 @@ VALUES
 (103, 'Electronics', 'Electronics & Telecommunication', 4),
 (104, 'Mechanical Engineering', 'Mechanical Engineering', 4),
 (105, 'Civil Engineering', 'Civil Engineering', 4);
+
+Select * FROM courses;
 # And modify `students` to include:# #
 # `student_id, name, age, city, course_id, marks, fees`
 #
