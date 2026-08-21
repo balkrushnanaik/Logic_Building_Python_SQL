@@ -325,3 +325,7 @@ ORDER BY marks;
     GROUP BY city
     HAVING Total_Students >= 5;
 # 40. Find courses where total fees collected are greater than ₹5,00,000.
+SELECT students.course, SUM(students.fees) AS Total_fee
+FROM students
+GROUP BY course
+HAVING Total_fee > 500000;
