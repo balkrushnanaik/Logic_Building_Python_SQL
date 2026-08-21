@@ -329,3 +329,30 @@ SELECT students.course, SUM(students.fees) AS Total_fee
 FROM students
 GROUP BY course
 HAVING Total_fee > 500000;
+
+### 🟣 Level 5 — Basic JOIN Practice
+
+# Assume another table:
+#
+# `courses`# #
+# course_id, course_name, department, duration`
+CREATE TABLE courses (
+    course_id INT PRIMARY KEY,
+    course_name VARCHAR(100),
+    department VARCHAR(100),
+    duration INT
+);
+# And modify `students` to include:
+#
+# `student_id, name, age, city, course_id, marks, fees`
+#
+# 41. Display each student's name along with their course name.
+# 42. Display students along with their course department.
+# 43. Display students who belong to the `Computer Engineering` department.
+# 44. Display the number of students enrolled in each course.
+# 45. Display the average marks for each course.
+# 46. Display the highest-scoring student from each course.
+# 47. Display courses that have no students enrolled.
+# 48. Display students whose course duration is greater than 3 years.
+# 49. Display the total fees collected for each course.
+# 50. Display the course name, number of students, average marks, and total fees collected for each course.
