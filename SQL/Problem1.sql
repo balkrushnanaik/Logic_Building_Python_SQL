@@ -444,6 +444,16 @@ SELECT * FROM student;
     ON s1.course_id = c1.course_id
      WHERE department = 'Computer Science';
 # 44. Display the number of students enrolled in each course.
+SELECT
+    c1.course_id,
+    c1.course_name,
+    COUNT(s1.student_id) AS total_students
+FROM courses AS c1
+LEFT JOIN student AS s1
+    ON c1.course_id = s1.course_id
+GROUP BY
+    c1.course_id,
+    c1.course_name;
 # 45. Display the average marks for each course.
 # 46. Display the highest-scoring student from each course.
 # 47. Display courses that have no students enrolled.
