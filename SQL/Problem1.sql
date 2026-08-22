@@ -438,6 +438,11 @@ SELECT * FROM student;
     ON s1.course_id = c1.course_id;
 
 # 43. Display students who belong to the `Computer Engineering` department.
+     SELECT s1.student_id, s1.name, c1.course_name, c1.department
+    FROM student AS s1
+    JOIN courses as c1
+    ON s1.course_id = c1.course_id
+     WHERE department = 'Computer Science';
 # 44. Display the number of students enrolled in each course.
 # 45. Display the average marks for each course.
 # 46. Display the highest-scoring student from each course.
