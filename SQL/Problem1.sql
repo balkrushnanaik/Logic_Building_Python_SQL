@@ -426,7 +426,11 @@ VALUES
 SELECT * FROM student;
 #
 # 41. Display each student's name along with their course name.
-   
+    SELECT *
+    FROM student AS s1
+    JOIN courses as c1
+    ON s1.course_id = c1.course_id;
+
 # 42. Display students along with their course department.
 # 43. Display students who belong to the `Computer Engineering` department.
 # 44. Display the number of students enrolled in each course.
