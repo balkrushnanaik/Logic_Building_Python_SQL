@@ -426,12 +426,17 @@ VALUES
 SELECT * FROM student;
 #
 # 41. Display each student's name along with their course name.
-    SELECT *
+    SELECT student_id, name, course_name
     FROM student AS s1
     JOIN courses as c1
     ON s1.course_id = c1.course_id;
 
 # 42. Display students along with their course department.
+    SELECT s1.student_id, s1.name, c1.course_name, c1.department
+    FROM student AS s1
+    JOIN courses as c1
+    ON s1.course_id = c1.course_id;
+
 # 43. Display students who belong to the `Computer Engineering` department.
 # 44. Display the number of students enrolled in each course.
 # 45. Display the average marks for each course.
