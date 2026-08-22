@@ -355,8 +355,78 @@ VALUES
 Select * FROM courses;
 # And modify `students` to include:# #
 # `student_id, name, age, city, course_id, marks, fees`
+    CREATE TABLE student (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    city VARCHAR(50),
+    course_id INT,
+    marks INT,
+    fees DECIMAL(10,2),
+    FOREIGN KEY (course_id) REFERENCES courses(course_id)
+);
+INSERT INTO student
+(student_id, name, age, city, course_id, marks, fees)
+VALUES
+(1, 'Aarav Sharma', 20, 'Pune', 101, 85, 85000),
+(2, 'Priya Patil', 21, 'Mumbai', 102, 78, 80000),
+(3, 'Rahul Deshmukh', 20, 'Nashik', 103, 82, 75000),
+(4, 'Sneha Joshi', 22, 'Pune', 104, 91, 90000),
+(5, 'Aditya Kulkarni', 21, 'Nagpur', 105, 74, 70000),
+(6, 'Neha Pawar', 20, 'Aurangabad', 101, 88, 85000),
+(7, 'Rohan Jadhav', 22, 'Pune', 102, 69, 80000),
+(8, 'Anjali More', 21, 'Nashik', 103, 93, 75000),
+(9, 'Vishal Shinde', 23, 'Mumbai', 104, 76, 90000),
+(10, 'Pooja Chavan', 20, 'Nagpur', 105, 81, 70000),
+
+(11, 'Kunal Pawar', 21, 'Pune', 101, 72, 85000),
+(12, 'Riya Desai', 20, 'Mumbai', 102, 89, 80000),
+(13, 'Sahil Gaikwad', 22, 'Nashik', 103, 65, 75000),
+(14, 'Kavya Patil', 21, 'Pune', 104, 94, 90000),
+(15, 'Omkar Joshi', 23, 'Nagpur', 105, 77, 70000),
+(16, 'Isha Kulkarni', 20, 'Aurangabad', 101, 83, 85000),
+(17, 'Akash More', 21, 'Mumbai', 102, 71, 80000),
+(18, 'Sakshi Pawar', 22, 'Pune', 103, 87, 75000),
+(19, 'Tejas Shinde', 20, 'Nashik', 104, 79, 90000),
+(20, 'Mansi Jadhav', 21, 'Nagpur', 105, 92, 70000),
+
+(21, 'Yash Patil', 22, 'Pune', 101, 68, 85000),
+(22, 'Tanvi Deshmukh', 20, 'Mumbai', 102, 84, 80000),
+(23, 'Harsh Kulkarni', 21, 'Nashik', 103, 73, 75000),
+(24, 'Shreya Joshi', 22, 'Pune', 104, 89, 90000),
+(25, 'Nikhil Pawar', 23, 'Nagpur', 105, 75, 70000),
+(26, 'Vaishnavi More', 20, 'Aurangabad', 101, 96, 85000),
+(27, 'Saurabh Patil', 21, 'Pune', 102, 80, 80000),
+(28, 'Aditi Shinde', 22, 'Mumbai', 103, 86, 75000),
+(29, 'Prathamesh Jadhav', 20, 'Nashik', 104, 70, 90000),
+(30, 'Komal Chavan', 21, 'Pune', 105, 83, 70000),
+
+(31, 'Manish Gaikwad', 22, 'Nagpur', 101, 78, 85000),
+(32, 'Rutuja Patil', 20, 'Pune', 102, 91, 80000),
+(33, 'Abhishek More', 21, 'Mumbai', 103, 67, 75000),
+(34, 'Pallavi Joshi', 22, 'Nashik', 104, 88, 90000),
+(35, 'Akshay Pawar', 23, 'Pune', 105, 79, 70000),
+(36, 'Shruti Desai', 20, 'Nagpur', 101, 93, 85000),
+(37, 'Vivek Kulkarni', 21, 'Aurangabad', 102, 76, 80000),
+(38, 'Swati Shinde', 22, 'Pune', 103, 85, 75000),
+(39, 'Ganesh Jadhav', 20, 'Mumbai', 104, 72, 90000),
+(40, 'Nikita Chavan', 21, 'Nashik', 105, 90, 70000),
+
+(41, 'Rohit Patil', 22, 'Pune', 101, 81, 85000),
+(42, 'Megha Pawar', 20, 'Mumbai', 102, 74, 80000),
+(43, 'Sachin More', 21, 'Nagpur', 103, 89, 75000),
+(44, 'Priti Deshmukh', 22, 'Pune', 104, 95, 90000),
+(45, 'Abhay Joshi', 23, 'Nashik', 105, 68, 70000),
+(46, 'Sonali Kulkarni', 20, 'Aurangabad', 101, 87, 85000),
+(47, 'Vijay Shinde', 21, 'Pune', 102, 82, 80000),
+(48, 'Rekha Patil', 22, 'Mumbai', 103, 77, 75000),
+(49, 'Amol Jadhav', 20, 'Nagpur', 104, 84, 90000),
+(50, 'Kiran Chavan', 21, 'Pune', 105, 92, 70000);
+
+SELECT * FROM student;
 #
 # 41. Display each student's name along with their course name.
+   
 # 42. Display students along with their course department.
 # 43. Display students who belong to the `Computer Engineering` department.
 # 44. Display the number of students enrolled in each course.
