@@ -455,6 +455,11 @@ GROUP BY
     c1.course_id,
     c1.course_name;
 # 45. Display the average marks for each course.
+    SELECT
+    course,
+    AVG(marks) AS average_marks
+FROM students
+GROUP BY course;
 # 46. Display the highest-scoring student from each course.
 # 47. Display courses that have no students enrolled.
 # 48. Display students whose course duration is greater than 3 years.
