@@ -472,6 +472,13 @@ WHERE s.marks = (
     WHERE s2.course = s.course
 );
 # 47. Display courses that have no students enrolled.
+    SELECT
+    c.course_id,
+    c.course_name
+FROM courses c
+LEFT JOIN students s
+    ON c.course_name = s.course
+WHERE s.student_id IS NULL;
 # 48. Display students whose course duration is greater than 3 years.
 # 49. Display the total fees collected for each course.
 # 50. Display the course name, number of students, average marks, and total fees collected for each course.
