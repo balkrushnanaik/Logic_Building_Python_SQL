@@ -480,5 +480,14 @@ LEFT JOIN students s
     ON c.course_name = s.course
 WHERE s.student_id IS NULL;
 # 48. Display students whose course duration is greater than 3 years.
+    SELECT
+    s.student_id,
+    s.name,
+    s.course,
+    c.duration
+FROM students s
+JOIN courses c
+    ON s.course = c.course_name
+WHERE c.duration > 3;
 # 49. Display the total fees collected for each course.
 # 50. Display the course name, number of students, average marks, and total fees collected for each course.
