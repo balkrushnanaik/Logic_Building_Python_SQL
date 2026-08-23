@@ -461,6 +461,16 @@ GROUP BY
 FROM students
 GROUP BY course;
 # 46. Display the highest-scoring student from each course.
+    SELECT
+    s.name,
+    s.course,
+    s.marks
+FROM students s
+WHERE s.marks = (
+    SELECT MAX(s2.marks)
+    FROM students s2
+    WHERE s2.course = s.course
+);
 # 47. Display courses that have no students enrolled.
 # 48. Display students whose course duration is greater than 3 years.
 # 49. Display the total fees collected for each course.
