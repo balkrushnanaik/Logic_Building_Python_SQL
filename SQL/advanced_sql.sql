@@ -23,7 +23,7 @@ VALUES
 
 SELECT * FROM courses;
 
-CREATE TABLE students (
+CREATE TABLE IF NOT EXISTS students (
     student_id INT PRIMARY KEY,
     name VARCHAR(100),
     age INT,
@@ -159,3 +159,6 @@ VALUES
 (59, 'Rajesh Kumar', 24, 'Male', 'Pune', 105, 38, 69000, '2026-06-25'),
 
 (60, 'Aarohi Joshi', 20, 'Female', 'Pune', 109, 90, 84000, '2026-07-10');
+
+
+SELECT * FROM students;
