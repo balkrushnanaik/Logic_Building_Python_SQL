@@ -22,3 +22,16 @@ VALUES
 (110, 'Cloud Computing', 'Computer Science', 3);
 
 SELECT * FROM courses;
+
+CREATE TABLE students (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    gender VARCHAR(20),
+    city VARCHAR(50),
+    course_id INT,
+    marks DECIMAL(5,2),
+    fees DECIMAL(10,2),
+    admission_date DATE,
+    FOREIGN KEY (course_id) REFERENCES courses(course_id)
+);
