@@ -162,3 +162,293 @@ VALUES
 
 
 SELECT * FROM students;
+
+/*
+ Absolutely. Since you’ve completed the first 50 covering **SELECT, WHERE, ORDER BY, GROUP BY, HAVING, aggregates, and basic JOINs**, the next step should introduce concepts you’ll actually need for **Data Analyst / SQL interview preparation**.
+
+Here are **50 new SQL problems on different concepts**, including `CASE`, `NULL`, `LIKE`, `IN`, `EXISTS`, subqueries, CTEs, window functions, string/date functions, self joins, and set operators.
+
+### 🟢 Level 6 — CASE, NULL & Conditional Logic
+
+Assume:
+
+`students(student_id, name, age, gender, city, course_id, marks, fees)`
+
+51. Display each student's name and a new column `result` as **Pass** if marks ≥ 40, otherwise **Fail**.
+
+52. Display each student's name and categorize marks:
+
+* 80–100 → Excellent
+* 60–79 → Good
+* 40–59 → Average
+* Below 40 → Poor
+
+53. Display each student's name and classify their age:
+
+* Below 18 → Minor
+* 18–22 → Young
+* Above 22 → Adult
+
+54. Display student name, marks, and a `grade` column:
+
+* 90+ → A+
+* 80–89 → A
+* 70–79 → B
+* 60–69 → C
+* Below 60 → D
+
+55. Display students with their fees and classify them as `High Fee`, `Medium Fee`, or `Low Fee`.
+
+56. Find the number of students who passed and failed.
+
+57. Find the number of students in each marks category.
+
+58. Calculate the average marks of male and female students using `CASE`.
+
+59. Calculate the total fees collected separately for male and female students.
+
+60. Display students whose marks are `NULL`.
+
+---
+
+### 🟡 Level 7 — NULL, LIKE, IN & Advanced Filtering
+
+61. Display students whose city is either Pune, Mumbai, or Nashik using `IN`.
+
+62. Display students whose city is **not** Pune, Mumbai, or Nashik.
+
+63. Display students whose names start with `A`.
+
+64. Display students whose names end with `a`.
+
+65. Display students whose names contain the letter `r`.
+
+66. Display students whose names have exactly 5 characters.
+
+67. Display students whose city starts with the letter `P`.
+
+68. Display students whose marks are between 50 and 80 **and** whose city is Pune.
+
+69. Display students whose course_id is not NULL.
+
+70. Display students whose fees are NULL and replace NULL fees with `0` in the output.
+
+---
+
+### 🟠 Level 8 — Subqueries
+
+71. Find students who scored more than the **average marks of all students**.
+
+72. Find students who scored the **highest marks**.
+
+73. Find students who scored less than the average marks.
+
+74. Find students whose fees are greater than the average fees.
+
+75. Find students who belong to the same course as student ID `10`.
+
+76. Find students who have the same city as student ID `5`.
+
+77. Find the second-highest marks using a subquery.
+
+78. Find the third-highest marks using a subquery.
+
+79. Find students whose marks are greater than the marks of **all students from Pune**.
+
+80. Find students whose marks are greater than **at least one student from Mumbai**.
+
+---
+
+### 🔵 Level 9 — EXISTS, NOT EXISTS & Correlated Subqueries
+
+Using:
+
+`students(student_id, name, city, course_id, marks, fees)`
+
+`courses(course_id, course_name, department, duration)`
+
+81. Display courses for which at least one student is enrolled using `EXISTS`.
+
+82. Display courses for which no student is enrolled using `NOT EXISTS`.
+
+83. Display students whose course exists in the `courses` table using `EXISTS`.
+
+84. Find students who have marks greater than the average marks of **their own course**.
+
+85. Find the highest-scoring student from each course using a correlated subquery.
+
+86. Find students whose fees are greater than the average fees of their course.
+
+87. Find courses where at least one student has scored more than 90.
+
+88. Find courses where **all students** have scored more than 40.
+
+89. Find students who have the highest marks within their city.
+
+90. Find students whose marks are higher than the average marks of students from their city.
+
+---
+
+### 🟣 Level 10 — String & Date Functions
+
+Assume you also have:
+
+`students(student_id, name, city, course_id, marks, fees, admission_date)`
+
+91. Display each student's name in uppercase.
+
+92. Display each student's name in lowercase.
+
+93. Display the length of each student's name.
+
+94. Display the first 3 characters of each student's name.
+
+95. Concatenate the student's name and city into a single column.
+
+96. Remove leading and trailing spaces from student names.
+
+97. Display the year in which each student was admitted.
+
+98. Display the month in which each student was admitted.
+
+99. Find students who were admitted in the year 2025.
+
+100. Find the number of students admitted in each year.
+
+---
+
+### 🔴 Level 11 — Window Functions ⭐⭐⭐
+
+These are **very important for Data Analyst interviews**.
+
+Use:
+
+`students(student_id, name, city, course_id, marks, fees)`
+
+101. Assign a unique row number to every student based on marks descending.
+
+102. Rank students based on their marks using `RANK()`.
+
+103. Rank students based on their marks using `DENSE_RANK()`.
+
+104. Find the top 3 students from the entire college using `ROW_NUMBER()`.
+
+105. Find the top 3 students from **each course**.
+
+106. Find the highest-scoring student from each course using `RANK()`.
+
+107. Display each student's marks along with the average marks of their course.
+
+108. Display each student's marks and the difference between their marks and their course average.
+
+109. Calculate the running total of fees based on student ID.
+
+110. Calculate the cumulative average marks ordered by student ID.
+
+---
+
+### 🟤 Level 12 — LAG, LEAD & Advanced Window Functions
+
+111. Display each student's marks along with the marks of the previous student.
+
+112. Display each student's marks along with the marks of the next student.
+
+113. Calculate the difference between each student's marks and the previous student's marks.
+
+114. Find students whose marks are higher than the previous student's marks.
+
+115. Find the second-highest student in each course using `DENSE_RANK()`.
+
+116. Find the top 2 highest-fee-paying students from each course.
+
+117. Find the lowest-scoring student from each course.
+
+118. Calculate the percentage contribution of each student's fees to the total fees.
+
+119. Calculate the percentage contribution of each course's fees to the total fees.
+
+120. Display each course's total fees along with the previous course's total fees.
+
+---
+
+### 🚀 Most Important Problems for You
+
+Because you're preparing for **Data Analytics**, I would particularly recommend solving these first:
+
+| Priority | Problems | Concept                          |
+| -------- | -------- | -------------------------------- |
+| ⭐⭐⭐      | 51–59    | `CASE WHEN`                      |
+| ⭐⭐⭐      | 71–80    | Subqueries                       |
+| ⭐⭐⭐      | 81–90    | Correlated subqueries / `EXISTS` |
+| ⭐⭐⭐      | 97–100   | Date functions                   |
+| ⭐⭐⭐⭐     | 101–110  | Window functions                 |
+| ⭐⭐⭐⭐     | 111–120  | `LAG`, `LEAD`, ranking           |
+
+**Your SQL progression is now:**
+
+`SELECT → WHERE → GROUP BY → HAVING → JOIN → CASE → Subqueries → EXISTS → String/Date Functions → Window Functions`
+
+That is a much stronger progression for **Data Analyst SQL interviews** than continuing only with basic `JOIN` questions.
+
+ */
+ ### 🟢 Level 6 — CASE, NULL & Conditional Logic
+
+# Assume:
+#
+# `students(student_id, name, age, gender, city, course_id, marks, fees)`
+#
+# 51. Display each student's name and a new column `result` as **Pass** if marks ≥ 40, otherwise **Fail**.
+    SELECT
+    name,
+    marks,
+    CASE
+        WHEN marks >= 40 THEN 'Pass'
+        ELSE 'Fail'
+    END AS result
+FROM students;
+#
+# 52. Display each student's name and categorize marks:
+#
+# * 80–100 → Excellent
+# * 60–79 → Good
+# * 40–59 → Average
+# * Below 40 → Poor
+   SELECT
+       name,
+       marks,
+       CASE
+           WHEN marks >= 80 THEN 'Excellent'
+           WHEN marks >= 60 THEN 'Good'
+           WHEN marks >= 40 THEN 'Average'
+           ELSE 'Poor'
+   END AS Result
+   FROM students
+   ORDER BY marks DESC;
+
+
+#
+# 53. Display each student's name and classify their age:
+#
+# * Below 18 → Minor
+# * 18–22 → Young
+# * Above 22 → Adult
+#
+# 54. Display student name, marks, and a `grade` column:
+#
+# * 90+ → A+
+# * 80–89 → A
+# * 70–79 → B
+# * 60–69 → C
+# * Below 60 → D
+#
+# 55. Display students with their fees and classify them as `High Fee`, `Medium Fee`, or `Low Fee`.
+#
+# 56. Find the number of students who passed and failed.
+#
+# 57. Find the number of students in each marks category.
+#
+# 58. Calculate the average marks of male and female students using `CASE`.
+#
+# 59. Calculate the total fees collected separately for male and female students.
+#
+# 60. Display students whose marks are `NULL`.
