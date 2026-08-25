@@ -470,7 +470,15 @@ SELECT
     END AS grade
 FROM students;
 # 55. Display students with their fees and classify them as `High Fee`, `Medium Fee`, or `Low Fee`.
-#
+SELECT
+    name,
+    fees,
+    CASE
+        WHEN fees >= 50000 THEN 'High Fee'
+        WHEN fees >= 30000 THEN 'Medium Fee'
+        ELSE 'Low Fee'
+    END AS Fee_Category
+FROM students;
 # 56. Find the number of students who passed and failed.
 #
 # 57. Find the number of students in each marks category.
