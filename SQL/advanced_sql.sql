@@ -480,7 +480,17 @@ SELECT
     END AS Fee_Category
 FROM students;
 # 56. Find the number of students who passed and failed.
-#
+SELECT
+    SUM(CASE
+        WHEN marks >= 40 THEN 1
+        ELSE 0
+    END) AS Passed_Students,
+
+    SUM(CASE
+        WHEN marks < 40 THEN 1
+        ELSE 0
+    END) AS Failed_Students
+FROM students;
 # 57. Find the number of students in each marks category.
 #
 # 58. Calculate the average marks of male and female students using `CASE`.
