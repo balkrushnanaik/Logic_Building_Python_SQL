@@ -511,7 +511,15 @@ GROUP BY
         ELSE 'D'
     END;
 # 58. Calculate the average marks of male and female students using `CASE`.
-#
+SELECT
+    AVG(CASE
+        WHEN gender = 'Male' THEN marks
+    END) AS Average_Male_Marks,
+
+    AVG(CASE
+        WHEN gender = 'Female' THEN marks
+    END) AS Average_Female_Marks
+FROM students;
 # 59. Calculate the total fees collected separately for male and female students.
 #
 # 60. Display students whose marks are `NULL`.
