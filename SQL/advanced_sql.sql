@@ -393,6 +393,15 @@ That is a much stronger progression for **Data Analyst SQL interviews** than con
  */
  ### 🟢 Level 6 — CASE, NULL & Conditional Logic
 
+    /*
+     Syntax :
+    CASE
+    WHEN condition THEN value
+    WHEN condition THEN value
+    ELSE value
+END
+     */
+
 # Assume:
 #
 # `students(student_id, name, age, gender, city, course_id, marks, fees)`
@@ -432,6 +441,15 @@ FROM students;
 # * Below 18 → Minor
 # * 18–22 → Young
 # * Above 22 → Adult
+    SELECT
+        name,
+        age,
+        CASE
+            WHEN age < 18 THEN 'Minor'
+            WHEN age BETWEEN 18 AND 22 THEN 'Young'
+            ELSE 'Adult'
+        END AS Classified_Age
+    FROM students;
 #
 # 54. Display student name, marks, and a `grade` column:
 #
