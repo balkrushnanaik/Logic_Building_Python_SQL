@@ -521,5 +521,16 @@ SELECT
     END) AS Average_Female_Marks
 FROM students;
 # 59. Calculate the total fees collected separately for male and female students.
-#
+SELECT
+    SUM(CASE
+        WHEN gender = 'Male' THEN fees
+        ELSE 0
+    END) AS Total_Male_Fees,
+
+    SUM(CASE
+        WHEN gender = 'Female' THEN fees
+        ELSE 0
+    END) AS Total_Female_Fees
+FROM students;
+
 # 60. Display students whose marks are `NULL`.
