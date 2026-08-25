@@ -492,7 +492,24 @@ SELECT
     END) AS Failed_Students
 FROM students;
 # 57. Find the number of students in each marks category.
-#
+SELECT
+    CASE
+        WHEN marks >= 90 THEN 'A+'
+        WHEN marks >= 80 THEN 'A'
+        WHEN marks >= 70 THEN 'B'
+        WHEN marks >= 60 THEN 'C'
+        ELSE 'D'
+    END AS Marks_Category,
+    COUNT(*) AS Number_of_Students
+FROM students
+GROUP BY
+    CASE
+        WHEN marks >= 90 THEN 'A+'
+        WHEN marks >= 80 THEN 'A'
+        WHEN marks >= 70 THEN 'B'
+        WHEN marks >= 60 THEN 'C'
+        ELSE 'D'
+    END;
 # 58. Calculate the average marks of male and female students using `CASE`.
 #
 # 59. Calculate the total fees collected separately for male and female students.
