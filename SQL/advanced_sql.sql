@@ -458,7 +458,17 @@ FROM students;
 # * 70–79 → B
 # * 60–69 → C
 # * Below 60 → D
-#
+SELECT
+    name,
+    marks,
+    CASE
+        WHEN marks >= 90 THEN 'A+'
+        WHEN marks BETWEEN 80 AND 89 THEN 'A'
+        WHEN marks BETWEEN 70 AND 79 THEN 'B'
+        WHEN marks BETWEEN 60 AND 69 THEN 'C'
+        ELSE 'D'
+    END AS grade
+FROM students;
 # 55. Display students with their fees and classify them as `High Fee`, `Medium Fee`, or `Low Fee`.
 #
 # 56. Find the number of students who passed and failed.
