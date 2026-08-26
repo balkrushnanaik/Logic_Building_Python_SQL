@@ -550,7 +550,9 @@ SELECT *
 FROM students
 WHERE city NOT IN ('Pune','Mumbai','Nashik')  ;
 # 63. Display students whose names start with `A`.
-#
+SELECT *
+FROM students
+WHERE name LIKE 'A%';
 # 64. Display students whose names end with `a`.
 #
 # 65. Display students whose names contain the letter `r`.
