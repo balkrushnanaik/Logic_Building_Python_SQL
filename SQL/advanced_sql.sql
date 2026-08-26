@@ -534,3 +534,6 @@ SELECT
 FROM students;
 
 # 60. Display students whose marks are `NULL`.
+SELECT *
+FROM students
+WHERE marks IS NULL;
