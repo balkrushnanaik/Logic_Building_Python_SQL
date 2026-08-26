@@ -546,7 +546,9 @@ SELECT *
 FROM students
 WHERE city IN ('Pune','Mumbai','Nashik');
 # 62. Display students whose city is **not** Pune, Mumbai, or Nashik.
-
+SELECT *
+FROM students
+WHERE city NOT IN ('Pune','Mumbai','Nashik')  ;
 # 63. Display students whose names start with `A`.
 #
 # 64. Display students whose names end with `a`.
