@@ -537,3 +537,31 @@ FROM students;
 SELECT *
 FROM students
 WHERE marks IS NULL;
+
+
+#  ### 🟡 Level 7 — NULL, LIKE, IN & Advanced Filtering
+# ---
+# 61. Display students whose city is either Pune, Mumbai, or Nashik using `IN`.
+SELECT *
+FROM students
+WHERE city IN ('Pune','Mumbai','Nashik');
+# 62. Display students whose city is **not** Pune, Mumbai, or Nashik.
+
+# 63. Display students whose names start with `A`.
+#
+# 64. Display students whose names end with `a`.
+#
+# 65. Display students whose names contain the letter `r`.
+#
+# 66. Display students whose names have exactly 5 characters.
+#
+# 67. Display students whose city starts with the letter `P`.
+#
+# 68. Display students whose marks are between 50 and 80 **and** whose city is Pune.
+#
+# 69. Display students whose course_id is not NULL.
+#
+# 70. Display students whose fees are NULL and replace NULL fees with `0` in the output.
+#
+# ---
+
