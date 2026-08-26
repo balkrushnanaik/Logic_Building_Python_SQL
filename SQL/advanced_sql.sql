@@ -554,9 +554,13 @@ SELECT *
 FROM students
 WHERE name LIKE 'A%';
 # 64. Display students whose names end with `a`.
-#
+SELECT *
+FROM students
+WHERE name LIKE 'a%';
 # 65. Display students whose names contain the letter `r`.
-#
+SELECT *
+FROM students
+WHERE name LIKE '%r%';
 # 66. Display students whose names have exactly 5 characters.
 #
 # 67. Display students whose city starts with the letter `P`.
