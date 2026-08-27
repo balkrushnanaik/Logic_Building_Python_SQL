@@ -592,13 +592,18 @@ WHERE fees IS NULL;
     FROM
         students
     WHERE marks > (
-        SELECT AVG(marks) AS Average_Marks
+        SELECT AVG(marks)
         FROM students
  );
 
-
 #
 # 72. Find students who scored the **highest marks**.
+   SELECT *
+FROM students
+WHERE marks = (
+    SELECT MAX(marks)
+    FROM students
+);
 #
 # 73. Find students who scored less than the average marks.
 #
