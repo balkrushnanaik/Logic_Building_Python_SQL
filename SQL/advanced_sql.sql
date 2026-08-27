@@ -585,3 +585,36 @@ FROM students
 WHERE fees IS NULL;
 # ---
 
+# ### 🟠 Level 8 — Subqueries
+#
+# 71. Find students who scored more than the **average marks of all students**.
+    SELECT *
+    FROM
+        students
+    WHERE marks > (
+        SELECT AVG(marks) AS Average_Marks
+        FROM students
+ );
+
+
+#
+# 72. Find students who scored the **highest marks**.
+#
+# 73. Find students who scored less than the average marks.
+#
+# 74. Find students whose fees are greater than the average fees.
+#
+# 75. Find students who belong to the same course as student ID `10`.
+#
+# 76. Find students who have the same city as student ID `5`.
+#
+# 77. Find the second-highest marks using a subquery.
+#
+# 78. Find the third-highest marks using a subquery.
+#
+# 79. Find students whose marks are greater than the marks of **all students from Pune**.
+#
+# 80. Find students whose marks are greater than **at least one student from Mumbai**.
+#
+# ---
+
