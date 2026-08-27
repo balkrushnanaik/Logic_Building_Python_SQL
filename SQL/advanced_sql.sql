@@ -571,7 +571,9 @@ FROM students
 WHERE city LIKE 'P%';
 #
 # 68. Display students whose marks are between 50 and 80 **and** whose city is Pune.
-#
+ SELECT *
+ FROM students
+ WHERE marks between 50 AND 80 AND city = 'Pune';
 # 69. Display students whose course_id is not NULL.
 #
 # 70. Display students whose fees are NULL and replace NULL fees with `0` in the output.
