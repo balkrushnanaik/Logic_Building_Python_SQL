@@ -614,7 +614,13 @@ WHERE marks = (
         FROM students
  );
 # 74. Find students whose fees are greater than the average fees.
-#
+ SELECT name, fees
+    FROM
+        students
+    WHERE fees > (
+        SELECT AVG(fees)
+        FROM students
+ );
 # 75. Find students who belong to the same course as student ID `10`.
 #
 # 76. Find students who have the same city as student ID `5`.
