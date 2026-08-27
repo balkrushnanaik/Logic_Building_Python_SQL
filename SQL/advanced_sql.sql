@@ -566,6 +566,9 @@ SELECT *
 FROM students
 WHERE LENGTH(name) = 5;
 # 67. Display students whose city starts with the letter `P`.
+SELECT *
+FROM students
+WHERE city LIKE 'P%';
 #
 # 68. Display students whose marks are between 50 and 80 **and** whose city is Pune.
 #
