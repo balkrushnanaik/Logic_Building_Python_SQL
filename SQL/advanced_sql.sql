@@ -579,6 +579,9 @@ WHERE city LIKE 'P%';
  FROM students
  WHERE course_id IS NOT NULL;
 # 70. Display students whose fees are NULL and replace NULL fees with `0` in the output.
-#
+SELECT name,
+       COALESCE(fees, 0) AS fees
+FROM students
+WHERE fees IS NULL;
 # ---
 
