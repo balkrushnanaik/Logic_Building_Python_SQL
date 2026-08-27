@@ -606,7 +606,13 @@ WHERE marks = (
 );
 #
 # 73. Find students who scored less than the average marks.
-#
+ SELECT *
+    FROM
+        students
+    WHERE marks < (
+        SELECT AVG(marks)
+        FROM students
+ );
 # 74. Find students whose fees are greater than the average fees.
 #
 # 75. Find students who belong to the same course as student ID `10`.
