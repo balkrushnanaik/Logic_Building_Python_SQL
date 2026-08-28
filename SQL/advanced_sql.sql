@@ -645,7 +645,16 @@ WHERE marks < (
     FROM students
 );
 # 78. Find the third-highest marks using a subquery.
-#
+SELECT MAX(marks) AS third_highest_marks
+FROM students
+WHERE marks < (
+    SELECT MAX(marks)
+    FROM students
+    WHERE marks < (
+        SELECT MAX(marks)
+        FROM students
+    )
+);
 # 79. Find students whose marks are greater than the marks of **all students from Pune**.
 #
 # 80. Find students whose marks are greater than **at least one student from Mumbai**.
