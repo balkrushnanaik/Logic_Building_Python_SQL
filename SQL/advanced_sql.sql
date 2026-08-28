@@ -656,7 +656,13 @@ WHERE marks < (
     )
 );
 # 79. Find students whose marks are greater than the marks of **all students from Pune**.
-#
+SELECT *
+FROM students
+WHERE marks > ALL (
+    SELECT marks
+    FROM students
+    WHERE city = 'Pune'
+);
 # 80. Find students whose marks are greater than **at least one student from Mumbai**.
 #
 # ---
