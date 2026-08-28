@@ -638,7 +638,12 @@ WHERE city = (
     WHERE student_id = 5
 );
 # 77. Find the second-highest marks using a subquery.
-#
+SELECT MAX(marks) AS second_highest_marks
+FROM students
+WHERE marks < (
+    SELECT MAX(marks)
+    FROM students
+);
 # 78. Find the third-highest marks using a subquery.
 #
 # 79. Find students whose marks are greater than the marks of **all students from Pune**.
