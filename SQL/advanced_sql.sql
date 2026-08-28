@@ -622,7 +622,13 @@ WHERE marks = (
         FROM students
  );
 # 75. Find students who belong to the same course as student ID `10`.
-#
+SELECT *
+FROM students
+WHERE course_id = (
+    SELECT course_id
+    FROM students
+    WHERE student_id = 10
+);
 # 76. Find students who have the same city as student ID `5`.
 #
 # 77. Find the second-highest marks using a subquery.
