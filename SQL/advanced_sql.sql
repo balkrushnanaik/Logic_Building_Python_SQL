@@ -692,7 +692,13 @@ WHERE EXISTS (
     WHERE s.course_id = c.course_id
 );
 # 82. Display courses for which no student is enrolled using `NOT EXISTS`.
-#
+SELECT *
+FROM courses c
+WHERE NOT EXISTS (
+    SELECT 1
+    FROM students s
+    WHERE s.course_id = c.course_id
+);
 # 83. Display students whose course exists in the `courses` table using `EXISTS`.
 #
 # 84. Find students who have marks greater than the average marks of **their own course**.
