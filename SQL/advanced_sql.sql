@@ -673,3 +673,34 @@ WHERE marks > ANY (
 );
 # ---
 
+# ### 🔵 Level 9 — EXISTS, NOT EXISTS & Correlated Subqueries
+#
+# Using:
+#
+# `students(student_id, name, city, course_id, marks, fees)`
+    SELECT * FROM students;
+#
+# `courses(course_id, course_name, department, duration)`
+    SELECT * FROM courses;
+#
+# 81. Display courses for which at least one student is enrolled using `EXISTS`.
+#
+# 82. Display courses for which no student is enrolled using `NOT EXISTS`.
+#
+# 83. Display students whose course exists in the `courses` table using `EXISTS`.
+#
+# 84. Find students who have marks greater than the average marks of **their own course**.
+#
+# 85. Find the highest-scoring student from each course using a correlated subquery.
+#
+# 86. Find students whose fees are greater than the average fees of their course.
+#
+# 87. Find courses where at least one student has scored more than 90.
+#
+# 88. Find courses where **all students** have scored more than 40.
+#
+# 89. Find students who have the highest marks within their city.
+#
+# 90. Find students whose marks are higher than the average marks of students from their city.
+#
+# ---
