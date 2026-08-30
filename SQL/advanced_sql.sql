@@ -700,7 +700,13 @@ WHERE NOT EXISTS (
     WHERE s.course_id = c.course_id
 );
 # 83. Display students whose course exists in the `courses` table using `EXISTS`.
-#
+SELECT *
+FROM students s
+WHERE EXISTS (
+    SELECT 1
+    FROM courses c
+    WHERE c.course_id = s.course_id
+);
 # 84. Find students who have marks greater than the average marks of **their own course**.
 #
 # 85. Find the highest-scoring student from each course using a correlated subquery.
