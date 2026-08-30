@@ -708,7 +708,13 @@ WHERE EXISTS (
     WHERE c.course_id = s.course_id
 );
 # 84. Find students who have marks greater than the average marks of **their own course**.
-#
+SELECT *
+FROM students s
+WHERE marks > (
+    SELECT AVG(s2.marks)
+    FROM students s2
+    WHERE s2.course_id = s.course_id
+);
 # 85. Find the highest-scoring student from each course using a correlated subquery.
 #
 # 86. Find students whose fees are greater than the average fees of their course.
