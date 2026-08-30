@@ -684,7 +684,13 @@ WHERE marks > ANY (
     SELECT * FROM courses;
 #
 # 81. Display courses for which at least one student is enrolled using `EXISTS`.
-#
+SELECT *
+FROM courses c
+WHERE EXISTS (
+    SELECT 1
+    FROM students s
+    WHERE s.course_id = c.course_id
+);
 # 82. Display courses for which no student is enrolled using `NOT EXISTS`.
 #
 # 83. Display students whose course exists in the `courses` table using `EXISTS`.
