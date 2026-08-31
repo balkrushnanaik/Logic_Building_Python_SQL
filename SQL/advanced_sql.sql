@@ -724,7 +724,13 @@ WHERE marks = (
     WHERE s2.course_id = s.course_id
 );
 # 86. Find students whose fees are greater than the average fees of their course.
-#
+SELECT *
+FROM students s
+WHERE fees > (
+    SELECT AVG(s2.fees)
+    FROM students s2
+    WHERE s2.course_id = s.course_id
+);
 # 87. Find courses where at least one student has scored more than 90.
 #
 # 88. Find courses where **all students** have scored more than 40.
