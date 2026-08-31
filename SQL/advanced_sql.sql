@@ -755,7 +755,13 @@ AND NOT EXISTS (
       AND s.marks <= 40
 );
 # 89. Find students who have the highest marks within their city.
-#
+SELECT *
+FROM students s
+WHERE marks = (
+    SELECT MAX(s2.marks)
+    FROM students s2
+    WHERE s2.city = s.city
+);
 # 90. Find students whose marks are higher than the average marks of students from their city.
 #
 # ---
