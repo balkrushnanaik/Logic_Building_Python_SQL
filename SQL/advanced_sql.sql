@@ -716,7 +716,13 @@ WHERE marks > (
     WHERE s2.course_id = s.course_id
 );
 # 85. Find the highest-scoring student from each course using a correlated subquery.
-#
+SELECT *
+FROM students s
+WHERE marks = (
+    SELECT MAX(s2.marks)
+    FROM students s2
+    WHERE s2.course_id = s.course_id
+);
 # 86. Find students whose fees are greater than the average fees of their course.
 #
 # 87. Find courses where at least one student has scored more than 90.
