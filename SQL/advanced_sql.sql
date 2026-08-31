@@ -732,7 +732,14 @@ WHERE fees > (
     WHERE s2.course_id = s.course_id
 );
 # 87. Find courses where at least one student has scored more than 90.
-#
+SELECT *
+FROM courses c
+WHERE EXISTS (
+    SELECT 1
+    FROM students s
+    WHERE s.course_id = c.course_id
+      AND s.marks > 90
+);
 # 88. Find courses where **all students** have scored more than 40.
 #
 # 89. Find students who have the highest marks within their city.
