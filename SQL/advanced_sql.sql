@@ -741,7 +741,19 @@ WHERE EXISTS (
       AND s.marks > 90
 );
 # 88. Find courses where **all students** have scored more than 40.
-#
+SELECT *
+FROM courses c
+WHERE EXISTS (
+    SELECT 1
+    FROM students s
+    WHERE s.course_id = c.course_id
+)
+AND NOT EXISTS (
+    SELECT 1
+    FROM students s
+    WHERE s.course_id = c.course_id
+      AND s.marks <= 40
+);
 # 89. Find students who have the highest marks within their city.
 #
 # 90. Find students whose marks are higher than the average marks of students from their city.
