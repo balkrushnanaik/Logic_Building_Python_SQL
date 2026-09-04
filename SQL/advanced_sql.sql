@@ -793,3 +793,32 @@ VALUES
 (10, 'Neha Gupta', 'Bangalore', 102, 87.50, 60000.00, '2024-10-10');
 
 SELECT * FROM students_table;
+
+# ### 🟣 Level 10 — String & Date Functions
+#
+# Assume you also have:
+#
+# `students(student_id, name, city, course_id, marks, fees, admission_date)`
+#
+# 91. Display each student's name in uppercase.
+SELECT UPPER(name) Name_Capital
+FROM students_table;
+# 92. Display each student's name in lowercase.
+#
+# 93. Display the length of each student's name.
+#
+# 94. Display the first 3 characters of each student's name.
+#
+# 95. Concatenate the student's name and city into a single column.
+#
+# 96. Remove leading and trailing spaces from student names.
+#
+# 97. Display the year in which each student was admitted.
+#
+# 98. Display the month in which each student was admitted.
+#
+# 99. Find students who were admitted in the year 2025.
+#
+# 100. Find the number of students admitted in each year.
+#
+# ---
