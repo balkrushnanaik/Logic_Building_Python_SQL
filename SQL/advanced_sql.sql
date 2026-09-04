@@ -815,7 +815,8 @@ FROM students_table;
 SELECT name, SUBSTRING(name, 1, 3) AS first_3_characters
 FROM students_table;
 # 95. Concatenate the student's name and city into a single column.
-#
+SELECT CONCAT(name, city) Name_City
+FROM students_table;
 # 96. Remove leading and trailing spaces from student names.
 #
 # 97. Display the year in which each student was admitted.
