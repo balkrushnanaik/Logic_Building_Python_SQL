@@ -765,3 +765,31 @@ WHERE marks = (
 # 90. Find students whose marks are higher than the average marks of students from their city.
 #
 # ---
+
+
+
+CREATE TABLE students_table (
+    student_id INT PRIMARY KEY,
+    name VARCHAR(100),
+    city VARCHAR(100),
+    course_id INT,
+    marks DECIMAL(5,2),
+    fees DECIMAL(10,2),
+    admission_date DATE
+);
+
+INSERT INTO students_table
+(student_id, name, city, course_id, marks, fees, admission_date)
+VALUES
+(1, 'Rahul Sharma', 'Pune', 101, 85.50, 50000.00, '2024-06-10'),
+(2, 'Priya Patil', 'Mumbai', 102, 92.00, 60000.00, '2024-06-15'),
+(3, 'Amit Kumar', 'Delhi', 101, 78.50, 50000.00, '2024-07-01'),
+(4, 'Sneha Joshi', 'Pune', 103, 88.00, 55000.00, '2024-07-10'),
+(5, 'Rohan Verma', 'Bangalore', 102, 76.50, 60000.00, '2024-08-05'),
+(6, 'Anjali Singh', 'Mumbai', 101, 95.00, 50000.00, '2024-08-12'),
+(7, 'Vikram Rao', 'Hyderabad', 104, 82.50, 65000.00, '2024-09-01'),
+(8, 'Kavita Deshmukh', 'Pune', 103, 90.00, 55000.00, '2024-09-15'),
+(9, 'Suresh Yadav', 'Delhi', 104, 70.00, 65000.00, '2024-10-01'),
+(10, 'Neha Gupta', 'Bangalore', 102, 87.50, 60000.00, '2024-10-10');
+
+SELECT * FROM students_table;
