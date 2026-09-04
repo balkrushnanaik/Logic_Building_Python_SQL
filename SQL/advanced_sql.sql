@@ -804,8 +804,12 @@ SELECT * FROM students_table;
 SELECT UPPER(name) Name_Capital
 FROM students_table;
 # 92. Display each student's name in lowercase.
+SELECT LOWER(name) Name_Lower
+FROM students_table;
 #
 # 93. Display the length of each student's name.
+SELECT LENGTH(name) Student_Name_Length
+FROM students_table;
 #
 # 94. Display the first 3 characters of each student's name.
 #
