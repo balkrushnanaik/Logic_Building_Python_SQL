@@ -812,7 +812,8 @@ SELECT LENGTH(name) Student_Name_Length
 FROM students_table;
 #
 # 94. Display the first 3 characters of each student's name.
-#
+SELECT name, SUBSTRING(name, 1, 3) AS first_3_characters
+FROM students_table;
 # 95. Concatenate the student's name and city into a single column.
 #
 # 96. Remove leading and trailing spaces from student names.
