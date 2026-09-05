@@ -827,7 +827,9 @@ FROM students_table;
 SELECT name, MONTH(admission_date) AS admission_month
 FROM students;
 # 99. Find students who were admitted in the year 2025.
-#
+SELECT *
+FROM students
+WHERE YEAR(admission_date) = 2025;
 # 100. Find the number of students admitted in each year.
 #
 # ---
