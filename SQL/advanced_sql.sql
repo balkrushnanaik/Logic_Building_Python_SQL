@@ -831,5 +831,8 @@ SELECT *
 FROM students
 WHERE YEAR(admission_date) = 2025;
 # 100. Find the number of students admitted in each year.
-#
+SELECT YEAR(admission_date) AS admission_year,
+       COUNT(*) AS number_of_students
+FROM students
+GROUP BY YEAR(admission_date);
 # ---
