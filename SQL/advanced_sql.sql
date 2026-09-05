@@ -821,7 +821,8 @@ FROM students_table;
 SELECT name, TRIM(name) AS cleaned_name
 FROM students_table;
 # 97. Display the year in which each student was admitted.
-#
+SELECT name, YEAR(admission_date) AS admission_year
+FROM students_table;
 # 98. Display the month in which each student was admitted.
 #
 # 99. Find students who were admitted in the year 2025.
