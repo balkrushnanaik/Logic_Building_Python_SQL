@@ -818,7 +818,8 @@ FROM students_table;
 SELECT CONCAT(name, city) Name_City
 FROM students_table;
 # 96. Remove leading and trailing spaces from student names.
-#
+SELECT name, TRIM(name) AS cleaned_name
+FROM students_table;
 # 97. Display the year in which each student was admitted.
 #
 # 98. Display the month in which each student was admitted.
