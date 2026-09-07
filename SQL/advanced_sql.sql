@@ -836,3 +836,38 @@ SELECT YEAR(admission_date) AS admission_year,
 FROM students
 GROUP BY YEAR(admission_date);
 # ---
+
+# ### 🔴 Level 11 — Window Functions ⭐⭐⭐
+#
+# These are **very important for Data Analyst interviews**.
+#
+# Use:
+#
+# `students(student_id, name, city, course_id, marks, fees)`
+#
+# 101. Assign a unique row number to every student based on marks descending.
+SELECT
+    student_id,
+    name,
+    marks,
+    ROW_NUMBER() OVER (ORDER BY marks DESC) AS row_num
+FROM students;
+# 102. Rank students based on their marks using `RANK()`.
+#
+# 103. Rank students based on their marks using `DENSE_RANK()`.
+#
+# 104. Find the top 3 students from the entire college using `ROW_NUMBER()`.
+#
+# 105. Find the top 3 students from **each course**.
+#
+# 106. Find the highest-scoring student from each course using `RANK()`.
+#
+# 107. Display each student's marks along with the average marks of their course.
+#
+# 108. Display each student's marks and the difference between their marks and their course average.
+#
+# 109. Calculate the running total of fees based on student ID.
+#
+# 110. Calculate the cumulative average marks ordered by student ID.
+
+---
