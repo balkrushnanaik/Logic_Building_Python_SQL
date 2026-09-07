@@ -853,7 +853,12 @@ SELECT
     ROW_NUMBER() OVER (ORDER BY marks DESC) AS row_num
 FROM students;
 # 102. Rank students based on their marks using `RANK()`.
-#
+# SELECT
+#     student_id,
+#     name,
+#     marks,
+#     RANK() OVER (ORDER BY marks DESC) AS rank
+# FROM students;
 # 103. Rank students based on their marks using `DENSE_RANK()`.
 #
 # 104. Find the top 3 students from the entire college using `ROW_NUMBER()`.
