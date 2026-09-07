@@ -867,7 +867,16 @@ FROM students;
 #     DENSE_RANK() OVER (ORDER BY marks DESC) AS dense_rank
 # FROM students;
 # 104. Find the top 3 students from the entire college using `ROW_NUMBER()`.
-#
+SELECT *
+FROM (
+    SELECT
+        student_id,
+        name,
+        marks,
+        ROW_NUMBER() OVER (ORDER BY marks DESC) AS row_num
+    FROM students
+) AS ranked_students
+WHERE row_num <= 3;
 # 105. Find the top 3 students from **each course**.
 #
 # 106. Find the highest-scoring student from each course using `RANK()`.
