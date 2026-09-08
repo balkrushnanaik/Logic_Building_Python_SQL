@@ -940,5 +940,12 @@ SELECT
     ) AS running_total_fees
 FROM students;
 # 110. Calculate the cumulative average marks ordered by student ID.
-
+SELECT
+    student_id,
+    name,
+    marks,
+    AVG(marks) OVER (
+        ORDER BY student_id
+    ) AS cumulative_avg_marks
+FROM students;
 ---
