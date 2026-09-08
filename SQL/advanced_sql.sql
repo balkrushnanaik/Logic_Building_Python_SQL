@@ -908,7 +908,15 @@ WHERE row_num <= 3;
 # ) AS ranked_students
 # WHERE rank = 1;
 # 107. Display each student's marks along with the average marks of their course.
-#
+SELECT
+    student_id,
+    name,
+    course_id,
+    marks,
+    AVG(marks) OVER (
+        PARTITION BY course_id
+    ) AS course_avg_marks
+FROM students;
 # 108. Display each student's marks and the difference between their marks and their course average.
 #
 # 109. Calculate the running total of fees based on student ID.
