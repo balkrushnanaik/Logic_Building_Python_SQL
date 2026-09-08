@@ -918,7 +918,18 @@ SELECT
     ) AS course_avg_marks
 FROM students;
 # 108. Display each student's marks and the difference between their marks and their course average.
-#
+SELECT
+    student_id,
+    name,
+    course_id,
+    marks,
+    AVG(marks) OVER (
+        PARTITION BY course_id
+    ) AS course_avg_marks,
+    marks - AVG(marks) OVER (
+        PARTITION BY course_id
+    ) AS difference
+FROM students;
 # 109. Calculate the running total of fees based on student ID.
 #
 # 110. Calculate the cumulative average marks ordered by student ID.
