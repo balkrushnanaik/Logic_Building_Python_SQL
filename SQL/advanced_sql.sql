@@ -931,7 +931,14 @@ SELECT
     ) AS difference
 FROM students;
 # 109. Calculate the running total of fees based on student ID.
-#
+SELECT
+    student_id,
+    name,
+    fees,
+    SUM(fees) OVER (
+        ORDER BY student_id
+    ) AS running_total_fees
+FROM students;
 # 110. Calculate the cumulative average marks ordered by student ID.
 
 ---
