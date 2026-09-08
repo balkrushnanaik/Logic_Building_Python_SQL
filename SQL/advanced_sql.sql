@@ -893,7 +893,20 @@ FROM (
 ) AS ranked_students
 WHERE row_num <= 3;
 # 106. Find the highest-scoring student from each course using `RANK()`.
-#
+# SELECT *
+# FROM (
+#     SELECT
+#         student_id,
+#         name,
+#         course_id,
+#         marks,
+#         RANK() OVER (
+#             PARTITION BY course_id
+#             ORDER BY marks DESC
+#         ) AS rank
+#     FROM students
+# ) AS ranked_students
+# WHERE rank = 1;
 # 107. Display each student's marks along with the average marks of their course.
 #
 # 108. Display each student's marks and the difference between their marks and their course average.
