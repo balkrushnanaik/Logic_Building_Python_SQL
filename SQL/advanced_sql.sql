@@ -961,7 +961,12 @@ SELECT
     LAG(marks) OVER (ORDER BY student_id) AS previous_marks
 FROM students;
 # 112. Display each student's marks along with the marks of the next student.
-#
+SELECT
+    student_id,
+    name,
+    marks,
+    LEAD(marks) OVER (ORDER BY student_id) AS next_marks
+FROM students;
 # 113. Calculate the difference between each student's marks and the previous student's marks.
 #
 # 114. Find students whose marks are higher than the previous student's marks.
