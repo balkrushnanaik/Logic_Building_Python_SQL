@@ -968,7 +968,12 @@ SELECT
     LEAD(marks) OVER (ORDER BY student_id) AS next_marks
 FROM students;
 # 113. Calculate the difference between each student's marks and the previous student's marks.
-#
+SELECT
+    student_id,
+    name,
+    marks,
+    marks - LAG(marks) OVER (ORDER BY student_id) AS marks_difference
+FROM students;
 # 114. Find students whose marks are higher than the previous student's marks.
 #
 # 115. Find the second-highest student in each course using `DENSE_RANK()`.
