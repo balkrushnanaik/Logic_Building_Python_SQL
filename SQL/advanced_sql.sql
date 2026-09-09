@@ -975,7 +975,16 @@ SELECT
     marks - LAG(marks) OVER (ORDER BY student_id) AS marks_difference
 FROM students;
 # 114. Find students whose marks are higher than the previous student's marks.
-#
+SELECT *
+FROM (
+    SELECT
+        student_id,
+        name,
+        marks,
+        LAG(marks) OVER (ORDER BY student_id) AS previous_marks
+    FROM students
+) AS t
+WHERE marks > previous_marks;
 # 115. Find the second-highest student in each course using `DENSE_RANK()`.
 #
 # 116. Find the top 2 highest-fee-paying students from each course.
