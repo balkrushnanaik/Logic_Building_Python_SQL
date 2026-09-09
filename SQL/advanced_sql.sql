@@ -986,7 +986,20 @@ FROM (
 ) AS t
 WHERE marks > previous_marks;
 # 115. Find the second-highest student in each course using `DENSE_RANK()`.
-
+SELECT *
+FROM (
+    SELECT
+        student_id,
+        name,
+        course_id,
+        marks,
+        DENSE_RANK() OVER (
+            PARTITION BY course_id
+            ORDER BY marks DESC
+        ) AS rnk
+    FROM students
+) AS t
+WHERE rnk = 2;
 # 116. Find the top 2 highest-fee-paying students from each course.
 #
 # 117. Find the lowest-scoring student from each course.
