@@ -949,3 +949,33 @@ SELECT
     ) AS cumulative_avg_marks
 FROM students;
 ---
+
+
+# ### 🟤 Level 12 — LAG, LEAD & Advanced Window Functions
+#
+# 111. Display each student's marks along with the marks of the previous student.
+SELECT
+    student_id,
+    name,
+    marks,
+    LAG(marks) OVER (ORDER BY student_id) AS previous_marks
+FROM students;
+# 112. Display each student's marks along with the marks of the next student.
+#
+# 113. Calculate the difference between each student's marks and the previous student's marks.
+#
+# 114. Find students whose marks are higher than the previous student's marks.
+#
+# 115. Find the second-highest student in each course using `DENSE_RANK()`.
+#
+# 116. Find the top 2 highest-fee-paying students from each course.
+#
+# 117. Find the lowest-scoring student from each course.
+#
+# 118. Calculate the percentage contribution of each student's fees to the total fees.
+#
+# 119. Calculate the percentage contribution of each course's fees to the total fees.
+#
+# 120. Display each course's total fees along with the previous course's total fees.
+#
+# ---
