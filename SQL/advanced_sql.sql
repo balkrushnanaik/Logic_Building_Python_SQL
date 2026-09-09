@@ -1001,7 +1001,20 @@ FROM (
 ) AS t
 WHERE rnk = 2;
 # 116. Find the top 2 highest-fee-paying students from each course.
-#
+SELECT *
+FROM (
+    SELECT
+        student_id,
+        name,
+        course_id,
+        fees,
+        ROW_NUMBER() OVER (
+            PARTITION BY course_id
+            ORDER BY fees DESC
+        ) AS rn
+    FROM students
+) AS t
+WHERE rn <= 2;
 # 117. Find the lowest-scoring student from each course.
 #
 # 118. Calculate the percentage contribution of each student's fees to the total fees.
