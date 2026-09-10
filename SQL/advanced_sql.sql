@@ -1016,7 +1016,20 @@ FROM (
 ) AS t
 WHERE rn <= 2;
 # 117. Find the lowest-scoring student from each course.
-#
+SELECT *
+FROM (
+    SELECT
+        student_id,
+        name,
+        course_id,
+        marks,
+        RANK() OVER (
+            PARTITION BY course_id
+            ORDER BY marks ASC
+        ) AS rnk
+    FROM students
+) AS t
+WHERE rnk = 1;
 # 118. Calculate the percentage contribution of each student's fees to the total fees.
 #
 # 119. Calculate the percentage contribution of each course's fees to the total fees.
