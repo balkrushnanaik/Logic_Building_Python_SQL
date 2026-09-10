@@ -1041,7 +1041,15 @@ SELECT
     ) AS fee_percentage
 FROM students;
 # 119. Calculate the percentage contribution of each course's fees to the total fees.
-#
+SELECT
+    course_id,
+    SUM(fees) AS course_total_fees,
+    ROUND(
+        SUM(fees) * 100.0 / SUM(SUM(fees)) OVER (),
+        2
+    ) AS fee_percentage
+FROM students
+GROUP BY course_id;
 # 120. Display each course's total fees along with the previous course's total fees.
 #
 # ---
