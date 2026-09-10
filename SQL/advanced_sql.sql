@@ -1031,7 +1031,15 @@ FROM (
 ) AS t
 WHERE rnk = 1;
 # 118. Calculate the percentage contribution of each student's fees to the total fees.
-#
+SELECT
+    student_id,
+    name,
+    fees,
+    ROUND(
+        fees * 100.0 / SUM(fees) OVER (),
+        2
+    ) AS fee_percentage
+FROM students;
 # 119. Calculate the percentage contribution of each course's fees to the total fees.
 #
 # 120. Display each course's total fees along with the previous course's total fees.
