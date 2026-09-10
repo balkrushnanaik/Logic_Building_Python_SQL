@@ -1051,5 +1051,18 @@ SELECT
 FROM students
 GROUP BY course_id;
 # 120. Display each course's total fees along with the previous course's total fees.
-#
+WITH course_fees AS (
+    SELECT
+        course_id,
+        SUM(fees) AS total_fees
+    FROM students
+    GROUP BY course_id
+)
+SELECT
+    course_id,
+    total_fees,
+    LAG(total_fees) OVER (
+        ORDER BY course_id
+    ) AS previous_course_fees
+FROM course_fees;
 # ---
